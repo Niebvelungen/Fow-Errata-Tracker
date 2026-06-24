@@ -84,9 +84,24 @@ def normalize(abilities: list[str] | str) -> str:
     # Keep the words inside [tags] (e.g. flying, swiftness) but drop the brackets,
     # so a keyword that genuinely disappears still shows as a difference.
     text = _BRACKET_RE.sub(lambda m: " " + m.group(0)[1:-1] + " ", text)
-    text = _SYMBOL_RE.sub(" ", text)
+    # Curly braces hold either mana/number symbols ({W}, {1}, {Rest}-tap, {}) or,
+    # in OCR, a keyword icon as a word ({Enter}, {Flying}). Keep keyword words
+    # (alphabetic, >=3 chars) so they match a square-bracket [Enter]; drop the
+    # rest as symbols.
+    text = _SYMBOL_RE.sub(_curly_repl, text)
     text = _NONWORD_RE.sub(" ", text)
     return " ".join(text.split())
+
+
+# Multi-letter curly tokens that are game SYMBOLS, not keyword abilities.
+_CURLY_SYMBOLS = {"rest"}
+
+
+def _curly_repl(m: re.Match) -> str:
+    inner = m.group(0)[1:-1]
+    if inner.isalpha() and len(inner) >= 3 and inner not in _CURLY_SYMBOLS:
+        return f" {inner} "
+    return " "
 
 
 def tokens(abilities: list[str] | str) -> list[str]:

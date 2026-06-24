@@ -28,6 +28,13 @@ OCR_CACHE_JSON = ROOT / ".ocr_cache.json"
 # report's entry keys: "R:<latest_id>" (reprint) / "O:<card_id>" (ocr).
 BLACKLIST_JSON = ROOT / "blacklist.json"
 
+# Committed defaults: a baseline blacklist and a prior export of review decisions
+# (errata-data.json) used to pre-seed the report when the browser has no saved
+# decisions yet, so prior review work isn't lost.
+DEFAULT_DIR = ROOT / "default"
+DEFAULT_BLACKLIST = DEFAULT_DIR / "blacklist.json"
+DEFAULT_ERRATA_DATA = DEFAULT_DIR / "errata-data.json"
+
 # OCR (Claude vision).
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 # Sonnet is plenty for card OCR and far cheaper than Opus. Override via the
@@ -44,11 +51,31 @@ def have_api_key() -> bool:
 
 
 def load_blacklist() -> set[str]:
-    """Keys marked 'No change' to exclude from detection. Accepts either a plain
-    JSON array of keys or an object with a ``keys`` array."""
-    if not BLACKLIST_JSON.exists():
-        return set()
-    data = json.loads(BLACKLIST_JSON.read_text(encoding="utf-8"))
-    if isinstance(data, dict):
-        data = data.get("keys", [])
-    return set(data)
+    """Keys marked 'No change' to exclude from detection — the union of the
+    committed default blacklist and the working-root blacklist.json. Each file is
+    a plain JSON array of keys or an object with a ``keys`` array."""
+    keys: set[str] = set()
+    for path in (DEFAULT_BLACKLIST, BLACKLIST_JSON):
+        if not path.exists():
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            data = data.get("keys", [])
+        keys.update(data)
+    return keys
+
+
+def load_default_decisions() -> dict[str, str]:
+    """Prior review decisions {entry_key: 'errata'|'format_change'|'no_change'}
+    from default/errata-data.json, used to pre-seed the report's review state."""
+    if not DEFAULT_ERRATA_DATA.exists():
+        return {}
+    data = json.loads(DEFAULT_ERRATA_DATA.read_text(encoding="utf-8"))
+    out: dict[str, str] = {}
+    for e in data.get("entries", []):
+        dec = e.get("decision")
+        if dec == "not_errata":  # legacy value -> current category
+            dec = "no_change"
+        if dec and dec != "unreviewed":
+            out[e["key"]] = dec
+    return out

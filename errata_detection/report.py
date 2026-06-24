@@ -20,9 +20,19 @@ from . import config
 from .loader import load_image_cache
 
 
+# Symbols (mana {W}, {Rest}, generic {}, trigger arrows) carry no text meaning and
+# OCR renders them inconsistently — canonicalize to "{}" on both sides so they
+# never show up as a highlighted change in the diff (detection ignores them too).
+_SYMBOL = re.compile(r"\{[^}]*\}|⇒|>>>|>>|≫|»|≪|«")
+
+
+def _canon_symbols(text: str) -> str:
+    return _SYMBOL.sub("{}", text)
+
+
 def _word_diff(old: str, new: str) -> tuple[str, str]:
     """Return (old_html, new_html) with word-level deletions/insertions marked."""
-    a, b = old.split(), new.split()
+    a, b = _canon_symbols(old).split(), _canon_symbols(new).split()
     sm = SequenceMatcher(None, a, b)
     old_parts: list[str] = []
     new_parts: list[str] = []
@@ -245,11 +255,17 @@ ins { background: #c9f0d0; color: #11662b; text-decoration: none; }
 _JS_TEMPLATE = """
 const STORE = 'fow-errata-decisions';
 const DATA = __DATA__;
+const DEFAULT_DECISIONS = __DEFAULTS__;
 const byKey = Object.fromEntries(DATA.map(d => [d.key, d]));
 
 function load() { try { return JSON.parse(localStorage.getItem(STORE) || '{}'); } catch { return {}; } }
 function save(obj) { localStorage.setItem(STORE, JSON.stringify(obj)); }
 let decisions = load();
+// First visit (nothing saved yet): pre-seed from the committed default review work.
+if (Object.keys(decisions).length === 0 && Object.keys(DEFAULT_DECISIONS).length) {
+  decisions = Object.assign({}, DEFAULT_DECISIONS);
+  save(decisions);
+}
 
 const DECISIONS = ['errata', 'format_change', 'no_change'];
 function applyCard(article) {
@@ -471,7 +487,8 @@ def build(reprint_errata: list[dict], ocr_errata: list[dict]) -> str:
     data = [_export_entry(e) for _, e in entries]
     # Escape "</" so card text can't terminate the <script> tag (\/ is valid JSON).
     data_json = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
-    js = _JS_TEMPLATE.replace("__DATA__", data_json)
+    defaults_json = json.dumps(config.load_default_decisions(), ensure_ascii=False).replace("</", "<\\/")
+    js = _JS_TEMPLATE.replace("__DATA__", data_json).replace("__DEFAULTS__", defaults_json)
 
     doc = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">

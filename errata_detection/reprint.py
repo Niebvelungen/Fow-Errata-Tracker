@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 
 from . import config
-from .loader import Card, comparison_groups, group_by_name, physical_id
+from .loader import Card, comparison_groups, group_by_name, is_alternative_print, physical_id
 from .normalize import sorted_tokens
 
 
@@ -38,6 +38,9 @@ def detect(cards: list[Card]) -> list[dict]:
             og = group[0]
             latest = group[-1]
             if og.id == latest.id or physical_id(og) == physical_id(latest):
+                continue
+            # Skip Alternative cards (alt-art / double-faced) — none carry errata.
+            if is_alternative_print(og) or is_alternative_print(latest):
                 continue
             if "R:" + latest.id in blacklist:
                 continue  # reviewed as "No change"

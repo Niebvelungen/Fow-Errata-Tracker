@@ -30,7 +30,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 from . import config, download
-from .loader import Card, comparison_groups, group_by_name
+from .loader import Card, comparison_groups, group_by_name, is_alternative_print
 from .normalize import normalize, sorted_tokens
 
 # Common function words: a single one of these differing is almost always an OCR
@@ -129,17 +129,23 @@ def _is_alternative(card: Card) -> bool:
     return any(any(t in str(x).lower() for t in _ALT_TYPES) for x in types)
 
 
+def _double_faced(card: Card, by_id: dict[str, Card]) -> bool:
+    """The card prints both faces on its image (it's one half of an Alternative
+    pair: it ends in '*' or has a '*' sibling)."""
+    return card.id.endswith("*") or (card.id + "*") in by_id
+
+
 def candidate_texts(card: Card, by_id: dict[str, Card]) -> list[list[str]]:
-    """Ability texts to compare OCR against. For Alternative (`{id}*`)
-    Resonator/Chant/Addition cards the image is double-faced, so test against the
-    base+alternative combined text AND each face alone (the printed image may
-    show both faces or just one). First entry is the canonical text for display.
-    """
-    if _is_alternative(card):
-        base = by_id.get(card.id.replace("*", ""))
-        if base:
-            combined = list(base.abilities) + list(card.abilities)
-            return [combined, base.abilities, card.abilities]
+    """JSON ability texts to compare OCR against. A double-faced Alternative card
+    prints BOTH faces on each image, so for a card that has an Alternative sibling
+    (its '*' counterpart, e.g. EDL-038 'Thunder Wolf' ↔ EDL-038* 'Thunder
+    [Alternative]', or its base if this card is the '*'), compare against the
+    combined two-face text AS WELL AS each face alone (the image may show one or
+    both). First entry is the canonical text for display."""
+    other = by_id.get(card.id[:-1]) if card.id.endswith("*") else by_id.get(card.id + "*")
+    if other:
+        combined = list(card.abilities) + list(other.abilities)
+        return [combined, card.abilities, other.abilities]
     return [card.abilities]
 
 
@@ -157,47 +163,24 @@ def _content_words(text: str) -> set[str]:
     return {w for w in normalize(text).split() if len(w) >= 4 and w.isalpha() and w not in _STOP}
 
 
-# Single-word bracket tags ([Enter], [Flying], [Mythic], …) are keyword/timing
-# abilities printed as ICONS — OCR renders them as "{}" or omits them, so they're
-# unreliable and must not drive a flag on their own. Multi-word tags like
-# "[Addition: Resonator]" are left comparable.
-_BRACKET_TAG = re.compile(r"\[([a-z]+)\]")
-
-# Keyword/timing abilities printed as icons. Excluded even when not bracketed in
-# the text (e.g. the verbose "when this card enters the field" vs the [Enter]
-# icon). Deliberately omits words that are also common rules text (target, attack,
-# control, card, turn, field) to avoid hiding real changes.
-_KEYWORD = {
-    "enter", "flying", "swiftness", "quickcast", "mythic", "barrier", "stealth",
-    "drain", "bane", "pierce", "imperishable", "explode", "eternal", "precision",
-    "resonance", "awakening", "trigger", "automatic", "judgment", "leaves",
-    "constant", "chase", "eclipse", "revolution", "tales", "inheritance",
-}
-
-
-def _tag_words(*texts: str | None) -> set[str]:
-    out: set[str] = set(_KEYWORD)
-    for t in texts:
-        out |= set(_BRACKET_TAG.findall((t or "").lower()))
-    return out
-
-
 _EMPTY_BRACE = re.compile(r"\{\s*\}")
 
 
 def genuine_word_diff(a: str, b: str) -> set[str]:
     """Content words present on one side with NO fuzzy near-match on the other.
-    Catches a real one-word errata (e.g. 'fairy' dropped) while ignoring OCR typos
-    ('abilites' vs 'abilities'), verb-form variants, and iconified keyword tags
-    ('[Enter]' read as '{}'). The ratio score can't see a single-word change.
+    Catches a real one-word errata (e.g. 'fairy' dropped, or a keyword like
+    '[Inheritance]' genuinely added in a reprint) while ignoring OCR typos
+    ('abilites' vs 'abilities') and verb-form variants. The ratio score can't see
+    a single-word change.
 
-    An OCR "{}" is a placeholder for an unreadable token (a symbol like {Rest} or a
-    word/icon) — never literally empty text. Each "{}" on a side is treated as a
-    wildcard that can account for one word missing from that side, so it can't
-    drive a false flag."""
-    tags = _tag_words(a, b)
-    a_words = _content_words(a) - tags
-    b_words = _content_words(b) - tags
+    Keyword/timing abilities printed as ICONS are read by OCR as "{}". An OCR "{}"
+    is a placeholder for an unreadable token (a symbol like {Rest} or a word/icon)
+    — never literally empty text. Each "{}" on a side is treated as a wildcard that
+    accounts for one word missing from that side, so an iconified keyword can't
+    drive a false flag — but a keyword that is genuinely ABSENT (no "{}" standing
+    in for it) still flags, which is the real-errata case."""
+    a_words = _content_words(a)
+    b_words = _content_words(b)
     a_only = [w for w in a_words - b_words if not difflib.get_close_matches(w, list(b_words), n=1, cutoff=0.8)]
     b_only = [w for w in b_words - a_words if not difflib.get_close_matches(w, list(a_words), n=1, cutoff=0.8)]
     # A "{}" on one side can stand in for a word unique to the other side.
@@ -245,6 +228,10 @@ def detect(
             continue
         for group in comparison_groups(prints):
             oldest, newest = group[0], group[-1]
+            # Skip Alternative cards: their image shows both faces but the JSON is
+            # one side, so OCR can't compare cleanly — and none carry errata.
+            if is_alternative_print(newest) or is_alternative_print(oldest):
+                continue
             if newest.is_basic_magic_stone or not newest.abilities:
                 continue
             if "O:" + newest.id in blacklist:
@@ -307,10 +294,16 @@ def detect(
 
         sim_oj = vs_json_sim(old_ocr)
         sim_nj = vs_json_sim(new_ocr)
-        sim_on = (
-            None if single or old_ocr is None or new_ocr is None
-            else similarity(old_ocr, new_ocr)
+        # Only compare the two printed images directly when they're the same kind
+        # of print — comparing a single-face image against a double-faced
+        # Alternative print (one shows both faces) is apples-to-oranges.
+        compare_imgs = (
+            not single
+            and old_ocr is not None
+            and new_ocr is not None
+            and _double_faced(oldest, by_id) == _double_faced(newest, by_id)
         )
+        sim_on = similarity(old_ocr, new_ocr) if compare_imgs else None
         sims = [s for s in (sim_oj, sim_nj, sim_on) if s is not None]
         if not sims:
             continue
@@ -318,7 +311,7 @@ def detect(
         diff_words: set[str] = set()
         diff_words |= vs_json_words(old_ocr)
         diff_words |= vs_json_words(new_ocr)
-        if not single and old_ocr is not None and new_ocr is not None:
+        if compare_imgs:
             diff_words |= genuine_word_diff(old_ocr, new_ocr)
 
         # Flag on a big overall difference (ratio) OR a genuine single-word change.

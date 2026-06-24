@@ -95,6 +95,13 @@ def collapse_sides(prints: list[Card]) -> list[Card]:
     return sorted(rep.values(), key=lambda c: c.order)
 
 
+def is_alternative_print(card: Card) -> bool:
+    """Alternative (alt-art / double-faced rainbow) card: a '*' id suffix, or a
+    '[Alternative]' marker in the name (e.g. EDL-028 'Hoelle Pig [Alternative]',
+    which has no '*' in its id)."""
+    return card.id.endswith("*") or "[alternative]" in card.name.lower()
+
+
 def is_j_ruler(card: Card) -> bool:
     """A J-Ruler is the Judgment back side of a Ruler/Regalia and often shares
     its name (e.g. CST-015 'Brandhardt' Ruler / CST-016J 'Brandhardt' J-Ruler)."""
