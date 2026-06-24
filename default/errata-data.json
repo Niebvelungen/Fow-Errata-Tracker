@@ -37355,7 +37355,7 @@
         "Weapon"
       ],
       "errata_cost": "{W}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:VIN001-022",
