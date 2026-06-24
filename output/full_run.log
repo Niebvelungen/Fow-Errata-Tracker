@@ -1,0 +1,32 @@
+Loading cards…
+  7612 cards loaded
+Detecting reprint errata…
+  925 reprint errata candidates
+Running OCR detection (Claude vision)…
+  OCR: 4558 cards, 4994 images (4473 cached, 521 to OCR)
+  OCR 25/521
+  OCR 50/521
+  OCR 75/521
+  OCR 100/521
+  OCR 125/521
+  OCR 150/521
+  OCR 175/521
+  OCR 200/521
+  OCR 225/521
+  OCR 250/521
+  OCR 275/521
+  OCR 300/521
+  OCR 325/521
+  OCR 350/521
+  OCR 375/521
+  OCR 400/521
+  OCR 425/521
+  OCR 450/521
+  OCR 475/521
+  OCR 500/521
+  OCR 521/521
+  42 OCR errata candidates
+Wrote D:\R\errata-detection\output\errata.json
+Wrote D:\R\errata-detection\output\report.html
+
+Done. 925 reprint + 42 OCR candidates. Open D:\R\errata-detection\output\report.html to review.
