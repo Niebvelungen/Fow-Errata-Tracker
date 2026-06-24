@@ -11,7 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 
-from errata_detection import config, download, ocr, reprint, report
+from errata_detection import config, download, ocr, reprint, report, stranger
 from errata_detection.loader import load_cards
 
 
@@ -21,6 +21,7 @@ def main() -> None:
     ap.add_argument("--ocr-limit", type=int, default=None, help="max cards to OCR")
     ap.add_argument("--download-all", action="store_true", help="download every card image")
     ap.add_argument("--no-download", action="store_true", help="don't download report images")
+    ap.add_argument("--no-web", action="store_true", help="skip the web (Stranger errata) scrape")
     args = ap.parse_args()
 
     print("Loading cards…")
@@ -43,6 +44,14 @@ def main() -> None:
         ocr_errata = ocr.detect(cards, flagged, limit=args.ocr_limit)
         print(f"  {len(ocr_errata)} OCR errata candidates")
 
+    web_errata: list[dict] = []
+    if args.no_web:
+        print("Skipping web scrape (--no-web).")
+    else:
+        print("Scraping web errata (Alice Origin [Stranger] Rulers)…")
+        web_errata = stranger.detect(cards)
+        print(f"  {len(web_errata)} web errata candidates")
+
     if args.download_all:
         print("Downloading all card images…")
         download.download_all()
@@ -51,19 +60,20 @@ def main() -> None:
         for e in reprint_errata:
             ids += [e["og_id"], e["errata_id"]]
         ids += [e["errata_id"] for e in ocr_errata]
+        ids += [e["errata_id"] for e in web_errata]
         if ids:
             print(f"Downloading {len(set(ids))} report images…")
             download.download_many(ids)
 
     config.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    payload = {"reprint": reprint_errata, "ocr": ocr_errata}
+    payload = {"reprint": reprint_errata, "ocr": ocr_errata, "web": web_errata}
     config.ERRATA_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {config.ERRATA_JSON}")
 
-    path = report.build(reprint_errata, ocr_errata)
+    path = report.build(reprint_errata, ocr_errata, web_errata)
     print(f"Wrote {path}")
     print(
-        f"\nDone. {len(reprint_errata)} reprint + {len(ocr_errata)} OCR candidates. "
+        f"\nDone. {len(reprint_errata)} reprint + {len(ocr_errata)} OCR + {len(web_errata)} web candidates. "
         f"Open {config.REPORT_HTML} to review."
     )
 

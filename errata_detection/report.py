@@ -174,6 +174,30 @@ def _ocr_card(e: dict) -> str:
     </article>"""
 
 
+def _web_card(e: dict) -> str:
+    old = " ".join(e["json_text"])
+    new = " ".join(e["web_text"])
+    old_h, new_h = _word_diff(old, new)
+    url = html.escape(e["web_url"])
+    return f"""
+    <article class="card web" data-key="{html.escape(e['key'])}" data-set="{html.escape(e['set_code'])}">
+      <header><h2>{html.escape(e['card_name'])}</h2>
+        <span class="badge web">web errata</span></header>
+      <div class="cols">
+        <section class="og">
+          <div class="meta">Stored JSON · {html.escape(e['errata_id'])} · {html.escape(e['errata_set'])}</div>
+          {_img_tag(e['errata_id'])}
+          <p class="text">{old_h or '<em>(none)</em>'}</p>
+        </section>
+        <section class="er">
+          <div class="meta">Errata · <a href="{url}" target="_blank" rel="noopener">forceofwind.online</a></div>
+          <p class="text">{new_h or '<em>(none)</em>'}</p>
+        </section>
+      </div>
+      {_review_bar(e['key'])}
+    </article>"""
+
+
 _CSS = """
 :root { color-scheme: light dark; }
 * { box-sizing: border-box; }
@@ -221,6 +245,7 @@ main { flex: 1; min-width: 0; padding: 20px 32px 80px; }
 .badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 12px; text-transform: uppercase; letter-spacing: .04em; }
 .badge.reprint { background: #e0e7ff; color: #3340b0; }
 .badge.ocr { background: #ffe7d1; color: #a4520a; }
+.badge.web { background: #d6f0e0; color: #1a6b43; }
 .badge.chg { background: #fde7c0; color: #8a5200; }
 .attrs { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
 .attr { font-size: 12px; padding: 3px 8px; border-radius: 6px; background: #00000008; }
@@ -394,7 +419,7 @@ def _export_entry(e: dict) -> dict:
                 "errata_cost": e.get("errata_cost", ""),
             }
         )
-    else:
+    elif e["source"] == "ocr":
         base.update(
             {
                 "errata_id": e["errata_id"],
@@ -415,10 +440,21 @@ def _export_entry(e: dict) -> dict:
                 "similarity": e["similarity"],
             }
         )
+    elif e["source"] == "web":
+        base.update(
+            {
+                "errata_id": e["errata_id"],
+                "errata_set": e["errata_set"],
+                "web_url": e["web_url"],
+                "json_text": e["json_text"],
+                "web_text": e["web_text"],
+            }
+        )
     return base
 
 
-def build(reprint_errata: list[dict], ocr_errata: list[dict]) -> str:
+def build(reprint_errata: list[dict], ocr_errata: list[dict], web_errata: list[dict] | None = None) -> str:
+    web_errata = web_errata or []
     config.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # Set order, names, and per-card order straight from cards.json structure.
@@ -442,9 +478,11 @@ def build(reprint_errata: list[dict], ocr_errata: list[dict]) -> str:
         e["key"] = "R:" + e["errata_id"]
     for e in ocr_errata:
         e["key"] = "O:" + e["errata_id"]
+    for e in web_errata:
+        e["key"] = "W:" + e["errata_id"]
 
     entries: list[tuple[str, dict]] = []
-    for kind, lst in (("reprint", reprint_errata), ("ocr", ocr_errata)):
+    for kind, lst in (("reprint", reprint_errata), ("ocr", ocr_errata), ("web", web_errata)):
         for e in lst:
             e["set_code"] = id_set.get(e["errata_id"]) or e.get("errata_set", "").split(" — ")[0]
             entries.append((kind, e))
@@ -458,10 +496,9 @@ def build(reprint_errata: list[dict], ocr_errata: list[dict]) -> str:
         )
     )
 
-    cards_html = [
-        _reprint_card(e) if kind == "reprint" else _ocr_card(e) for kind, e in entries
-    ]
-    n_re, n_ocr = len(reprint_errata), len(ocr_errata)
+    _render = {"reprint": _reprint_card, "ocr": _ocr_card, "web": _web_card}
+    cards_html = [_render[kind](e) for kind, e in entries]
+    n_re, n_ocr, n_web = len(reprint_errata), len(ocr_errata), len(web_errata)
 
     # Left sidebar: one tab per set that has data, in the same sorted order.
     counts: dict[str, int] = {}
@@ -498,15 +535,16 @@ def build(reprint_errata: list[dict], ocr_errata: list[dict]) -> str:
 <body>
 <header class="top">
   <h1>Force of Will — Errata Report</h1>
-  <div class="sub">{n_re + n_ocr} candidates · {n_re} from reprints · {n_ocr} from OCR ·
+  <div class="sub">{n_re + n_ocr + n_web} candidates · {n_re} from reprints · {n_ocr} from OCR · {n_web} from web ·
   <del>deletions</del> / <ins>additions</ins> highlighted · decisions saved in your browser</div>
 </header>
 <div class="toolbar">
   <div class="group" data-group="source">
     <span class="label">Source</span>
-    <button class="active" data-filter="all">All ({n_re + n_ocr})</button>
+    <button class="active" data-filter="all">All ({n_re + n_ocr + n_web})</button>
     <button data-filter="reprint">Reprint ({n_re})</button>
     <button data-filter="ocr">OCR ({n_ocr})</button>
+    <button data-filter="web">Web ({n_web})</button>
   </div>
   <div class="group" data-group="status">
     <span class="label">Review</span>

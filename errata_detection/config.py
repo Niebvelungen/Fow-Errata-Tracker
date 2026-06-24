@@ -22,6 +22,8 @@ OUTPUT_DIR = ROOT / "output"
 ERRATA_JSON = OUTPUT_DIR / "errata.json"
 REPORT_HTML = OUTPUT_DIR / "report.html"
 OCR_CACHE_JSON = ROOT / ".ocr_cache.json"
+# Cached scraped ability text for Alice Origin [Stranger] Rulers (web errata).
+STRANGER_CACHE_JSON = ROOT / ".stranger_cache.json"
 
 # Entries reviewed as "No change" in the report can be exported to this file and
 # committed; on the next run they are excluded from detection. Keys are the

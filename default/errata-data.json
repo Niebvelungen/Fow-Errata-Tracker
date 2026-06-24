@@ -271,36 +271,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:TTW-097",
-      "card_name": "Excalibur, the God's Sword",
-      "source": "ocr",
-      "set_code": "TTW",
-      "errata_id": "TTW-097",
-      "errata_set": "TTW — The Twilight Wanderer",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VS01-002",
-      "oldest_set": "VS01 — Faria, the Sacred Queen/Melgis, the Flame King",
-      "oldest_ocr": "Your J-ruler gains [Target Attack].\n\n{}: Your J-ruler gains [+200/+200] until end of turn. If it's \"Faria, the Ruler of God Sword\", it gains [Imperishable] until end of turn and you may pay {} less to play its God's Art abilities this turn.\n\nDiscard another card named \"Excalibur, the God's Sword\": Produce {}.\n\nBanish this card: Your J-ruler gains [Imperishable] this turn.",
-      "newest_id": "TTW-097",
-      "newest_set": "TTW — The Twilight Wanderer",
-      "newest_ocr": "Your J-ruler gains [Target Attack].\n\n{}: Your J-ruler gains [+200/+200] until end of turn. As long as it's \"Faria, the Ruler of God Sword\", it gains [Imperishable] until end of turn and you may pay {} less to play its God's Art abilities this turn.\n\nDiscard another card named \"Excalibur, the God's Sword\": Produce {}.\n\nBanish this card: Your J-ruler gains [Imperishable] until end of turn.",
-      "stored_json_text": [
-        "Your J-Ruler gains [Target Attack].",
-        "{Rest}: You J-Ruler gains [+200/+200] until end of turn. It it's \"Faria, the Ruler of God Sword\", it gains [Imperishable] until end of turn and you may pay {2} less to play its God's Art abilities this turn.",
-        "Discard this card: Produce {W}.",
-        "Banish this card: You J-Ruler gains [Imperishable] this turn."
-      ],
-      "diff_words": [
-        "excalibur"
-      ],
-      "sim_old_new": 0.94,
-      "sim_old_json": 0.896,
-      "sim_new_json": 0.853,
-      "similarity": 0.853,
-      "decision": "format_change"
-    },
-    {
       "key": "O:TTW-099",
       "card_name": "Laevateinn, the Demon Sword",
       "source": "ocr",
@@ -716,6 +686,38 @@
       "decision": "format_change"
     },
     {
+      "key": "W:SDAO1-026",
+      "card_name": "Faria",
+      "source": "web",
+      "set_code": "SDAO1",
+      "errata_id": "SDAO1-026",
+      "errata_set": "SDAO1 — Alice Origin Starter Decks - Faria/Melgis",
+      "web_url": "https://www.forceofwind.online/card/SDAO1-026/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:SDAO1-028",
+      "card_name": "Melgis",
+      "source": "web",
+      "set_code": "SDAO1",
+      "errata_id": "SDAO1-028",
+      "errata_set": "SDAO1 — Alice Origin Starter Decks - Faria/Melgis",
+      "web_url": "https://www.forceofwind.online/card/SDAO1-028/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
       "key": "R:AO1-003",
       "card_name": "Bors, Returned Adventurer",
       "source": "reprint",
@@ -1111,6 +1113,38 @@
       "decision": "format_change"
     },
     {
+      "key": "W:AO1 Buy a Box",
+      "card_name": "Lenneth, the Priestess of Vell-Savaria",
+      "source": "web",
+      "set_code": "AO1 Buy a Box",
+      "errata_id": "AO1 Buy a Box",
+      "errata_set": "AO1 Buy a Box — Alice Origin Promos",
+      "web_url": "https://www.forceofwind.online/card/AO1%20Buy%20a%20Box-1/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:AO2 Buy a Box",
+      "card_name": "Machina",
+      "source": "web",
+      "set_code": "AO1 Buy a Box",
+      "errata_id": "AO2 Buy a Box",
+      "errata_set": "AO1 Buy a Box — Alice Origin Promos",
+      "web_url": "https://www.forceofwind.online/card/AO2%20Buy%20a%20Box-1/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
       "key": "R:SDAO2-003",
       "card_name": "Charm of the Princess",
       "source": "reprint",
@@ -1200,6 +1234,22 @@
       "decision": "format_change"
     },
     {
+      "key": "W:SDAO2-028",
+      "card_name": "Pricia",
+      "source": "web",
+      "set_code": "SDAO2",
+      "errata_id": "SDAO2-028",
+      "errata_set": "SDAO2 — SDAO2 - Alice Origin Starter Decks - Valentina/Pricia",
+      "web_url": "https://www.forceofwind.online/card/SDAO2-028/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
       "key": "R:SDAO2-029",
       "card_name": "Space-Time Anomaly",
       "source": "reprint",
@@ -1228,6 +1278,22 @@
       ],
       "errata_cost": "{U}{B}",
       "decision": "format_change"
+    },
+    {
+      "key": "W:SDAO2-031",
+      "card_name": "Valentina",
+      "source": "web",
+      "set_code": "SDAO2",
+      "errata_id": "SDAO2-031",
+      "errata_set": "SDAO2 — SDAO2 - Alice Origin Starter Decks - Valentina/Pricia",
+      "web_url": "https://www.forceofwind.online/card/SDAO2-031/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
     },
     {
       "key": "R:AO2-001",
@@ -1905,6 +1971,38 @@
       "sim_new_json": 0.959,
       "similarity": 0.959,
       "decision": "format_change"
+    },
+    {
+      "key": "W:AO3 Buy a Box-1",
+      "card_name": "Arla",
+      "source": "web",
+      "set_code": "AO3",
+      "errata_id": "AO3 Buy a Box-1",
+      "errata_set": "AO3 — Alice Origin III",
+      "web_url": "https://www.forceofwind.online/card/AO3%20Buy%20a%20Box-1/",
+      "json_text": [
+        "Choose two cards from your Stranger deck at random and remove them from the game"
+      ],
+      "web_text": [
+        "Remove two random cards from your Stranger deck from the game"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:AO3 Buy a Box-3",
+      "card_name": "Rezzard",
+      "source": "web",
+      "set_code": "AO3",
+      "errata_id": "AO3 Buy a Box-3",
+      "errata_set": "AO3 — Alice Origin III",
+      "web_url": "https://www.forceofwind.online/card/AO3%20Buy%20a%20Box-3/",
+      "json_text": [
+        "Choose two cards from your Stranger deck at random and put them into your graveyard"
+      ],
+      "web_text": [
+        "Put two random cards from your Stranger deck into your graveyard"
+      ],
+      "decision": "errata"
     },
     {
       "key": "O:PofA-019",
@@ -3927,63 +4025,6 @@
       "decision": "errata"
     },
     {
-      "key": "O:ABC-WB-003",
-      "card_name": "Guardian of Light Magic Stones",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-WB-003",
-      "errata_set": "ABC — ABC Deck WB",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VIN003-007",
-      "oldest_set": "VIN003 — Vingolf 3 - Ruler All Stars",
-      "oldest_ocr": "Judgment {} {} {}\nEnergize {}\nResonance Light Magic Stone →: Target resonator you control gains [+200/+200] until end of turn.",
-      "newest_id": "ABC-WB-003",
-      "newest_set": "ABC — ABC Deck WB",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Resonance] Light Magic Stone >>> Target resonator you control gains [+200/+200] until end of turn.",
-        "[Judgment] {W}{W}{3}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.97,
-      "sim_new_json": null,
-      "similarity": 0.97,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:ABC-WB-003J",
-      "card_name": "Avatar of Light Magic Stones",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-WB-003J",
-      "errata_set": "ABC — ABC Deck WB",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VIN003-007J",
-      "oldest_set": "VIN003 — Vingolf 3 - Ruler All Stars",
-      "oldest_ocr": "Flying\nWhen this card enters your field => Destroy all non-magic stone, non-J-ruler cards.",
-      "newest_id": "ABC-WB-003J",
-      "newest_set": "ABC — ABC Deck WB",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Flying]",
-        "[Enter] >>> Destroy all non-magic stone, non-J-ruler entities."
-      ],
-      "diff_words": [
-        "cards",
-        "entities"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.909,
-      "sim_new_json": null,
-      "similarity": 0.909,
-      "decision": "format_change"
-    },
-    {
       "key": "R:ABC-WB-007",
       "card_name": "Abel, the Avenger of Gods",
       "source": "reprint",
@@ -4573,34 +4614,6 @@
       ],
       "errata_cost": "",
       "decision": "format_change"
-    },
-    {
-      "key": "O:ABC-WD-004",
-      "card_name": "Princess of Fleeting Hope",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-WD-004",
-      "errata_set": "ABC — ABC Deck WD",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "TSW-022",
-      "oldest_set": "TSW — The Time-Spinning Witch",
-      "oldest_ocr": "Judgment {} {}\nEnergize {} {}\n{}: Recover target resonator. Play this ability only during your opponent's turn and only once per turn.",
-      "newest_id": "ABC-WD-004",
-      "newest_set": "ABC — ABC Deck WD",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "{0}: Recover target resonator. Play this ability only during your opponent's turn and only once per turn.",
-        "[Judgment] {W}{W}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.973,
-      "sim_new_json": null,
-      "similarity": 0.973,
-      "decision": "no_change"
     },
     {
       "key": "R:ABC-WD-010",
@@ -5497,88 +5510,91 @@
       "decision": "format_change"
     },
     {
-      "key": "R:ABC-RD-002",
+      "key": "O:ABC-RD-002",
       "card_name": "Ebony Prophet",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TAT-079",
-      "og_set": "TAT — The Castle of Heaven and the Two Towers",
-      "og_text": [
-        "[J-Activate] Pay {B}. Play this ability only if you control \"Grusbalesta, the Sealing Stone\".",
-        "[J-Activate] Pay {B}{B}{1}.",
-        "[Activate] {Rest}: Target resonator gains [-300/-300] until end of turn."
-      ],
-      "og_race": [
-        "Prophet"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-RD-002",
       "errata_set": "ABC — ABC Deck RD",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TAT-079",
+      "oldest_set": "TAT — The Castle of Heaven and the Two Towers",
+      "oldest_ocr": "J-Activate: Pay {}. Play this ability only if you control \"Grusbalesta, the Sealing Stone\".\nJ-Activate: Pay {} {} {}.\nActivate {}: Target resonator gains [-300/-300] until end of turn.",
+      "newest_id": "ABC-RD-002",
+      "newest_set": "ABC — ABC Deck RD",
+      "newest_ocr": null,
+      "stored_json_text": [
         "{Rest}: Target resonator gains [-300/-300] until end of turn.",
         "[Judgment] {B}{B}{1}. You pay {B} rather than pay this cost if you control an entity named \"Grusbalesta, the Sealing Stone\"."
       ],
-      "errata_race": [
-        "Prophet"
+      "diff_words": [
+        "ability",
+        "play"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.833,
+      "sim_new_json": null,
+      "similarity": 0.833,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-RD-002J",
+      "key": "O:ABC-RD-002J",
       "card_name": "Abdul Alhazred, the Harbinger of Despair",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TAT-079J",
-      "og_set": "TAT — The Castle of Heaven and the Two Towers",
-      "og_text": [
-        "[Continuous]: [Enter] abilities of cards your opponent controls don't trigger.",
-        "[Activate] {0}: Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn."
-      ],
-      "og_race": [
-        "Wizard"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-RD-002J",
       "errata_set": "ABC — ABC Deck RD",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TAT-079J",
+      "oldest_set": "TAT — The Castle of Heaven and the Two Towers",
+      "oldest_ocr": "Continuous Enter abilities of cards your opponent controls don't trigger.\nActivate {}: Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn.",
+      "newest_id": "ABC-RD-002J",
+      "newest_set": "ABC — ABC Deck RD",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Entities entering the field under your opponent's control don't cause their own [Enter] abilities to trigger.",
         "{0}: Target resonator or addition loses all abilities until end of turn. Play this ability only twice per turn."
       ],
-      "errata_race": [
-        "Wizard"
+      "diff_words": [
+        "cards",
+        "cause",
+        "entering",
+        "entities",
+        "field"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.746,
+      "sim_new_json": null,
+      "similarity": 0.746,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-RD-006",
+      "key": "O:ABC-RD-006",
       "card_name": "A Heroic Epic for the Thousandth Night",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "WOM-109",
-      "og_set": "WOM — Winds of the Ominous Moon",
-      "og_text": [
-        "You may put a resonator from your hand into the field. At the next end of turn ⇒ Return that card to its owner's hand."
-      ],
-      "og_race": [],
-      "og_cost": "{R}{B}{1}",
       "errata_id": "ABC-RD-006",
       "errata_set": "ABC — ABC Deck RD",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "WOM-109",
+      "oldest_set": "WOM — Winds of the Ominous Moon",
+      "oldest_ocr": "You may put a resonator from your hand into the field. At the next end of turn Return that card to its owner's hand.",
+      "newest_id": "ABC-RD-006",
+      "newest_set": "ABC — ABC Deck RD",
+      "newest_ocr": null,
+      "stored_json_text": [
         "You may put a resonator from your hand into the field. At the next end of turn >>> Return that resonator to its owner’s hand."
       ],
-      "errata_race": [],
-      "errata_cost": "{R}{B}{1}",
+      "diff_words": [
+        "card"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.96,
+      "sim_new_json": null,
+      "similarity": 0.96,
       "decision": "no_change"
     },
     {
@@ -6001,29 +6017,21 @@
       "decision": "errata"
     },
     {
-      "key": "R:ABC-BG-002",
+      "key": "O:ABC-BG-002",
       "card_name": "Shaela",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR3-007",
-      "og_set": "SDR3 — Starter - Below the Waves",
-      "og_text": [
-        "[Judgment] {U}{U}{1} ( Pay {U}{U}{1} to flip this card and put it into the field as a J-Ruler.)",
-        "[Energize] {U} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {U}.\")",
-        "The weather is rain during your turn.",
-        "{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it an put it into your hand. Then shuffle your deck.",
-        "Sealed Item <<Thunder Parasol>> {0}: Choose one. Play this ability only during your turn and only once per turn - Put an electricity counter on this card; or remove an electricity counter from this card. If you do, the weather is thunderstorm until end of turn."
-      ],
-      "og_race": [
-        "Mermaid"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-BG-002",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "SDR3-007",
+      "oldest_set": "SDR3 — Starter - Below the Waves",
+      "oldest_ocr": "Judgment {} {} Pay {} {} {} to flip this card and put it into the field as a J-ruler.)\nEnergize {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\")\nThe weather is rain during your turn.\n{}: Search your deck for a card named \"Weather Change: Rain\", reveal it and put it into your hand. Then shuffle your deck.",
+      "newest_id": "ABC-BG-002",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Your weather is rain during your turn.",
         "{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it and put it into your hand. Then shuffle your deck.",
         "Sealed Item ≪Thunder Parasol≫ {0}: Choose one. Play this ability only during your turn and only once per turn;",
@@ -6031,168 +6039,104 @@
         "- Remove an electricity counter from this card. If you do, your weather is thunderstorm until end of turn.",
         "[Judgment] {U}{U}{1}"
       ],
-      "errata_race": [
-        "Mermaid"
+      "diff_words": [
+        "ability",
+        "choose",
+        "counter",
+        "electricity",
+        "energize",
+        "field",
+        "flip",
+        "item",
+        "parasol",
+        "play",
+        "remove",
+        "ruler",
+        "sealed",
+        "thunder",
+        "thunderstorm"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.547,
+      "sim_new_json": null,
+      "similarity": 0.547,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-002J",
+      "key": "O:ABC-BG-002J",
       "card_name": "Shaela, the Mermaid Princess",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR3-007J",
-      "og_set": "SDR3 — Starter - Below the Waves",
-      "og_text": [
-        "The weather is rain.",
-        "When this card enters your field ⇒ Draw a card.",
-        "Sealed Item <<Thunder Parasol>> {0}: The weather is thunderstorm until end of turn.",
-        "Sealed Item <<Thunder Parasol>> God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls."
-      ],
-      "og_race": [
-        "Mermaid"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-BG-002J",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "SDR3-007J",
+      "oldest_set": "SDR3 — Starter - Below the Waves",
+      "oldest_ocr": "The weather is rain.\nWhen this card enters the field {} Draw a card.",
+      "newest_id": "ABC-BG-002J",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Your weather is rain.",
         "[Enter] >>> Draw a card.",
         "Sealed Item ≪Thunder Parasol≫ {0}: Your weather is thunderstorm until end of turn.",
         "Sealed Item ≪Thunder Parasol≫ God's Art \"Indignation\" {U}, remove two electricity counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls."
       ],
-      "errata_race": [
-        "Mermaid"
+      "diff_words": [
+        "controls",
+        "counters",
+        "destroy",
+        "electricity",
+        "indignation",
+        "item",
+        "opponent",
+        "parasol",
+        "remove",
+        "resonator",
+        "resonators",
+        "rest",
+        "sealed",
+        "target",
+        "thunder",
+        "thunderstorm",
+        "turn"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.269,
+      "sim_new_json": null,
+      "similarity": 0.269,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-003J",
-      "card_name": "Coup d'Etat Mastermind, Shion",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TMS-046J",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "You may look at the top card of your main deck at any time.",
-        "When this card enters your field, reveal the top card of your main deck. If it's a resonator with total cost 5 or less, put it into your field. Otherwise, put it into your hand.",
-        "God's Art [Serenade of Rebellion] {U}{U}: This card gains [+500/+500] until end of turn. Then it deals damage equal to its ATK to target J/resonator your opponent controls (Play God's Art [Serenade of Rebellion] only once per game.)"
-      ],
-      "og_race": [
-        "Traitor"
-      ],
-      "og_cost": "",
-      "errata_id": "ABC-BG-003J",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "You may look at the top card of your deck at any time.",
-        "[Enter] >>> Reveal the top card of your deck. If it's a resonator with total cost 5 or less, put it into the field. Otherwise, put it into your hand.",
-        "God's Art \"Serenade of Rebellion\" {U}{U}: This card gains [+500/+500] until end of turn. It deals damage equal to its ATK to target J/resonator your opponent controls."
-      ],
-      "errata_race": [
-        "Traitor"
-      ],
-      "errata_cost": "",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-004",
-      "card_name": "Yggdrasil, the World Tree",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TMS-068",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "If damage dealt by a card your opponent controls would reduce your life to 0 or less for the first time this game, it reduces your life to 100 instead. Then you may search your main deck and/or hand for up to one card named \"Avatar of the Seven Lands, Alice\" and up to one card named \"Blade of the Seven Lands, Excalibur X\" and put them into your field. Then shuffle your main deck."
-      ],
-      "og_race": [
-        "Ethereal Tree"
-      ],
-      "og_cost": "",
-      "errata_id": "ABC-BG-004",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "If damage dealt by a source your opponent controls would reduce your life to 0 or less for the first time this game, it reduces your life to 100 instead. If it does, you may search your deck and/or hand for up to one card named \"Avatar of the Seven Lands, Alice\" and up to one card named \"Blade of the Seven Lands, Excalibur X\" and put them into the field. If you searched your deck, shuffle it."
-      ],
-      "errata_race": [
-        "Ethereal Tree"
-      ],
-      "errata_cost": "",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-005",
-      "card_name": "A Duet of Water",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "MSW-034",
-      "og_set": "MSW — The Magic Stone War - Zero",
-      "og_text": [
-        "[Quickcast]",
-        "Choose one, you may choose an additional one for each recovered J/ruler you control;",
-        "- Draw a card.",
-        "- Return up to two target resonators to their owners' hands.",
-        "- Prevent all damage that would be dealt to J/resonators you control until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "{U}{U}{1}",
-      "errata_id": "ABC-BG-005",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "Choose one. You may choose an additional one for each recovered J/ruler you control;",
-        "- Draw a card.",
-        "- Return up to two target resonators to their owner's hand.",
-        "- Prevent all damage that would be dealt to J/resonators you control until end of turn."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}{U}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-009",
+      "key": "O:ABC-BG-009",
       "card_name": "Avatar of the Seven Lands, Alice",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TMS-053",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "[Quickcast]",
-        "[Target Attack]",
-        "If damage would be dealt to you, it's dealt to this card instead."
-      ],
-      "og_race": [
-        "Avatar"
-      ],
-      "og_cost": "{G}{G}{G}{3}",
       "errata_id": "ABC-BG-009",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TMS-053",
+      "oldest_set": "TMS — The Moonlit Saviour",
+      "oldest_ocr": "Quickcast\nTarget Attack\nIf damage would be dealt to you, it's dealt to this card instead.",
+      "newest_id": "ABC-BG-009",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "[Precision]",
         "If damage would be dealt to you, it is dealt to this card instead."
       ],
-      "errata_race": [
-        "Avatar"
+      "diff_words": [
+        "attack",
+        "precision",
+        "target"
       ],
-      "errata_cost": "{G}{G}{G}{3}",
+      "sim_old_new": null,
+      "sim_old_json": 0.848,
+      "sim_new_json": null,
+      "similarity": 0.848,
       "decision": "no_change"
     },
     {
@@ -6228,182 +6172,6 @@
       "decision": "errata"
     },
     {
-      "key": "R:ABC-BG-013",
-      "card_name": "Biri-Biri Ball",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-058",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "[Quickcast]",
-        "Rest target resonator. If the weather is thunderstorm, this card deals damage to that resonator equal to its ATK."
-      ],
-      "og_race": [],
-      "og_cost": "{U}",
-      "errata_id": "ABC-BG-013",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "Rest target resonator. If your weather is thunderstorm, this card deals damage to that resonator equal to its ATK."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-025",
-      "card_name": "Giga Thunderfish",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-061",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "Whenever this card attacks ⇒ It deals 200 damage to each J/resonator your opponent controls.",
-        "Whenever this card deals damage to a J/resonator ⇒ Rest that J/resonator. It doesn't recover during the recovery phase as long as this card is in the field.",
-        "When this card enters the field ⇒ If the weather is thunderstorm, search your deck for a card named \"Mega Thunderfish\" and/or a card named \"Thunderfish\" and put them into the field. Then shuffle your deck."
-      ],
-      "og_race": [
-        "Fish"
-      ],
-      "og_cost": "{U}{U}{3}",
-      "errata_id": "ABC-BG-025",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] >>> If your weather is thunderstorm, search your deck for a card named \"Mega Thunderfish\" and/or a card named \"Thunderfish\" and put them into the field. Then shuffle your deck.",
-        "Whenever this card attacks >>> It deals 200 damage to each J/resonator your opponent controls.",
-        "Whenever this card deals damage to a J/resonator >>> Rest that J/resonator. It doesn't recover during the recovery phase as long as this card is in the field."
-      ],
-      "errata_race": [
-        "Fish"
-      ],
-      "errata_cost": "{U}{U}{3}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-026",
-      "card_name": "Giovanni, the Lonely Child",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "MPR-095",
-      "og_set": "MPR — The Moon Priestess Returns",
-      "og_text": [
-        "[Enter]: If you don't control other resonators, search your main deck for a card named \"Campanella, the Milky Way Moon\", reveal it and put it into your hand. Then shuffle your main deck."
-      ],
-      "og_race": [
-        "Human"
-      ],
-      "og_cost": "{U}{G}",
-      "errata_id": "ABC-BG-026",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] >>> If you don't control another resonator, search your deck for a card named \"Campanella, the Milky Way Moon\", reveal it and put it into your hand. Then shuffle your deck."
-      ],
-      "errata_race": [
-        "Human"
-      ],
-      "errata_cost": "{U}{G}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-027",
-      "card_name": "Invasion Ship, Golden Hind",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TTW-041",
-      "og_set": "TTW — The Twilight Wanderer",
-      "og_text": [
-        "You may choose not to recover this card during the recovery phase.",
-        "{Rest}, {U}{1}: Rest target resonator. It doesn't recover during the recovery phase as long as this card is rested."
-      ],
-      "og_race": [],
-      "og_cost": "{U}",
-      "errata_id": "ABC-BG-027",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "You may choose not to recover this card during your recovery phase.",
-        "{U}{1}, {Rest}: Rest target resonator. It doesn't recover during its owner's recovery phase as long as this card is rested."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-028",
-      "card_name": "Jupiter, Warlock of the Wood Star",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR6-006",
-      "og_set": "SDR6 — Starter - The Lost Tomes",
-      "og_text": [
-        "[Quickcast]",
-        "When this card enters the field ⇒ Choose up to two - Cancel target chant spell; or return target resonator to its owner's hand; or rest or recover target resonator; or draw a card."
-      ],
-      "og_race": [
-        "Seven Luminaries Mage",
-        "Historical"
-      ],
-      "og_cost": "{G}{G}{3}",
-      "errata_id": "ABC-BG-028",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "[Enter] >>> Choose up to two;",
-        "- Cancel target chant spell.",
-        "- Return target resonator to its owner's hand.",
-        "- Rest or recover target resonator.",
-        "- Draw a card."
-      ],
-      "errata_race": [
-        "Historical",
-        "Seven Luminaries Mage"
-      ],
-      "errata_cost": "{G}{G}{3}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-031",
-      "card_name": "Laurite's Seven Disciples",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "WOM-070",
-      "og_set": "WOM — Winds of the Ominous Moon",
-      "og_text": [
-        "When this card enters the field or at the beginning of your main phase ⇒ This card gains [+200/+200], [Swiftness], [Flying], [First Strike], [Precision], [Drain], or [Barrier] until end of turn. If you control \"Laurite, Seven Luminaries Astrologian\", it gains all those abilities instead."
-      ],
-      "og_race": [
-        "Wizard"
-      ],
-      "og_cost": "{G}{G}{1}",
-      "errata_id": "ABC-BG-031",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] or at the beginning of your main phase >>> This card gains [+200/+200], [Swiftness], [Precision], [Flying], [First Strike], [Drain], or [Barrier] until end of turn. If you control an entity named \"Laurite, Seven Luminaries Astrologian\", it gains [+200/+200] and all those abilities instead."
-      ],
-      "errata_race": [
-        "Wizard"
-      ],
-      "errata_cost": "{G}{G}{1}",
-      "decision": "no_change"
-    },
-    {
       "key": "R:ABC-BG-032",
       "card_name": "Leaves of Yggdrasil",
       "source": "reprint",
@@ -6433,82 +6201,50 @@
       "decision": "errata"
     },
     {
-      "key": "R:ABC-BG-036",
-      "card_name": "Mega Thunderfish",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ACN-073",
-      "og_set": "ACN — Ancient Nights",
-      "og_text": [
-        "When this card is put into a graveyard from the field ⇒ Return target resonator your opponent controls to its owner's hand. If the weather is rain, put it on top of its owner's deck instead.",
-        "This card gains [+200/+200] and [Swiftness] as long as the weather is thunderstorm."
-      ],
-      "og_race": [
-        "Fish"
-      ],
-      "og_cost": "{U}{U}{1}",
-      "errata_id": "ABC-BG-036",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "This card gains [+200/+200] and [Swiftness] as long as your weather is thunderstorm.",
-        "When this card is put into a graveyard from the field >>> Return target resonator your opponent controls to its owner's hand. If your weather is rain, put it on top of its owner's deck instead."
-      ],
-      "errata_race": [
-        "Fish"
-      ],
-      "errata_cost": "{U}{U}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-039",
+      "key": "O:ABC-BG-039",
       "card_name": "Miracle Millennia Medicine",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "RDE-028",
-      "og_set": "RDE — Return of the Dragon Emperor",
-      "og_text": [
-        "Banish this card: Target up to three non-magic stone cards in a single graveyard. The owner of those cards shuffles them into their deck."
-      ],
-      "og_race": [
-        "Treasury Item"
-      ],
-      "og_cost": "{G}",
       "errata_id": "ABC-BG-039",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "RDE-028",
+      "oldest_set": "RDE — Return of the Dragon Emperor",
+      "oldest_ocr": "Banish this card: Target up to three non-magic stone cards in a single graveyard. The owner of those cards shuffles them into their deck.",
+      "newest_id": "ABC-BG-039",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Banish this card: Target up to three non-magic stone cards in a player’s graveyard. The owner of the chosen cards shuffles them into their deck."
       ],
-      "errata_race": [
-        "Treasury Item"
+      "diff_words": [
+        "chosen",
+        "player",
+        "single"
       ],
-      "errata_cost": "{G}",
+      "sim_old_new": null,
+      "sim_old_json": 0.885,
+      "sim_new_json": null,
+      "similarity": 0.885,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-040",
+      "key": "O:ABC-BG-040",
       "card_name": "Optional Possession",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ADK-078",
-      "og_set": "ADK — Advent of the Demon King",
-      "og_text": [
-        "[Quickcast] [Remnant]",
-        "Choose [Flying], [Precision] or [First Strike]. Target J/resonator gains [+200/+200] and the chosen ability until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "{U}",
       "errata_id": "ABC-BG-040",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "ADK-078",
+      "oldest_set": "ADK — Advent of the Demon King",
+      "oldest_ocr": "Quickcast Remnant\nChoose Flying , Precision , or First Strike Target J/resonator gains [+200/+200] and the chosen ability until end of turn.",
+      "newest_id": "ABC-BG-040",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "[Remnant]",
         "Choose one;",
@@ -6516,316 +6252,217 @@
         "- Target J/resonator gains [+200/+200] and [Precision] until end of turn.",
         "- Target J/resonator gains [+200/+200] and [First Strike] until end of turn."
       ],
-      "errata_race": [],
-      "errata_cost": "{U}",
+      "diff_words": [
+        "ability"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.576,
+      "sim_new_json": null,
+      "similarity": 0.576,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-045",
+      "key": "O:ABC-BG-045",
       "card_name": "Silent Mermaid",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-079",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "As long as the weather is thunderstorm, your opponent cannot play cards during your turn."
-      ],
-      "og_race": [
-        "Mermaid"
-      ],
-      "og_cost": "{U}{U}",
       "errata_id": "ABC-BG-045",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TSW-079",
+      "oldest_set": "TSW — The Time-Spinning Witch",
+      "oldest_ocr": "As long as the weather is thunderstorm, your opponent cannot play cards during your turn.",
+      "newest_id": "ABC-BG-045",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Your opponent cannot play spells during your turn as long as your weather is thunderstorm."
       ],
-      "errata_race": [
-        "Mermaid"
+      "diff_words": [
+        "cards",
+        "spells"
       ],
-      "errata_cost": "{U}{U}",
+      "sim_old_new": null,
+      "sim_old_json": 0.867,
+      "sim_new_json": null,
+      "similarity": 0.867,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-047",
+      "key": "O:ABC-BG-047",
       "card_name": "Slayer of the Overlord, Pricia",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "BFA-079",
-      "og_set": "BFA — Battle for Attoractia",
-      "og_text": [
-        "[Shift] {U}{U}{1} (You may play either side of this card.",
-        "{U}{U}{1}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)",
-        "When this card enters your field, this card and target J/resonator your opponent controls deal damage equal to their ATK to each other.",
-        "{1}: This card gains [+100/+100] until end of turn."
-      ],
-      "og_race": [
-        "Beast"
-      ],
-      "og_cost": "{G}{1}",
       "errata_id": "ABC-BG-047",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "BFA-079",
+      "oldest_set": "BFA — Battle for Attoractia",
+      "oldest_ocr": "Shift {} {} {} (You may play either side of this card. {} {} : Flip this card. You may play Shift anytime you can play a [Spell:Chant].)\n\nWhen this card enters your field, this card and target J/resonator your opponent controls deal damage equal to their ATK to each other.\n\n{} : This card gains [+100/+100] until end of turn.",
+      "newest_id": "ABC-BG-047",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Shift] {U}{U}{1} (As you play this card, you may choose either side of this card and play this card with that chosen side up, paying that side’s cost.",
         "[Enter] >>> This card and target J/resonator your opponent controls deal damage equal to their ATK to each other.",
         "{U}{U}{1}: Flip this card. Play this ability only during main timing.",
-        "{1}: This card gains [+100/+100] until end of turn."
+        "{1}: This card gains [+100/+100] until end of turn.",
+        "When this card is put into a graveyard from the field >>> Gain control of target resonator your opponent controls."
       ],
-      "errata_race": [
-        "Beast"
+      "diff_words": [
+        "damage",
+        "deal",
+        "enter",
+        "equal",
+        "shift",
+        "turn"
       ],
-      "errata_cost": "{G}{1}",
+      "sim_old_new": null,
+      "sim_old_json": 0.602,
+      "sim_new_json": null,
+      "similarity": 0.602,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-048",
+      "key": "O:ABC-BG-048",
       "card_name": "Soul Debt",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ENW-064",
-      "og_set": "ENW — Echoes of the New World",
-      "og_text": [
-        "[Quickcast]",
-        "Put target resonator that was put into a field this turn on the bottom of its owner's deck."
-      ],
-      "og_race": [
-        ""
-      ],
-      "og_cost": "{G}{1}",
       "errata_id": "ABC-BG-048",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "ENW-064",
+      "oldest_set": "ENW — Echoes of the New World",
+      "oldest_ocr": "Quickcast\nPut target resonator that was put into a field this turn on the bottom of its owner's deck.",
+      "newest_id": "ABC-BG-048",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "Put target resonator that entered the field this turn on the bottom of its owner's deck."
       ],
-      "errata_race": [],
-      "errata_cost": "{G}{1}",
+      "diff_words": [
+        "entered"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.842,
+      "sim_new_json": null,
+      "similarity": 0.842,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-049",
+      "key": "O:ABC-BG-049",
       "card_name": "Table Manners",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TST-042",
-      "og_set": "TST — The Seventh",
-      "og_text": [
-        "Destroy a J/resonator that has or shares the highest total cost from among all J/resonators your opponent controls. You gain life equal to the total of its ATK and DEF. Then you draw cards equal to its total cost.",
-        "[Inheritance] {G}: Target J/resonator you control and target J/resonator your opponent controls deal damage equal to their ATK to each other."
-      ],
-      "og_race": [],
-      "og_cost": "{G}{G}{1}",
       "errata_id": "ABC-BG-049",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TST-042",
+      "oldest_set": "TST — The Seventh",
+      "oldest_ocr": "Destroy a J/resonator that has or shares the highest total cost from among all J/resonators your opponent controls. You gain life equal to the total of its ATK and DEF. Then you draw cards equal to its total cost.\n\n{}, discard this card: Target J/resonator you control and target J/resonator your opponent controls deal damage equal to their ATK to each other.",
+      "newest_id": "ABC-BG-049",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Destroy a J/resonator that has or shares the highest total cost from among J/resonators your opponent controls. You gain life equal to the total of its ATK and DEF. Draw cards equal to its total cost.",
         "[Inheritance] {G}: Target J/resonator you control and target J/resonator your opponent controls deal damage equal to their ATK to each other."
       ],
-      "errata_race": [],
-      "errata_cost": "{G}{G}{1}",
-      "decision": "no_change"
+      "diff_words": [
+        "discard"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.94,
+      "sim_new_json": null,
+      "similarity": 0.94,
+      "decision": "errata"
     },
     {
-      "key": "R:ABC-BG-053",
-      "card_name": "Thunder Wave",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-083",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "[Quickcast]",
-        "Return target non-magic stone, non-J-Ruler entity to its owner's hand. Draw two cards if the weather is thunderstorm."
-      ],
-      "og_race": [],
-      "og_cost": "{U}{1}",
-      "errata_id": "ABC-BG-053",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "Return target non-magic stone, non-J-Ruler entity to its owner’s hand. If your weather is thunderstorm, draw two cards."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-054",
-      "card_name": "Thunderfish",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ACN-083",
-      "og_set": "ACN — Ancient Nights",
-      "og_text": [
-        "When this card enters the field ⇒ Target resonator doesn't recover during its controller's next recovery phase.",
-        "When this card is put into a graveyard from the field ⇒ Draw a card if the weather is rain."
-      ],
-      "og_race": [
-        "Fish"
-      ],
-      "og_cost": "{U}",
-      "errata_id": "ABC-BG-054",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] >>> Target resonator doesn't recover during its controller's next recovery phase.",
-        "When this card is put into a graveyard from the field >>> If your weather is rain, draw a card."
-      ],
-      "errata_race": [
-        "Fish"
-      ],
-      "errata_cost": "{U}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-055",
+      "key": "O:ABC-BG-055",
       "card_name": "Thunderstorm",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-084",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "[Quickcast]",
-        "Return all resonators to their owners' hands. If the weather is thunderstorm, their owners put them on the bottom of their decks in any order instead."
-      ],
-      "og_race": [],
-      "og_cost": "{U}{U}{3}",
       "errata_id": "ABC-BG-055",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TSW-084",
+      "oldest_set": "TSW — The Time-Spinning Witch",
+      "oldest_ocr": "Quickcast\nReturn all resonators to their owners' hands. If the weather is thunderstorm, their owners put them on the bottom of their decks in any order instead.",
+      "newest_id": "ABC-BG-055",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "Return all resonators to their owner's hand. If your weather is thunderstorm, put them on the bottom of their owner's deck in any order instead."
       ],
-      "errata_race": [],
-      "errata_cost": "{U}{U}{3}",
+      "diff_words": [],
+      "sim_old_new": null,
+      "sim_old_json": 0.764,
+      "sim_new_json": null,
+      "similarity": 0.764,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-060",
-      "card_name": "Yggdor, Beast of the World",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "BFA-060",
-      "og_set": "BFA — Battle for Attoractia",
-      "og_text": [
-        "If your life is 100 you may pay {G}{G}{8} less to play this card.",
-        "Blocking does not cause this card to rest."
-      ],
-      "og_race": [
-        "Beast"
-      ],
-      "og_cost": "{G}{G}{8}",
-      "errata_id": "ABC-BG-060",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "You pay {G}{G}{8} less to play this card if your life is 100.",
-        "Blocking does not cause this card to rest."
-      ],
-      "errata_race": [
-        "Beast"
-      ],
-      "errata_cost": "{G}{G}{8}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-061",
-      "card_name": "Attoractia's Memoria",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDAO1-033",
-      "og_set": "SDAO1 — Alice Origin Starter Decks - Faria/Melgis",
-      "og_text": [
-        "{Rest}: Produce one will of any attribute shared with your J/ruler."
-      ],
-      "og_race": [],
-      "og_cost": "",
-      "errata_id": "ABC-BG-061",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "{Rest}: Produce one will of any attribute shared with a J/ruler you control."
-      ],
-      "errata_race": [],
-      "errata_cost": "",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-066",
+      "key": "O:ABC-BG-066",
       "card_name": "Saintly Elven Stone",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ACN-150",
-      "og_set": "ACN — Ancient Nights",
-      "og_text": [
-        "Treat this card as a wind magic stone.",
-        "{Rest}: Produce {G}.",
-        "{Rest} Target Elf gains [+100/+100] until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "",
       "errata_id": "ABC-BG-066",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "ACN-150",
+      "oldest_set": "ACN — Ancient Nights",
+      "oldest_ocr": "Treat this card as a wind magic stone.\n{}: Produce {}.\n{}: Target Elf gains [+100/+100] until end of turn.",
+      "newest_id": "ABC-BG-066",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "This card has the wind magic stone type.",
         "{Rest}: Produce {G}.",
         "{Rest}: Target Elf entity gains [+100/+100] until end of turn."
       ],
-      "errata_race": [],
-      "errata_cost": "",
+      "diff_words": [
+        "treat"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.811,
+      "sim_new_json": null,
+      "similarity": 0.811,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-067",
+      "key": "O:ABC-BG-067",
       "card_name": "Shoal Coral Stone",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR3-012",
-      "og_set": "SDR3 — Starter - Below the Waves",
-      "og_text": [
-        "Treat this card as a water magic stone.",
-        "{Rest}: Produce {U}.",
-        "Banish this card: The weather is rain until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "",
       "errata_id": "ABC-BG-067",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "SDR3-012",
+      "oldest_set": "SDR3 — Starter - Below the Waves",
+      "oldest_ocr": "Treat this card as a water magic stone.\n{} Produce {}.\nBanish this card: The weather is rain until end of turn.",
+      "newest_id": "ABC-BG-067",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "This card has the water magic stone type.",
         "{Rest}: Produce {U}.",
         "Banish this card: Your weather is rain until end of turn."
       ],
-      "errata_race": [],
-      "errata_cost": "",
+      "diff_words": [
+        "treat"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.85,
+      "sim_new_json": null,
+      "similarity": 0.85,
       "decision": "no_change"
     },
     {
@@ -10034,35 +9671,6 @@
       ],
       "errata_cost": "{W}{W}",
       "decision": "format_change"
-    },
-    {
-      "key": "O:ABC-SD03-041",
-      "card_name": "Silph, Envoy of Wind",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-SD03-041",
-      "errata_set": "ABC — Gnome vs Reinhardt (Gnome)",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VIN003-057",
-      "oldest_set": "VIN003 — Vingolf 3 - Ruler All Stars",
-      "oldest_ocr": "Resonance {} Wind Magic Stone {}\nRecover this card.",
-      "newest_id": "ABC-SD03-041",
-      "newest_set": "ABC — Gnome vs Reinhardt (Gnome)",
-      "newest_ocr": "[Resonance] Wind Magic Stone >>> Recover this card.",
-      "stored_json_text": [
-        "[Resonance] (Wind Magic Stone) >>> Recover this card."
-      ],
-      "diff_words": [
-        "magic",
-        "stone",
-        "wind"
-      ],
-      "sim_old_new": 1,
-      "sim_old_json": 0.727,
-      "sim_new_json": 0.727,
-      "similarity": 0.727,
-      "decision": "no_change"
     },
     {
       "key": "R:ABC-SD03-043",
@@ -19996,38 +19604,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MC09-007",
-      "card_name": "Vergilius, Rebel against Satan",
-      "source": "ocr",
-      "set_code": "MC09",
-      "errata_id": "MC09-007",
-      "errata_set": "MC09 — Memoria Collection 09",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "TST-063",
-      "oldest_set": "TST — The Seventh",
-      "oldest_ocr": "[Swiftness]\nYou may make a J-ruler you control astral rather than pay this card's cost.\n{}: Choose one;\n- This card deals 400 damage to target player or J/resonator.\n- This card deals 400 damage to your opponent and each J/resonator your opponent controls. Choose this option only if this card is attacking.\n[Fallen]\n[Drain] [Bane]",
-      "newest_id": "MC09-007",
-      "newest_set": "MC09 — Memoria Collection 09",
-      "newest_ocr": "[Swiftness]\nYou may make a J-ruler you control astral rather than pay this card's cost.\n\n{}: Choose one;\n- This card deals 400 damage to target player or J/resonator.\n- This card deals 400 damage to your opponent and each J/resonator your opponent controls. Choose this option only if this card is attacking.\n\n[Fallen]\n- [Drain] [Bane]",
-      "stored_json_text": [
-        "You may make a J-ruler you control astral rather than pay this card's cost.",
-        "{B}: Choose one;",
-        "- This card deals 400 damage to target player or J/resonator.",
-        "- This card deals 400 damage to your opponent and each J/resonator your opponent controls. Choose this option only if this card is attacking.",
-        "[Fallen]",
-        "- [Drain] [Bane]"
-      ],
-      "diff_words": [
-        "swiftness"
-      ],
-      "sim_old_new": 1,
-      "sim_old_json": 0.991,
-      "sim_new_json": 0.991,
-      "similarity": 0.991,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MC09-008",
       "card_name": "Gherta, the Tear of Passion",
       "source": "reprint",
@@ -20093,34 +19669,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MC10-001",
-      "card_name": "Atom Seikhart",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-001",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV1-002",
-      "oldest_set": "SDV1 — Starter Deck Valhalla - Light",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-001",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {W}{W}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.8,
-      "similarity": 0.667,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MC10-001J",
       "card_name": "Atom Seikhart, the Shimmering Rabbit",
       "source": "reprint",
@@ -20156,62 +19704,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MC10-003",
-      "card_name": "Brunhild",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-003",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV1-005",
-      "oldest_set": "SDV1 — Starter Deck Valhalla - Light",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-003",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {W}{W}{2}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.8,
-      "similarity": 0.667,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-005",
-      "card_name": "Isis",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-005",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV2-011",
-      "oldest_set": "SDV2 — Starter Deck Valhalla - Fire",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-005",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {}{} 2",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {R}{R}{2}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.571,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.667,
-      "similarity": 0.571,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MC10-006",
       "card_name": "Whirlwind Conflagration",
       "source": "reprint",
@@ -20236,34 +19728,6 @@
       "errata_race": [],
       "errata_cost": "{R}{R}{3}",
       "decision": "format_change"
-    },
-    {
-      "key": "O:MC10-007",
-      "card_name": "Fu Xi",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-007",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV2-009",
-      "oldest_set": "SDV2 — Starter Deck Valhalla - Fire",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-007",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {R}{R}{3}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.8,
-      "similarity": 0.667,
-      "decision": "no_change"
     },
     {
       "key": "R:MC10-007J",
@@ -20329,34 +19793,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MC10-009",
-      "card_name": "Arthur",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-009",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV3-002",
-      "oldest_set": "SDV3 — Starter Deck Valhalla - Water",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-009",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {U}{U}{U}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MC10-009J",
       "card_name": "Arthur, King of Machines",
       "source": "reprint",
@@ -20415,34 +19851,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MC10-011",
-      "card_name": "Loki",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-011",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV3-011",
-      "oldest_set": "SDV3 — Starter Deck Valhalla - Water",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-011",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {U}{U}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MC10-011J",
       "card_name": "Loki, the Witch of Chaos",
       "source": "reprint",
@@ -20471,34 +19879,6 @@
       ],
       "errata_cost": "",
       "decision": "format_change"
-    },
-    {
-      "key": "O:MC10-013",
-      "card_name": "Hanzo",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-013",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV4-008",
-      "oldest_set": "SDV4 — Starter Deck Valhalla - Wind",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-013",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {G}{G}{2}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
     },
     {
       "key": "R:MC10-013J",
@@ -20562,34 +19942,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MC10-015",
-      "card_name": "Chamimi",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-015",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV4-001",
-      "oldest_set": "SDV4 — Starter Deck Valhalla - Wind",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-015",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {G}{G}{3}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MC10-015J",
       "card_name": "Chamimi, Guardian of the Sacred Bow",
       "source": "reprint",
@@ -20618,63 +19970,6 @@
       ],
       "errata_cost": "",
       "decision": "errata"
-    },
-    {
-      "key": "O:MC10-017",
-      "card_name": "Lucifer",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-017",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV5-011",
-      "oldest_set": "SDV5 — Starter Deck Valhalla - Darkness",
-      "oldest_ocr": "(No rules/ability text is present on this card — only the name, type line, stats, costs, and flavour text.)",
-      "newest_id": "MC10-017",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {B}{B}{3}"
-      ],
-      "diff_words": [
-        "divinity",
-        "judgment"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0,
-      "sim_new_json": null,
-      "similarity": 0,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-019",
-      "card_name": "Lich",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-019",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV5-009",
-      "oldest_set": "SDV5 — Starter Deck Valhalla - Darkness",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-019",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {B}{B}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
     },
     {
       "key": "R:MC10-019J",
@@ -23129,51 +22424,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MP01-147J",
-      "card_name": "Gill, the Gifted Conjurer",
-      "source": "ocr",
-      "set_code": "MP01",
-      "errata_id": "MP01-147J",
-      "errata_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDR4-004J",
-      "oldest_set": "SDR4 — Starter - Elemental Surge",
-      "oldest_ocr": "Barrier (Cards you control with Barrier cannot be targeted by spells or abilities your opponent controls.)\nRemove an Elemental in your graveyard from the game: Produce {}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.",
-      "newest_id": "MP01-147J",
-      "newest_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "newest_ocr": "[Barrier]\nRemove an Elemental in your graveyard from the game: Produce {}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item «Ultra Magic Stone» If you would produce will with this card, you produce that will plus {} instead.\nSealed Item «Ultra Magic Stone» Put two cards from your removed area that were removed by this card on the bottom of your deck in any order. Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
-      "stored_json_text": [
-        "[Barrier]",
-        "Remove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.",
-        "Sealed Item «Ultra Magic Stone» If you would produce will with this card, you produce that will plus {G} instead.",
-        "Sealed Item «Ultra Magic Stone» Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn."
-      ],
-      "diff_words": [
-        "area",
-        "bottom",
-        "card",
-        "cards",
-        "deck",
-        "hand",
-        "instead",
-        "item",
-        "order",
-        "plus",
-        "reveal",
-        "sealed",
-        "search",
-        "shuffle",
-        "stone",
-        "ultra"
-      ],
-      "sim_old_new": 0.432,
-      "sim_old_json": 0.432,
-      "sim_new_json": 1,
-      "similarity": 0.432,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MP01-149",
       "card_name": "Fifth Element",
       "source": "reprint",
@@ -23230,46 +22480,6 @@
       ],
       "errata_cost": "{G}{G}{1}",
       "decision": "format_change"
-    },
-    {
-      "key": "O:MP01-151",
-      "card_name": "Reiya, Fourth Daughter of the Mikage",
-      "source": "ocr",
-      "set_code": "MP01",
-      "errata_id": "MP01-151",
-      "errata_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDR5-009",
-      "oldest_set": "SDR5 — Starter - Children of the Night",
-      "oldest_ocr": "Judgment {} {} Pay {} {} to flip this card and put it into the field as a J-ruler.\nEnergize {} As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\"\nAt the beginning of the game => Put a mystery counter on this card.\n{}: Put a mystery counter on this card.\n{}: {}{}{}{}{}{}{}{}",
-      "newest_id": "MP01-151",
-      "newest_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "newest_ocr": "At the beginning of the game >>> Put a mystery counter on this card.\n{}: Put a mystery counter on this card.\n[Judgment] {} {}\n[Sealed Item] «Ominous Moon» (This card has the following text everywhere.) At the beginning of the game >>> Put two mystery counters on this card.",
-      "stored_json_text": [
-        "At the beginning of the game >>> Put a mystery counter on this card.",
-        "{Rest}: Put a mystery counter on this card.",
-        "[Judgment] {B}{B}{1}",
-        "[Sealed Item] «Ominous Moon» (This card has the following text everywhere.) At the beginning of the game >>> Put two mystery counters on this card."
-      ],
-      "diff_words": [
-        "banish",
-        "coin",
-        "energize",
-        "field",
-        "first",
-        "flip",
-        "going",
-        "player",
-        "produce",
-        "ruler",
-        "starts"
-      ],
-      "sim_old_new": 0.557,
-      "sim_old_json": 0.557,
-      "sim_new_json": 1,
-      "similarity": 0.557,
-      "decision": "no_change"
     },
     {
       "key": "R:MP01-153",
@@ -23650,34 +22860,6 @@
       "errata_race": [],
       "errata_cost": "{R}{1}",
       "decision": "format_change"
-    },
-    {
-      "key": "O:MP02-013",
-      "card_name": "Dragon Shrine Maiden",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-013",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "ENW-041",
-      "oldest_set": "ENW — Echoes of the New World",
-      "oldest_ocr": "Judgment {}\nEnergize {}\n{}: Draw a card.",
-      "newest_id": "MP02-013",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "{}: Draw a card.\n[Judgment] {}",
-      "stored_json_text": [
-        "{Rest}: Draw a card.",
-        "[Judgment] {U}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.889,
-      "sim_old_json": 0.889,
-      "sim_new_json": 1,
-      "similarity": 0.889,
-      "decision": "no_change"
     },
     {
       "key": "R:MP02-013J",
@@ -24173,33 +23355,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MP02-039",
-      "card_name": "Umr at-Tawil, Master of 1000 Keys",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-039",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "CFC-084",
-      "oldest_set": "CFC — Curse of the Frozen Casket",
-      "oldest_ocr": "Judgment {} {}\nEnergize {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\")",
-      "newest_id": "MP02-039",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "[Judgment] {} X",
-      "stored_json_text": [
-        "[Judgment] {B}{X}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.5,
-      "sim_old_json": 0.667,
-      "sim_new_json": 0.667,
-      "similarity": 0.5,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MP02-039J",
       "card_name": "Yog-Sothoth, the Chaos of 1000 Doors",
       "source": "reprint",
@@ -24291,34 +23446,6 @@
       ],
       "errata_cost": "{B}",
       "decision": "errata"
-    },
-    {
-      "key": "O:MP02-045",
-      "card_name": "Lunya, the Wolf Girl",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-045",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDL2-007",
-      "oldest_set": "SDL2 — Starter - Rage of R'lyeh",
-      "oldest_ocr": "Judgment {} {} {}\nEnergize {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\")\nWhenever a resonator you control attacks => This card deals 100 damage to target resonator.",
-      "newest_id": "MP02-045",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "Whenever a resonator you control attacks >>> This card deals 100 damage to target resonator.\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "Whenever a resonator you control attacks >>> This card deals 100 damage to target resonator.",
-        "[Judgment] {R}{R}{2}."
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.968,
-      "sim_old_json": 0.968,
-      "sim_new_json": 1,
-      "similarity": 0.968,
-      "decision": "no_change"
     },
     {
       "key": "R:MP02-045J",
@@ -24838,34 +23965,6 @@
       ],
       "errata_cost": "",
       "decision": "errata"
-    },
-    {
-      "key": "O:MP02-070",
-      "card_name": "Glorius, Masked Crusader",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-070",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "LEL-058",
-      "oldest_set": "LEL — Legacy Lost",
-      "oldest_ocr": "Judgment {} {} {}\nEnergize {} {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {} or {}.\")\n\nDiscard a card with Inheritance : Draw a card. Play this ability only during your turn and only once per turn.",
-      "newest_id": "MP02-070",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "Discard a card with [Inheritance]: Draw a card. Play this ability only during your turn and only once per turn.\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "Discard a card with [Inheritance]: Draw a card. Play this ability only during your turn and only once per turn.",
-        "[Judgment] {W}{G}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.977,
-      "sim_old_json": 0.977,
-      "sim_new_json": 1,
-      "similarity": 0.977,
-      "decision": "format_change"
     },
     {
       "key": "O:MP02-070J",
@@ -25500,35 +24599,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MP02-104",
-      "card_name": "Pricia, True Beastmaster",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-104",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "RDE-076",
-      "oldest_set": "RDE — Return of the Dragon Emperor",
-      "oldest_ocr": "Judgment {} {}\nEnergize {} {}\nResonance Fire Magic Stone => Target resonator you control gains Swiftness until end of turn.\nResonance Wind Magic Stone => Target resonator you control gains Flying until end of turn.",
-      "newest_id": "MP02-104",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "[Resonance] Fire Magic Stone >>> Target resonator you control gains [Swiftness] until end of turn.\n[Resonance] Wind Magic Stone >>> Target resonator you control gains [Flying] until end of turn.\n[Judgment] {} {}",
-      "stored_json_text": [
-        "[Resonance] Fire Magic Stone >>> Target resonator you control gains [Swiftness] until end of turn.",
-        "[Resonance] Wind Magic Stone >>> Target resonator you control gains [Flying] until end of turn.",
-        "[Judgment] {R}{G}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.983,
-      "sim_old_json": 0.983,
-      "sim_new_json": 1,
-      "similarity": 0.983,
-      "decision": "no_change"
-    },
-    {
       "key": "R:MP02-104J",
       "card_name": "Reincarnated Maiden of Flame, Pricia",
       "source": "reprint",
@@ -26095,33 +25165,6 @@
       "errata_race": [],
       "errata_cost": "",
       "decision": "format_change"
-    },
-    {
-      "key": "O:MP02-133",
-      "card_name": "Lilias Petal, Agent of Salvation",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-133",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "LEL-069",
-      "oldest_set": "LEL — Legacy Lost",
-      "oldest_ocr": "Judgment {}\nEnergize {} {}(As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {} or {}.\")",
-      "newest_id": "MP02-133",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "[Judgment] {}",
-      "stored_json_text": [
-        "[Judgment] {0}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.667,
-      "sim_new_json": 1,
-      "similarity": 0.667,
-      "decision": "no_change"
     },
     {
       "key": "R:MP02-133J",
@@ -27974,6 +27017,70 @@
       "decision": "errata"
     },
     {
+      "key": "W:SDAO1-026",
+      "card_name": "Faria",
+      "source": "web",
+      "set_code": "SDAO1",
+      "errata_id": "SDAO1-026",
+      "errata_set": "SDAO1 — Alice Origin Starter Decks - Faria/Melgis",
+      "web_url": "https://www.forceofwind.online/card/SDAO1-026/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:SDAO1-028",
+      "card_name": "Melgis",
+      "source": "web",
+      "set_code": "SDAO1",
+      "errata_id": "SDAO1-028",
+      "errata_set": "SDAO1 — Alice Origin Starter Decks - Faria/Melgis",
+      "web_url": "https://www.forceofwind.online/card/SDAO1-028/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:AO1 Buy a Box",
+      "card_name": "Lenneth, the Priestess of Vell-Savaria",
+      "source": "web",
+      "set_code": "AO1 Buy a Box",
+      "errata_id": "AO1 Buy a Box",
+      "errata_set": "AO1 Buy a Box — Alice Origin Promos",
+      "web_url": "https://www.forceofwind.online/card/AO1%20Buy%20a%20Box-1/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:AO2 Buy a Box",
+      "card_name": "Machina",
+      "source": "web",
+      "set_code": "AO1 Buy a Box",
+      "errata_id": "AO2 Buy a Box",
+      "errata_set": "AO1 Buy a Box — Alice Origin Promos",
+      "web_url": "https://www.forceofwind.online/card/AO2%20Buy%20a%20Box-1/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
       "key": "R:SDAO2-003",
       "card_name": "Charm of the Princess",
       "source": "reprint",
@@ -27998,6 +27105,38 @@
         "Mage Art"
       ],
       "errata_cost": "{U}{U}{X}",
+      "decision": "errata"
+    },
+    {
+      "key": "W:SDAO2-028",
+      "card_name": "Pricia",
+      "source": "web",
+      "set_code": "SDAO2",
+      "errata_id": "SDAO2-028",
+      "errata_set": "SDAO2 — SDAO2 - Alice Origin Starter Decks - Valentina/Pricia",
+      "web_url": "https://www.forceofwind.online/card/SDAO2-028/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:SDAO2-031",
+      "card_name": "Valentina",
+      "source": "web",
+      "set_code": "SDAO2",
+      "errata_id": "SDAO2-031",
+      "errata_set": "SDAO2 — SDAO2 - Alice Origin Starter Decks - Valentina/Pricia",
+      "web_url": "https://www.forceofwind.online/card/SDAO2-031/",
+      "json_text": [
+        "Choose a card from your Stranger deck at random and put it into your hand"
+      ],
+      "web_text": [
+        "Put a random card from your Stranger deck into your hand"
+      ],
       "decision": "errata"
     },
     {
@@ -28109,6 +27248,38 @@
         "Sword Art"
       ],
       "errata_cost": "{U}",
+      "decision": "errata"
+    },
+    {
+      "key": "W:AO3 Buy a Box-1",
+      "card_name": "Arla",
+      "source": "web",
+      "set_code": "AO3",
+      "errata_id": "AO3 Buy a Box-1",
+      "errata_set": "AO3 — Alice Origin III",
+      "web_url": "https://www.forceofwind.online/card/AO3%20Buy%20a%20Box-1/",
+      "json_text": [
+        "Choose two cards from your Stranger deck at random and remove them from the game"
+      ],
+      "web_text": [
+        "Remove two random cards from your Stranger deck from the game"
+      ],
+      "decision": "errata"
+    },
+    {
+      "key": "W:AO3 Buy a Box-3",
+      "card_name": "Rezzard",
+      "source": "web",
+      "set_code": "AO3",
+      "errata_id": "AO3 Buy a Box-3",
+      "errata_set": "AO3 — Alice Origin III",
+      "web_url": "https://www.forceofwind.online/card/AO3%20Buy%20a%20Box-3/",
+      "json_text": [
+        "Choose two cards from your Stranger deck at random and put them into your graveyard"
+      ],
+      "web_text": [
+        "Put two random cards from your Stranger deck into your graveyard"
+      ],
       "decision": "errata"
     },
     {
@@ -30123,6 +29294,34 @@
         "Treasury Item"
       ],
       "errata_cost": "{G}",
+      "decision": "errata"
+    },
+    {
+      "key": "O:ABC-BG-049",
+      "card_name": "Table Manners",
+      "source": "ocr",
+      "set_code": "ABC",
+      "errata_id": "ABC-BG-049",
+      "errata_set": "ABC — ABC Deck BG",
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TST-042",
+      "oldest_set": "TST — The Seventh",
+      "oldest_ocr": "Destroy a J/resonator that has or shares the highest total cost from among all J/resonators your opponent controls. You gain life equal to the total of its ATK and DEF. Then you draw cards equal to its total cost.\n\n{}, discard this card: Target J/resonator you control and target J/resonator your opponent controls deal damage equal to their ATK to each other.",
+      "newest_id": "ABC-BG-049",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
+        "Destroy a J/resonator that has or shares the highest total cost from among J/resonators your opponent controls. You gain life equal to the total of its ATK and DEF. Draw cards equal to its total cost.",
+        "[Inheritance] {G}: Target J/resonator you control and target J/resonator your opponent controls deal damage equal to their ATK to each other."
+      ],
+      "diff_words": [
+        "discard"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.94,
+      "sim_new_json": null,
+      "similarity": 0.94,
       "decision": "errata"
     },
     {
@@ -38284,36 +37483,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:TTW-097",
-      "card_name": "Excalibur, the God's Sword",
-      "source": "ocr",
-      "set_code": "TTW",
-      "errata_id": "TTW-097",
-      "errata_set": "TTW — The Twilight Wanderer",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VS01-002",
-      "oldest_set": "VS01 — Faria, the Sacred Queen/Melgis, the Flame King",
-      "oldest_ocr": "Your J-ruler gains [Target Attack].\n\n{}: Your J-ruler gains [+200/+200] until end of turn. If it's \"Faria, the Ruler of God Sword\", it gains [Imperishable] until end of turn and you may pay {} less to play its God's Art abilities this turn.\n\nDiscard another card named \"Excalibur, the God's Sword\": Produce {}.\n\nBanish this card: Your J-ruler gains [Imperishable] this turn.",
-      "newest_id": "TTW-097",
-      "newest_set": "TTW — The Twilight Wanderer",
-      "newest_ocr": "Your J-ruler gains [Target Attack].\n\n{}: Your J-ruler gains [+200/+200] until end of turn. As long as it's \"Faria, the Ruler of God Sword\", it gains [Imperishable] until end of turn and you may pay {} less to play its God's Art abilities this turn.\n\nDiscard another card named \"Excalibur, the God's Sword\": Produce {}.\n\nBanish this card: Your J-ruler gains [Imperishable] until end of turn.",
-      "stored_json_text": [
-        "Your J-Ruler gains [Target Attack].",
-        "{Rest}: You J-Ruler gains [+200/+200] until end of turn. It it's \"Faria, the Ruler of God Sword\", it gains [Imperishable] until end of turn and you may pay {2} less to play its God's Art abilities this turn.",
-        "Discard this card: Produce {W}.",
-        "Banish this card: You J-Ruler gains [Imperishable] this turn."
-      ],
-      "diff_words": [
-        "excalibur"
-      ],
-      "sim_old_new": 0.94,
-      "sim_old_json": 0.896,
-      "sim_new_json": 0.853,
-      "similarity": 0.853,
-      "decision": "format_change"
-    },
-    {
       "key": "R:VIN003-014",
       "card_name": "The Final Word",
       "source": "reprint",
@@ -40006,35 +39175,6 @@
       "sim_old_json": 0.973,
       "sim_new_json": 0.895,
       "similarity": 0.872,
-      "decision": "format_change"
-    },
-    {
-      "key": "O:ABC-WB-003J",
-      "card_name": "Avatar of Light Magic Stones",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-WB-003J",
-      "errata_set": "ABC — ABC Deck WB",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VIN003-007J",
-      "oldest_set": "VIN003 — Vingolf 3 - Ruler All Stars",
-      "oldest_ocr": "Flying\nWhen this card enters your field => Destroy all non-magic stone, non-J-ruler cards.",
-      "newest_id": "ABC-WB-003J",
-      "newest_set": "ABC — ABC Deck WB",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Flying]",
-        "[Enter] >>> Destroy all non-magic stone, non-J-ruler entities."
-      ],
-      "diff_words": [
-        "cards",
-        "entities"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.909,
-      "sim_new_json": null,
-      "similarity": 0.909,
       "decision": "format_change"
     },
     {
@@ -52495,34 +51635,6 @@
       "decision": "format_change"
     },
     {
-      "key": "O:MP02-070",
-      "card_name": "Glorius, Masked Crusader",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-070",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "LEL-058",
-      "oldest_set": "LEL — Legacy Lost",
-      "oldest_ocr": "Judgment {} {} {}\nEnergize {} {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {} or {}.\")\n\nDiscard a card with Inheritance : Draw a card. Play this ability only during your turn and only once per turn.",
-      "newest_id": "MP02-070",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "Discard a card with [Inheritance]: Draw a card. Play this ability only during your turn and only once per turn.\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "Discard a card with [Inheritance]: Draw a card. Play this ability only during your turn and only once per turn.",
-        "[Judgment] {W}{G}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.977,
-      "sim_old_json": 0.977,
-      "sim_new_json": 1,
-      "similarity": 0.977,
-      "decision": "format_change"
-    },
-    {
       "key": "O:MP02-070J",
       "card_name": "Faria, Ruler of Divine Beasts",
       "source": "ocr",
@@ -54139,170 +53251,109 @@
   ],
   "no_change": [
     {
-      "key": "O:ABC-WB-003",
-      "card_name": "Guardian of Light Magic Stones",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-WB-003",
-      "errata_set": "ABC — ABC Deck WB",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VIN003-007",
-      "oldest_set": "VIN003 — Vingolf 3 - Ruler All Stars",
-      "oldest_ocr": "Judgment {} {} {}\nEnergize {}\nResonance Light Magic Stone →: Target resonator you control gains [+200/+200] until end of turn.",
-      "newest_id": "ABC-WB-003",
-      "newest_set": "ABC — ABC Deck WB",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Resonance] Light Magic Stone >>> Target resonator you control gains [+200/+200] until end of turn.",
-        "[Judgment] {W}{W}{3}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.97,
-      "sim_new_json": null,
-      "similarity": 0.97,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:ABC-WD-004",
-      "card_name": "Princess of Fleeting Hope",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-WD-004",
-      "errata_set": "ABC — ABC Deck WD",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "TSW-022",
-      "oldest_set": "TSW — The Time-Spinning Witch",
-      "oldest_ocr": "Judgment {} {}\nEnergize {} {}\n{}: Recover target resonator. Play this ability only during your opponent's turn and only once per turn.",
-      "newest_id": "ABC-WD-004",
-      "newest_set": "ABC — ABC Deck WD",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "{0}: Recover target resonator. Play this ability only during your opponent's turn and only once per turn.",
-        "[Judgment] {W}{W}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.973,
-      "sim_new_json": null,
-      "similarity": 0.973,
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-RD-002",
+      "key": "O:ABC-RD-002",
       "card_name": "Ebony Prophet",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TAT-079",
-      "og_set": "TAT — The Castle of Heaven and the Two Towers",
-      "og_text": [
-        "[J-Activate] Pay {B}. Play this ability only if you control \"Grusbalesta, the Sealing Stone\".",
-        "[J-Activate] Pay {B}{B}{1}.",
-        "[Activate] {Rest}: Target resonator gains [-300/-300] until end of turn."
-      ],
-      "og_race": [
-        "Prophet"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-RD-002",
       "errata_set": "ABC — ABC Deck RD",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TAT-079",
+      "oldest_set": "TAT — The Castle of Heaven and the Two Towers",
+      "oldest_ocr": "J-Activate: Pay {}. Play this ability only if you control \"Grusbalesta, the Sealing Stone\".\nJ-Activate: Pay {} {} {}.\nActivate {}: Target resonator gains [-300/-300] until end of turn.",
+      "newest_id": "ABC-RD-002",
+      "newest_set": "ABC — ABC Deck RD",
+      "newest_ocr": null,
+      "stored_json_text": [
         "{Rest}: Target resonator gains [-300/-300] until end of turn.",
         "[Judgment] {B}{B}{1}. You pay {B} rather than pay this cost if you control an entity named \"Grusbalesta, the Sealing Stone\"."
       ],
-      "errata_race": [
-        "Prophet"
+      "diff_words": [
+        "ability",
+        "play"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.833,
+      "sim_new_json": null,
+      "similarity": 0.833,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-RD-002J",
+      "key": "O:ABC-RD-002J",
       "card_name": "Abdul Alhazred, the Harbinger of Despair",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TAT-079J",
-      "og_set": "TAT — The Castle of Heaven and the Two Towers",
-      "og_text": [
-        "[Continuous]: [Enter] abilities of cards your opponent controls don't trigger.",
-        "[Activate] {0}: Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn."
-      ],
-      "og_race": [
-        "Wizard"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-RD-002J",
       "errata_set": "ABC — ABC Deck RD",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TAT-079J",
+      "oldest_set": "TAT — The Castle of Heaven and the Two Towers",
+      "oldest_ocr": "Continuous Enter abilities of cards your opponent controls don't trigger.\nActivate {}: Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn.",
+      "newest_id": "ABC-RD-002J",
+      "newest_set": "ABC — ABC Deck RD",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Entities entering the field under your opponent's control don't cause their own [Enter] abilities to trigger.",
         "{0}: Target resonator or addition loses all abilities until end of turn. Play this ability only twice per turn."
       ],
-      "errata_race": [
-        "Wizard"
+      "diff_words": [
+        "cards",
+        "cause",
+        "entering",
+        "entities",
+        "field"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.746,
+      "sim_new_json": null,
+      "similarity": 0.746,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-RD-006",
+      "key": "O:ABC-RD-006",
       "card_name": "A Heroic Epic for the Thousandth Night",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "WOM-109",
-      "og_set": "WOM — Winds of the Ominous Moon",
-      "og_text": [
-        "You may put a resonator from your hand into the field. At the next end of turn ⇒ Return that card to its owner's hand."
-      ],
-      "og_race": [],
-      "og_cost": "{R}{B}{1}",
       "errata_id": "ABC-RD-006",
       "errata_set": "ABC — ABC Deck RD",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "WOM-109",
+      "oldest_set": "WOM — Winds of the Ominous Moon",
+      "oldest_ocr": "You may put a resonator from your hand into the field. At the next end of turn Return that card to its owner's hand.",
+      "newest_id": "ABC-RD-006",
+      "newest_set": "ABC — ABC Deck RD",
+      "newest_ocr": null,
+      "stored_json_text": [
         "You may put a resonator from your hand into the field. At the next end of turn >>> Return that resonator to its owner’s hand."
       ],
-      "errata_race": [],
-      "errata_cost": "{R}{B}{1}",
+      "diff_words": [
+        "card"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.96,
+      "sim_new_json": null,
+      "similarity": 0.96,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-002",
+      "key": "O:ABC-BG-002",
       "card_name": "Shaela",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR3-007",
-      "og_set": "SDR3 — Starter - Below the Waves",
-      "og_text": [
-        "[Judgment] {U}{U}{1} ( Pay {U}{U}{1} to flip this card and put it into the field as a J-Ruler.)",
-        "[Energize] {U} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {U}.\")",
-        "The weather is rain during your turn.",
-        "{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it an put it into your hand. Then shuffle your deck.",
-        "Sealed Item <<Thunder Parasol>> {0}: Choose one. Play this ability only during your turn and only once per turn - Put an electricity counter on this card; or remove an electricity counter from this card. If you do, the weather is thunderstorm until end of turn."
-      ],
-      "og_race": [
-        "Mermaid"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-BG-002",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "SDR3-007",
+      "oldest_set": "SDR3 — Starter - Below the Waves",
+      "oldest_ocr": "Judgment {} {} Pay {} {} {} to flip this card and put it into the field as a J-ruler.)\nEnergize {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\")\nThe weather is rain during your turn.\n{}: Search your deck for a card named \"Weather Change: Rain\", reveal it and put it into your hand. Then shuffle your deck.",
+      "newest_id": "ABC-BG-002",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Your weather is rain during your turn.",
         "{Rest}: Search your deck for a card named \"Weather Change: Rain\", reveal it and put it into your hand. Then shuffle your deck.",
         "Sealed Item ≪Thunder Parasol≫ {0}: Choose one. Play this ability only during your turn and only once per turn;",
@@ -54310,423 +53361,151 @@
         "- Remove an electricity counter from this card. If you do, your weather is thunderstorm until end of turn.",
         "[Judgment] {U}{U}{1}"
       ],
-      "errata_race": [
-        "Mermaid"
+      "diff_words": [
+        "ability",
+        "choose",
+        "counter",
+        "electricity",
+        "energize",
+        "field",
+        "flip",
+        "item",
+        "parasol",
+        "play",
+        "remove",
+        "ruler",
+        "sealed",
+        "thunder",
+        "thunderstorm"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.547,
+      "sim_new_json": null,
+      "similarity": 0.547,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-002J",
+      "key": "O:ABC-BG-002J",
       "card_name": "Shaela, the Mermaid Princess",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR3-007J",
-      "og_set": "SDR3 — Starter - Below the Waves",
-      "og_text": [
-        "The weather is rain.",
-        "When this card enters your field ⇒ Draw a card.",
-        "Sealed Item <<Thunder Parasol>> {0}: The weather is thunderstorm until end of turn.",
-        "Sealed Item <<Thunder Parasol>> God's Art \"Indignation\" {U}, remove two electricty counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls."
-      ],
-      "og_race": [
-        "Mermaid"
-      ],
-      "og_cost": "",
       "errata_id": "ABC-BG-002J",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "SDR3-007J",
+      "oldest_set": "SDR3 — Starter - Below the Waves",
+      "oldest_ocr": "The weather is rain.\nWhen this card enters the field {} Draw a card.",
+      "newest_id": "ABC-BG-002J",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Your weather is rain.",
         "[Enter] >>> Draw a card.",
         "Sealed Item ≪Thunder Parasol≫ {0}: Your weather is thunderstorm until end of turn.",
         "Sealed Item ≪Thunder Parasol≫ God's Art \"Indignation\" {U}, remove two electricity counters from this card: Destroy target J/resonator. Rest all resonators your opponent controls."
       ],
-      "errata_race": [
-        "Mermaid"
+      "diff_words": [
+        "controls",
+        "counters",
+        "destroy",
+        "electricity",
+        "indignation",
+        "item",
+        "opponent",
+        "parasol",
+        "remove",
+        "resonator",
+        "resonators",
+        "rest",
+        "sealed",
+        "target",
+        "thunder",
+        "thunderstorm",
+        "turn"
       ],
-      "errata_cost": "",
+      "sim_old_new": null,
+      "sim_old_json": 0.269,
+      "sim_new_json": null,
+      "similarity": 0.269,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-003J",
-      "card_name": "Coup d'Etat Mastermind, Shion",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TMS-046J",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "You may look at the top card of your main deck at any time.",
-        "When this card enters your field, reveal the top card of your main deck. If it's a resonator with total cost 5 or less, put it into your field. Otherwise, put it into your hand.",
-        "God's Art [Serenade of Rebellion] {U}{U}: This card gains [+500/+500] until end of turn. Then it deals damage equal to its ATK to target J/resonator your opponent controls (Play God's Art [Serenade of Rebellion] only once per game.)"
-      ],
-      "og_race": [
-        "Traitor"
-      ],
-      "og_cost": "",
-      "errata_id": "ABC-BG-003J",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "You may look at the top card of your deck at any time.",
-        "[Enter] >>> Reveal the top card of your deck. If it's a resonator with total cost 5 or less, put it into the field. Otherwise, put it into your hand.",
-        "God's Art \"Serenade of Rebellion\" {U}{U}: This card gains [+500/+500] until end of turn. It deals damage equal to its ATK to target J/resonator your opponent controls."
-      ],
-      "errata_race": [
-        "Traitor"
-      ],
-      "errata_cost": "",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-004",
-      "card_name": "Yggdrasil, the World Tree",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TMS-068",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "If damage dealt by a card your opponent controls would reduce your life to 0 or less for the first time this game, it reduces your life to 100 instead. Then you may search your main deck and/or hand for up to one card named \"Avatar of the Seven Lands, Alice\" and up to one card named \"Blade of the Seven Lands, Excalibur X\" and put them into your field. Then shuffle your main deck."
-      ],
-      "og_race": [
-        "Ethereal Tree"
-      ],
-      "og_cost": "",
-      "errata_id": "ABC-BG-004",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "If damage dealt by a source your opponent controls would reduce your life to 0 or less for the first time this game, it reduces your life to 100 instead. If it does, you may search your deck and/or hand for up to one card named \"Avatar of the Seven Lands, Alice\" and up to one card named \"Blade of the Seven Lands, Excalibur X\" and put them into the field. If you searched your deck, shuffle it."
-      ],
-      "errata_race": [
-        "Ethereal Tree"
-      ],
-      "errata_cost": "",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-005",
-      "card_name": "A Duet of Water",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "MSW-034",
-      "og_set": "MSW — The Magic Stone War - Zero",
-      "og_text": [
-        "[Quickcast]",
-        "Choose one, you may choose an additional one for each recovered J/ruler you control;",
-        "- Draw a card.",
-        "- Return up to two target resonators to their owners' hands.",
-        "- Prevent all damage that would be dealt to J/resonators you control until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "{U}{U}{1}",
-      "errata_id": "ABC-BG-005",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "Choose one. You may choose an additional one for each recovered J/ruler you control;",
-        "- Draw a card.",
-        "- Return up to two target resonators to their owner's hand.",
-        "- Prevent all damage that would be dealt to J/resonators you control until end of turn."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}{U}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-009",
+      "key": "O:ABC-BG-009",
       "card_name": "Avatar of the Seven Lands, Alice",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TMS-053",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "[Quickcast]",
-        "[Target Attack]",
-        "If damage would be dealt to you, it's dealt to this card instead."
-      ],
-      "og_race": [
-        "Avatar"
-      ],
-      "og_cost": "{G}{G}{G}{3}",
       "errata_id": "ABC-BG-009",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TMS-053",
+      "oldest_set": "TMS — The Moonlit Saviour",
+      "oldest_ocr": "Quickcast\nTarget Attack\nIf damage would be dealt to you, it's dealt to this card instead.",
+      "newest_id": "ABC-BG-009",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "[Precision]",
         "If damage would be dealt to you, it is dealt to this card instead."
       ],
-      "errata_race": [
-        "Avatar"
+      "diff_words": [
+        "attack",
+        "precision",
+        "target"
       ],
-      "errata_cost": "{G}{G}{G}{3}",
+      "sim_old_new": null,
+      "sim_old_json": 0.848,
+      "sim_new_json": null,
+      "similarity": 0.848,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-013",
-      "card_name": "Biri-Biri Ball",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-058",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "[Quickcast]",
-        "Rest target resonator. If the weather is thunderstorm, this card deals damage to that resonator equal to its ATK."
-      ],
-      "og_race": [],
-      "og_cost": "{U}",
-      "errata_id": "ABC-BG-013",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "Rest target resonator. If your weather is thunderstorm, this card deals damage to that resonator equal to its ATK."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-025",
-      "card_name": "Giga Thunderfish",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-061",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "Whenever this card attacks ⇒ It deals 200 damage to each J/resonator your opponent controls.",
-        "Whenever this card deals damage to a J/resonator ⇒ Rest that J/resonator. It doesn't recover during the recovery phase as long as this card is in the field.",
-        "When this card enters the field ⇒ If the weather is thunderstorm, search your deck for a card named \"Mega Thunderfish\" and/or a card named \"Thunderfish\" and put them into the field. Then shuffle your deck."
-      ],
-      "og_race": [
-        "Fish"
-      ],
-      "og_cost": "{U}{U}{3}",
-      "errata_id": "ABC-BG-025",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] >>> If your weather is thunderstorm, search your deck for a card named \"Mega Thunderfish\" and/or a card named \"Thunderfish\" and put them into the field. Then shuffle your deck.",
-        "Whenever this card attacks >>> It deals 200 damage to each J/resonator your opponent controls.",
-        "Whenever this card deals damage to a J/resonator >>> Rest that J/resonator. It doesn't recover during the recovery phase as long as this card is in the field."
-      ],
-      "errata_race": [
-        "Fish"
-      ],
-      "errata_cost": "{U}{U}{3}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-026",
-      "card_name": "Giovanni, the Lonely Child",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "MPR-095",
-      "og_set": "MPR — The Moon Priestess Returns",
-      "og_text": [
-        "[Enter]: If you don't control other resonators, search your main deck for a card named \"Campanella, the Milky Way Moon\", reveal it and put it into your hand. Then shuffle your main deck."
-      ],
-      "og_race": [
-        "Human"
-      ],
-      "og_cost": "{U}{G}",
-      "errata_id": "ABC-BG-026",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] >>> If you don't control another resonator, search your deck for a card named \"Campanella, the Milky Way Moon\", reveal it and put it into your hand. Then shuffle your deck."
-      ],
-      "errata_race": [
-        "Human"
-      ],
-      "errata_cost": "{U}{G}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-027",
-      "card_name": "Invasion Ship, Golden Hind",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TTW-041",
-      "og_set": "TTW — The Twilight Wanderer",
-      "og_text": [
-        "You may choose not to recover this card during the recovery phase.",
-        "{Rest}, {U}{1}: Rest target resonator. It doesn't recover during the recovery phase as long as this card is rested."
-      ],
-      "og_race": [],
-      "og_cost": "{U}",
-      "errata_id": "ABC-BG-027",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "You may choose not to recover this card during your recovery phase.",
-        "{U}{1}, {Rest}: Rest target resonator. It doesn't recover during its owner's recovery phase as long as this card is rested."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-028",
-      "card_name": "Jupiter, Warlock of the Wood Star",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR6-006",
-      "og_set": "SDR6 — Starter - The Lost Tomes",
-      "og_text": [
-        "[Quickcast]",
-        "When this card enters the field ⇒ Choose up to two - Cancel target chant spell; or return target resonator to its owner's hand; or rest or recover target resonator; or draw a card."
-      ],
-      "og_race": [
-        "Seven Luminaries Mage",
-        "Historical"
-      ],
-      "og_cost": "{G}{G}{3}",
-      "errata_id": "ABC-BG-028",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "[Enter] >>> Choose up to two;",
-        "- Cancel target chant spell.",
-        "- Return target resonator to its owner's hand.",
-        "- Rest or recover target resonator.",
-        "- Draw a card."
-      ],
-      "errata_race": [
-        "Historical",
-        "Seven Luminaries Mage"
-      ],
-      "errata_cost": "{G}{G}{3}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-031",
-      "card_name": "Laurite's Seven Disciples",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "WOM-070",
-      "og_set": "WOM — Winds of the Ominous Moon",
-      "og_text": [
-        "When this card enters the field or at the beginning of your main phase ⇒ This card gains [+200/+200], [Swiftness], [Flying], [First Strike], [Precision], [Drain], or [Barrier] until end of turn. If you control \"Laurite, Seven Luminaries Astrologian\", it gains all those abilities instead."
-      ],
-      "og_race": [
-        "Wizard"
-      ],
-      "og_cost": "{G}{G}{1}",
-      "errata_id": "ABC-BG-031",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] or at the beginning of your main phase >>> This card gains [+200/+200], [Swiftness], [Precision], [Flying], [First Strike], [Drain], or [Barrier] until end of turn. If you control an entity named \"Laurite, Seven Luminaries Astrologian\", it gains [+200/+200] and all those abilities instead."
-      ],
-      "errata_race": [
-        "Wizard"
-      ],
-      "errata_cost": "{G}{G}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-036",
-      "card_name": "Mega Thunderfish",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ACN-073",
-      "og_set": "ACN — Ancient Nights",
-      "og_text": [
-        "When this card is put into a graveyard from the field ⇒ Return target resonator your opponent controls to its owner's hand. If the weather is rain, put it on top of its owner's deck instead.",
-        "This card gains [+200/+200] and [Swiftness] as long as the weather is thunderstorm."
-      ],
-      "og_race": [
-        "Fish"
-      ],
-      "og_cost": "{U}{U}{1}",
-      "errata_id": "ABC-BG-036",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "This card gains [+200/+200] and [Swiftness] as long as your weather is thunderstorm.",
-        "When this card is put into a graveyard from the field >>> Return target resonator your opponent controls to its owner's hand. If your weather is rain, put it on top of its owner's deck instead."
-      ],
-      "errata_race": [
-        "Fish"
-      ],
-      "errata_cost": "{U}{U}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-039",
+      "key": "O:ABC-BG-039",
       "card_name": "Miracle Millennia Medicine",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "RDE-028",
-      "og_set": "RDE — Return of the Dragon Emperor",
-      "og_text": [
-        "Banish this card: Target up to three non-magic stone cards in a single graveyard. The owner of those cards shuffles them into their deck."
-      ],
-      "og_race": [
-        "Treasury Item"
-      ],
-      "og_cost": "{G}",
       "errata_id": "ABC-BG-039",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "RDE-028",
+      "oldest_set": "RDE — Return of the Dragon Emperor",
+      "oldest_ocr": "Banish this card: Target up to three non-magic stone cards in a single graveyard. The owner of those cards shuffles them into their deck.",
+      "newest_id": "ABC-BG-039",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Banish this card: Target up to three non-magic stone cards in a player’s graveyard. The owner of the chosen cards shuffles them into their deck."
       ],
-      "errata_race": [
-        "Treasury Item"
+      "diff_words": [
+        "chosen",
+        "player",
+        "single"
       ],
-      "errata_cost": "{G}",
+      "sim_old_new": null,
+      "sim_old_json": 0.885,
+      "sim_new_json": null,
+      "similarity": 0.885,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-040",
+      "key": "O:ABC-BG-040",
       "card_name": "Optional Possession",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ADK-078",
-      "og_set": "ADK — Advent of the Demon King",
-      "og_text": [
-        "[Quickcast] [Remnant]",
-        "Choose [Flying], [Precision] or [First Strike]. Target J/resonator gains [+200/+200] and the chosen ability until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "{U}",
       "errata_id": "ABC-BG-040",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "ADK-078",
+      "oldest_set": "ADK — Advent of the Demon King",
+      "oldest_ocr": "Quickcast Remnant\nChoose Flying , Precision , or First Strike Target J/resonator gains [+200/+200] and the chosen ability until end of turn.",
+      "newest_id": "ABC-BG-040",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "[Remnant]",
         "Choose one;",
@@ -54734,882 +53513,189 @@
         "- Target J/resonator gains [+200/+200] and [Precision] until end of turn.",
         "- Target J/resonator gains [+200/+200] and [First Strike] until end of turn."
       ],
-      "errata_race": [],
-      "errata_cost": "{U}",
+      "diff_words": [
+        "ability"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.576,
+      "sim_new_json": null,
+      "similarity": 0.576,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-045",
+      "key": "O:ABC-BG-045",
       "card_name": "Silent Mermaid",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-079",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "As long as the weather is thunderstorm, your opponent cannot play cards during your turn."
-      ],
-      "og_race": [
-        "Mermaid"
-      ],
-      "og_cost": "{U}{U}",
       "errata_id": "ABC-BG-045",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TSW-079",
+      "oldest_set": "TSW — The Time-Spinning Witch",
+      "oldest_ocr": "As long as the weather is thunderstorm, your opponent cannot play cards during your turn.",
+      "newest_id": "ABC-BG-045",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "Your opponent cannot play spells during your turn as long as your weather is thunderstorm."
       ],
-      "errata_race": [
-        "Mermaid"
+      "diff_words": [
+        "cards",
+        "spells"
       ],
-      "errata_cost": "{U}{U}",
+      "sim_old_new": null,
+      "sim_old_json": 0.867,
+      "sim_new_json": null,
+      "similarity": 0.867,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-047",
+      "key": "O:ABC-BG-047",
       "card_name": "Slayer of the Overlord, Pricia",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "BFA-079",
-      "og_set": "BFA — Battle for Attoractia",
-      "og_text": [
-        "[Shift] {U}{U}{1} (You may play either side of this card.",
-        "{U}{U}{1}: Flip this card. You may play [Shift] anytime you can play a [Spell:Chant].)",
-        "When this card enters your field, this card and target J/resonator your opponent controls deal damage equal to their ATK to each other.",
-        "{1}: This card gains [+100/+100] until end of turn."
-      ],
-      "og_race": [
-        "Beast"
-      ],
-      "og_cost": "{G}{1}",
       "errata_id": "ABC-BG-047",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "BFA-079",
+      "oldest_set": "BFA — Battle for Attoractia",
+      "oldest_ocr": "Shift {} {} {} (You may play either side of this card. {} {} : Flip this card. You may play Shift anytime you can play a [Spell:Chant].)\n\nWhen this card enters your field, this card and target J/resonator your opponent controls deal damage equal to their ATK to each other.\n\n{} : This card gains [+100/+100] until end of turn.",
+      "newest_id": "ABC-BG-047",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Shift] {U}{U}{1} (As you play this card, you may choose either side of this card and play this card with that chosen side up, paying that side’s cost.",
         "[Enter] >>> This card and target J/resonator your opponent controls deal damage equal to their ATK to each other.",
         "{U}{U}{1}: Flip this card. Play this ability only during main timing.",
-        "{1}: This card gains [+100/+100] until end of turn."
+        "{1}: This card gains [+100/+100] until end of turn.",
+        "When this card is put into a graveyard from the field >>> Gain control of target resonator your opponent controls."
       ],
-      "errata_race": [
-        "Beast"
+      "diff_words": [
+        "damage",
+        "deal",
+        "enter",
+        "equal",
+        "shift",
+        "turn"
       ],
-      "errata_cost": "{G}{1}",
+      "sim_old_new": null,
+      "sim_old_json": 0.602,
+      "sim_new_json": null,
+      "similarity": 0.602,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-048",
+      "key": "O:ABC-BG-048",
       "card_name": "Soul Debt",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ENW-064",
-      "og_set": "ENW — Echoes of the New World",
-      "og_text": [
-        "[Quickcast]",
-        "Put target resonator that was put into a field this turn on the bottom of its owner's deck."
-      ],
-      "og_race": [
-        ""
-      ],
-      "og_cost": "{G}{1}",
       "errata_id": "ABC-BG-048",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "ENW-064",
+      "oldest_set": "ENW — Echoes of the New World",
+      "oldest_ocr": "Quickcast\nPut target resonator that was put into a field this turn on the bottom of its owner's deck.",
+      "newest_id": "ABC-BG-048",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "Put target resonator that entered the field this turn on the bottom of its owner's deck."
       ],
-      "errata_race": [],
-      "errata_cost": "{G}{1}",
+      "diff_words": [
+        "entered"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.842,
+      "sim_new_json": null,
+      "similarity": 0.842,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-049",
-      "card_name": "Table Manners",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TST-042",
-      "og_set": "TST — The Seventh",
-      "og_text": [
-        "Destroy a J/resonator that has or shares the highest total cost from among all J/resonators your opponent controls. You gain life equal to the total of its ATK and DEF. Then you draw cards equal to its total cost.",
-        "[Inheritance] {G}: Target J/resonator you control and target J/resonator your opponent controls deal damage equal to their ATK to each other."
-      ],
-      "og_race": [],
-      "og_cost": "{G}{G}{1}",
-      "errata_id": "ABC-BG-049",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "Destroy a J/resonator that has or shares the highest total cost from among J/resonators your opponent controls. You gain life equal to the total of its ATK and DEF. Draw cards equal to its total cost.",
-        "[Inheritance] {G}: Target J/resonator you control and target J/resonator your opponent controls deal damage equal to their ATK to each other."
-      ],
-      "errata_race": [],
-      "errata_cost": "{G}{G}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-053",
-      "card_name": "Thunder Wave",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-083",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "[Quickcast]",
-        "Return target non-magic stone, non-J-Ruler entity to its owner's hand. Draw two cards if the weather is thunderstorm."
-      ],
-      "og_race": [],
-      "og_cost": "{U}{1}",
-      "errata_id": "ABC-BG-053",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Quickcast]",
-        "Return target non-magic stone, non-J-Ruler entity to its owner’s hand. If your weather is thunderstorm, draw two cards."
-      ],
-      "errata_race": [],
-      "errata_cost": "{U}{1}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-054",
-      "card_name": "Thunderfish",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ACN-083",
-      "og_set": "ACN — Ancient Nights",
-      "og_text": [
-        "When this card enters the field ⇒ Target resonator doesn't recover during its controller's next recovery phase.",
-        "When this card is put into a graveyard from the field ⇒ Draw a card if the weather is rain."
-      ],
-      "og_race": [
-        "Fish"
-      ],
-      "og_cost": "{U}",
-      "errata_id": "ABC-BG-054",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "[Enter] >>> Target resonator doesn't recover during its controller's next recovery phase.",
-        "When this card is put into a graveyard from the field >>> If your weather is rain, draw a card."
-      ],
-      "errata_race": [
-        "Fish"
-      ],
-      "errata_cost": "{U}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-055",
+      "key": "O:ABC-BG-055",
       "card_name": "Thunderstorm",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TSW-084",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "[Quickcast]",
-        "Return all resonators to their owners' hands. If the weather is thunderstorm, their owners put them on the bottom of their decks in any order instead."
-      ],
-      "og_race": [],
-      "og_cost": "{U}{U}{3}",
       "errata_id": "ABC-BG-055",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "TSW-084",
+      "oldest_set": "TSW — The Time-Spinning Witch",
+      "oldest_ocr": "Quickcast\nReturn all resonators to their owners' hands. If the weather is thunderstorm, their owners put them on the bottom of their decks in any order instead.",
+      "newest_id": "ABC-BG-055",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "[Quickcast]",
         "Return all resonators to their owner's hand. If your weather is thunderstorm, put them on the bottom of their owner's deck in any order instead."
       ],
-      "errata_race": [],
-      "errata_cost": "{U}{U}{3}",
+      "diff_words": [],
+      "sim_old_new": null,
+      "sim_old_json": 0.764,
+      "sim_new_json": null,
+      "similarity": 0.764,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-060",
-      "card_name": "Yggdor, Beast of the World",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "BFA-060",
-      "og_set": "BFA — Battle for Attoractia",
-      "og_text": [
-        "If your life is 100 you may pay {G}{G}{8} less to play this card.",
-        "Blocking does not cause this card to rest."
-      ],
-      "og_race": [
-        "Beast"
-      ],
-      "og_cost": "{G}{G}{8}",
-      "errata_id": "ABC-BG-060",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "You pay {G}{G}{8} less to play this card if your life is 100.",
-        "Blocking does not cause this card to rest."
-      ],
-      "errata_race": [
-        "Beast"
-      ],
-      "errata_cost": "{G}{G}{8}",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-061",
-      "card_name": "Attoractia's Memoria",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDAO1-033",
-      "og_set": "SDAO1 — Alice Origin Starter Decks - Faria/Melgis",
-      "og_text": [
-        "{Rest}: Produce one will of any attribute shared with your J/ruler."
-      ],
-      "og_race": [],
-      "og_cost": "",
-      "errata_id": "ABC-BG-061",
-      "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
-        "{Rest}: Produce one will of any attribute shared with a J/ruler you control."
-      ],
-      "errata_race": [],
-      "errata_cost": "",
-      "decision": "no_change"
-    },
-    {
-      "key": "R:ABC-BG-066",
+      "key": "O:ABC-BG-066",
       "card_name": "Saintly Elven Stone",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "ACN-150",
-      "og_set": "ACN — Ancient Nights",
-      "og_text": [
-        "Treat this card as a wind magic stone.",
-        "{Rest}: Produce {G}.",
-        "{Rest} Target Elf gains [+100/+100] until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "",
       "errata_id": "ABC-BG-066",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "ACN-150",
+      "oldest_set": "ACN — Ancient Nights",
+      "oldest_ocr": "Treat this card as a wind magic stone.\n{}: Produce {}.\n{}: Target Elf gains [+100/+100] until end of turn.",
+      "newest_id": "ABC-BG-066",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "This card has the wind magic stone type.",
         "{Rest}: Produce {G}.",
         "{Rest}: Target Elf entity gains [+100/+100] until end of turn."
       ],
-      "errata_race": [],
-      "errata_cost": "",
+      "diff_words": [
+        "treat"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.811,
+      "sim_new_json": null,
+      "similarity": 0.811,
       "decision": "no_change"
     },
     {
-      "key": "R:ABC-BG-067",
+      "key": "O:ABC-BG-067",
       "card_name": "Shoal Coral Stone",
-      "source": "reprint",
+      "source": "ocr",
       "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SDR3-012",
-      "og_set": "SDR3 — Starter - Below the Waves",
-      "og_text": [
-        "Treat this card as a water magic stone.",
-        "{Rest}: Produce {U}.",
-        "Banish this card: The weather is rain until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "",
       "errata_id": "ABC-BG-067",
       "errata_set": "ABC — ABC Deck BG",
-      "errata_text": [
+      "single": false,
+      "alternative": false,
+      "oldest_id": "SDR3-012",
+      "oldest_set": "SDR3 — Starter - Below the Waves",
+      "oldest_ocr": "Treat this card as a water magic stone.\n{} Produce {}.\nBanish this card: The weather is rain until end of turn.",
+      "newest_id": "ABC-BG-067",
+      "newest_set": "ABC — ABC Deck BG",
+      "newest_ocr": null,
+      "stored_json_text": [
         "This card has the water magic stone type.",
         "{Rest}: Produce {U}.",
         "Banish this card: Your weather is rain until end of turn."
       ],
-      "errata_race": [],
-      "errata_cost": "",
-      "decision": "no_change"
-    },
-    {
-      "key": "O:ABC-SD03-041",
-      "card_name": "Silph, Envoy of Wind",
-      "source": "ocr",
-      "set_code": "ABC",
-      "errata_id": "ABC-SD03-041",
-      "errata_set": "ABC — Gnome vs Reinhardt (Gnome)",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "VIN003-057",
-      "oldest_set": "VIN003 — Vingolf 3 - Ruler All Stars",
-      "oldest_ocr": "Resonance {} Wind Magic Stone {}\nRecover this card.",
-      "newest_id": "ABC-SD03-041",
-      "newest_set": "ABC — Gnome vs Reinhardt (Gnome)",
-      "newest_ocr": "[Resonance] Wind Magic Stone >>> Recover this card.",
-      "stored_json_text": [
-        "[Resonance] (Wind Magic Stone) >>> Recover this card."
-      ],
       "diff_words": [
-        "magic",
-        "stone",
-        "wind"
-      ],
-      "sim_old_new": 1,
-      "sim_old_json": 0.727,
-      "sim_new_json": 0.727,
-      "similarity": 0.727,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC09-007",
-      "card_name": "Vergilius, Rebel against Satan",
-      "source": "ocr",
-      "set_code": "MC09",
-      "errata_id": "MC09-007",
-      "errata_set": "MC09 — Memoria Collection 09",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "TST-063",
-      "oldest_set": "TST — The Seventh",
-      "oldest_ocr": "[Swiftness]\nYou may make a J-ruler you control astral rather than pay this card's cost.\n{}: Choose one;\n- This card deals 400 damage to target player or J/resonator.\n- This card deals 400 damage to your opponent and each J/resonator your opponent controls. Choose this option only if this card is attacking.\n[Fallen]\n[Drain] [Bane]",
-      "newest_id": "MC09-007",
-      "newest_set": "MC09 — Memoria Collection 09",
-      "newest_ocr": "[Swiftness]\nYou may make a J-ruler you control astral rather than pay this card's cost.\n\n{}: Choose one;\n- This card deals 400 damage to target player or J/resonator.\n- This card deals 400 damage to your opponent and each J/resonator your opponent controls. Choose this option only if this card is attacking.\n\n[Fallen]\n- [Drain] [Bane]",
-      "stored_json_text": [
-        "You may make a J-ruler you control astral rather than pay this card's cost.",
-        "{B}: Choose one;",
-        "- This card deals 400 damage to target player or J/resonator.",
-        "- This card deals 400 damage to your opponent and each J/resonator your opponent controls. Choose this option only if this card is attacking.",
-        "[Fallen]",
-        "- [Drain] [Bane]"
-      ],
-      "diff_words": [
-        "swiftness"
-      ],
-      "sim_old_new": 1,
-      "sim_old_json": 0.991,
-      "sim_new_json": 0.991,
-      "similarity": 0.991,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-001",
-      "card_name": "Atom Seikhart",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-001",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV1-002",
-      "oldest_set": "SDV1 — Starter Deck Valhalla - Light",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-001",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {W}{W}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.8,
-      "similarity": 0.667,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-003",
-      "card_name": "Brunhild",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-003",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV1-005",
-      "oldest_set": "SDV1 — Starter Deck Valhalla - Light",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-003",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {W}{W}{2}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.8,
-      "similarity": 0.667,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-005",
-      "card_name": "Isis",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-005",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV2-011",
-      "oldest_set": "SDV2 — Starter Deck Valhalla - Fire",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-005",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {}{} 2",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {R}{R}{2}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.571,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.667,
-      "similarity": 0.571,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-007",
-      "card_name": "Fu Xi",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-007",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV2-009",
-      "oldest_set": "SDV2 — Starter Deck Valhalla - Fire",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-007",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": "[Divinity] (10)\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {R}{R}{3}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.857,
-      "sim_new_json": 0.8,
-      "similarity": 0.667,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-009",
-      "card_name": "Arthur",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-009",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV3-002",
-      "oldest_set": "SDV3 — Starter Deck Valhalla - Water",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-009",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {U}{U}{U}"
-      ],
-      "diff_words": [
-        "energize"
+        "treat"
       ],
       "sim_old_new": null,
-      "sim_old_json": 0.857,
+      "sim_old_json": 0.85,
       "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-011",
-      "card_name": "Loki",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-011",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV3-011",
-      "oldest_set": "SDV3 — Starter Deck Valhalla - Water",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-011",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {U}{U}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-013",
-      "card_name": "Hanzo",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-013",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV4-008",
-      "oldest_set": "SDV4 — Starter Deck Valhalla - Wind",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-013",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {G}{G}{2}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-015",
-      "card_name": "Chamimi",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-015",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV4-001",
-      "oldest_set": "SDV4 — Starter Deck Valhalla - Wind",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-015",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {G}{G}{3}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-017",
-      "card_name": "Lucifer",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-017",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV5-011",
-      "oldest_set": "SDV5 — Starter Deck Valhalla - Darkness",
-      "oldest_ocr": "(No rules/ability text is present on this card — only the name, type line, stats, costs, and flavour text.)",
-      "newest_id": "MC10-017",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {B}{B}{3}"
-      ],
-      "diff_words": [
-        "divinity",
-        "judgment"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0,
-      "sim_new_json": null,
-      "similarity": 0,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MC10-019",
-      "card_name": "Lich",
-      "source": "ocr",
-      "set_code": "MC10",
-      "errata_id": "MC10-019",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDV5-009",
-      "oldest_set": "SDV5 — Starter Deck Valhalla - Darkness",
-      "oldest_ocr": "Divinity 10\nJudgment {} {} {}\nEnergize {}",
-      "newest_id": "MC10-019",
-      "newest_set": "MC10 — Memoria Collection 10",
-      "newest_ocr": null,
-      "stored_json_text": [
-        "[Divinity] 10",
-        "[Judgment] {B}{B}{1}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.857,
-      "sim_new_json": null,
-      "similarity": 0.857,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MP01-147J",
-      "card_name": "Gill, the Gifted Conjurer",
-      "source": "ocr",
-      "set_code": "MP01",
-      "errata_id": "MP01-147J",
-      "errata_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDR4-004J",
-      "oldest_set": "SDR4 — Starter - Elemental Surge",
-      "oldest_ocr": "Barrier (Cards you control with Barrier cannot be targeted by spells or abilities your opponent controls.)\nRemove an Elemental in your graveyard from the game: Produce {}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.",
-      "newest_id": "MP01-147J",
-      "newest_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "newest_ocr": "[Barrier]\nRemove an Elemental in your graveyard from the game: Produce {}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.\nSealed Item «Ultra Magic Stone» If you would produce will with this card, you produce that will plus {} instead.\nSealed Item «Ultra Magic Stone» Put two cards from your removed area that were removed by this card on the bottom of your deck in any order. Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn.",
-      "stored_json_text": [
-        "[Barrier]",
-        "Remove an Elemental in your graveyard from the game: Produce {G}. Spend this will only to play Spirit Magic chants. Play this ability only once per turn.",
-        "Sealed Item «Ultra Magic Stone» If you would produce will with this card, you produce that will plus {G} instead.",
-        "Sealed Item «Ultra Magic Stone» Put two cards from your removed area that were removed by this card on the bottom of your deck in any order: Search your deck for a chant, reveal it and put it into your hand. Then shuffle your deck. Play this ability only once per turn."
-      ],
-      "diff_words": [
-        "area",
-        "bottom",
-        "card",
-        "cards",
-        "deck",
-        "hand",
-        "instead",
-        "item",
-        "order",
-        "plus",
-        "reveal",
-        "sealed",
-        "search",
-        "shuffle",
-        "stone",
-        "ultra"
-      ],
-      "sim_old_new": 0.432,
-      "sim_old_json": 0.432,
-      "sim_new_json": 1,
-      "similarity": 0.432,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MP01-151",
-      "card_name": "Reiya, Fourth Daughter of the Mikage",
-      "source": "ocr",
-      "set_code": "MP01",
-      "errata_id": "MP01-151",
-      "errata_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDR5-009",
-      "oldest_set": "SDR5 — Starter - Children of the Night",
-      "oldest_ocr": "Judgment {} {} Pay {} {} to flip this card and put it into the field as a J-ruler.\nEnergize {} As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\"\nAt the beginning of the game => Put a mystery counter on this card.\n{}: Put a mystery counter on this card.\n{}: {}{}{}{}{}{}{}{}",
-      "newest_id": "MP01-151",
-      "newest_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "newest_ocr": "At the beginning of the game >>> Put a mystery counter on this card.\n{}: Put a mystery counter on this card.\n[Judgment] {} {}\n[Sealed Item] «Ominous Moon» (This card has the following text everywhere.) At the beginning of the game >>> Put two mystery counters on this card.",
-      "stored_json_text": [
-        "At the beginning of the game >>> Put a mystery counter on this card.",
-        "{Rest}: Put a mystery counter on this card.",
-        "[Judgment] {B}{B}{1}",
-        "[Sealed Item] «Ominous Moon» (This card has the following text everywhere.) At the beginning of the game >>> Put two mystery counters on this card."
-      ],
-      "diff_words": [
-        "banish",
-        "coin",
-        "energize",
-        "field",
-        "first",
-        "flip",
-        "going",
-        "player",
-        "produce",
-        "ruler",
-        "starts"
-      ],
-      "sim_old_new": 0.557,
-      "sim_old_json": 0.557,
-      "sim_new_json": 1,
-      "similarity": 0.557,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MP02-013",
-      "card_name": "Dragon Shrine Maiden",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-013",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "ENW-041",
-      "oldest_set": "ENW — Echoes of the New World",
-      "oldest_ocr": "Judgment {}\nEnergize {}\n{}: Draw a card.",
-      "newest_id": "MP02-013",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "{}: Draw a card.\n[Judgment] {}",
-      "stored_json_text": [
-        "{Rest}: Draw a card.",
-        "[Judgment] {U}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.889,
-      "sim_old_json": 0.889,
-      "sim_new_json": 1,
-      "similarity": 0.889,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MP02-039",
-      "card_name": "Umr at-Tawil, Master of 1000 Keys",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-039",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "CFC-084",
-      "oldest_set": "CFC — Curse of the Frozen Casket",
-      "oldest_ocr": "Judgment {} {}\nEnergize {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\")",
-      "newest_id": "MP02-039",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "[Judgment] {} X",
-      "stored_json_text": [
-        "[Judgment] {B}{X}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.5,
-      "sim_old_json": 0.667,
-      "sim_new_json": 0.667,
-      "similarity": 0.5,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MP02-045",
-      "card_name": "Lunya, the Wolf Girl",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-045",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDL2-007",
-      "oldest_set": "SDL2 — Starter - Rage of R'lyeh",
-      "oldest_ocr": "Judgment {} {} {}\nEnergize {} (As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {}.\")\nWhenever a resonator you control attacks => This card deals 100 damage to target resonator.",
-      "newest_id": "MP02-045",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "Whenever a resonator you control attacks >>> This card deals 100 damage to target resonator.\n[Judgment] {} {} {}",
-      "stored_json_text": [
-        "Whenever a resonator you control attacks >>> This card deals 100 damage to target resonator.",
-        "[Judgment] {R}{R}{2}."
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.968,
-      "sim_old_json": 0.968,
-      "sim_new_json": 1,
-      "similarity": 0.968,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MP02-104",
-      "card_name": "Pricia, True Beastmaster",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-104",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "RDE-076",
-      "oldest_set": "RDE — Return of the Dragon Emperor",
-      "oldest_ocr": "Judgment {} {}\nEnergize {} {}\nResonance Fire Magic Stone => Target resonator you control gains Swiftness until end of turn.\nResonance Wind Magic Stone => Target resonator you control gains Flying until end of turn.",
-      "newest_id": "MP02-104",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "[Resonance] Fire Magic Stone >>> Target resonator you control gains [Swiftness] until end of turn.\n[Resonance] Wind Magic Stone >>> Target resonator you control gains [Flying] until end of turn.\n[Judgment] {} {}",
-      "stored_json_text": [
-        "[Resonance] Fire Magic Stone >>> Target resonator you control gains [Swiftness] until end of turn.",
-        "[Resonance] Wind Magic Stone >>> Target resonator you control gains [Flying] until end of turn.",
-        "[Judgment] {R}{G}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.983,
-      "sim_old_json": 0.983,
-      "sim_new_json": 1,
-      "similarity": 0.983,
-      "decision": "no_change"
-    },
-    {
-      "key": "O:MP02-133",
-      "card_name": "Lilias Petal, Agent of Salvation",
-      "source": "ocr",
-      "set_code": "MP02",
-      "errata_id": "MP02-133",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "LEL-069",
-      "oldest_set": "LEL — Legacy Lost",
-      "oldest_ocr": "Judgment {}\nEnergize {} {}(As the game starts, if you are not the player going first, you get a will coin with \"Banish this coin: Produce {} or {}.\")",
-      "newest_id": "MP02-133",
-      "newest_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "newest_ocr": "[Judgment] {}",
-      "stored_json_text": [
-        "[Judgment] {0}"
-      ],
-      "diff_words": [
-        "energize"
-      ],
-      "sim_old_new": 0.667,
-      "sim_old_json": 0.667,
-      "sim_new_json": 1,
-      "similarity": 0.667,
+      "similarity": 0.85,
       "decision": "no_change"
     }
   ]
