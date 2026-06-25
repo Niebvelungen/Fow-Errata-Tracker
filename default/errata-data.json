@@ -143,7 +143,7 @@
         "Weapon"
       ],
       "errata_cost": "{W}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:VIN001-022",
@@ -268,7 +268,7 @@
       "sim_old_json": 0.92,
       "sim_new_json": 0.92,
       "similarity": 0.92,
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "O:TTW-099",
@@ -479,7 +479,7 @@
       "sim_old_json": 0.923,
       "sim_new_json": 1,
       "similarity": 0.923,
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "O:SDV1-010",
@@ -1277,7 +1277,7 @@
         "Mage Art"
       ],
       "errata_cost": "{U}{B}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "W:SDAO2-031",
@@ -1645,7 +1645,7 @@
         "Mage Art"
       ],
       "errata_cost": "{B}{3}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:AO2-059",
@@ -1818,7 +1818,7 @@
         "Mage Art"
       ],
       "errata_cost": "{U}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:AO3-037",
@@ -1970,7 +1970,7 @@
       "sim_old_json": 0.959,
       "sim_new_json": 0.959,
       "similarity": 0.959,
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "W:AO3 Buy a Box-1",
@@ -5054,7 +5054,7 @@
         "Human"
       ],
       "errata_cost": "{B}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-RG-004",
@@ -5333,7 +5333,7 @@
         "Myth"
       ],
       "errata_cost": "{R}{R}{R}{3}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "O:ABC-RG-053",
@@ -12126,7 +12126,7 @@
         "Dragon Knight"
       ],
       "errata_cost": "",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-SD06-002J",
@@ -12160,7 +12160,7 @@
         "King"
       ],
       "errata_cost": "",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-SD06-003",
@@ -12410,7 +12410,7 @@
         "Dinosaur"
       ],
       "errata_cost": "{R}{2}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-SD06-014",
@@ -13091,7 +13091,7 @@
         "Forest"
       ],
       "errata_cost": "{R}{G}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-SD06-055",
@@ -17391,7 +17391,7 @@
       ],
       "errata_race": [],
       "errata_cost": "{B}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-SD10-035",
@@ -17728,7 +17728,7 @@
       ],
       "errata_race": [],
       "errata_cost": "{B}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-SD10-051",
@@ -18880,7 +18880,7 @@
         "Minion"
       ],
       "errata_cost": "{2}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:ABC-SD11-043",
@@ -19631,7 +19631,7 @@
         "Human"
       ],
       "errata_cost": "{R}{U}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:MC09-010",
@@ -19760,7 +19760,7 @@
         "Monarch"
       ],
       "errata_cost": "",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:MC10-008",
@@ -20003,7 +20003,7 @@
         "Lich"
       ],
       "errata_cost": "",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:MC10-020",
@@ -20376,7 +20376,7 @@
         "Wanderer"
       ],
       "errata_cost": "",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:MC10-031",
@@ -20802,7 +20802,7 @@
       ],
       "errata_race": [],
       "errata_cost": "{R}{2}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:MP01-030",
@@ -22701,7 +22701,7 @@
         "Familiar"
       ],
       "errata_cost": "{W}{1}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:MP02-006",
@@ -26587,7 +26587,7 @@
       ],
       "errata_race": [],
       "errata_cost": "{B}{1}",
-      "decision": "format_change"
+      "decision": "errata"
     },
     {
       "key": "R:MP03-076",
@@ -26894,6 +26894,89 @@
       "decision": "errata"
     },
     {
+      "key": "O:MOA-015",
+      "card_name": "Fetal Movement in Outer World",
+      "source": "ocr",
+      "set_code": "MOA",
+      "errata_id": "MOA-015",
+      "errata_set": "MOA — The Millennia of Ages",
+      "single": true,
+      "alternative": false,
+      "oldest_id": "MOA-015",
+      "oldest_set": "MOA — The Millennia of Ages",
+      "oldest_ocr": "Remove all cards in target player's graveyard from the game. This card deals 100 damage to your opponent for each card removed this way.",
+      "newest_id": "MOA-015",
+      "newest_set": "MOA — The Millennia of Ages",
+      "newest_ocr": "Remove all cards in target player's graveyard from the game. This card deals 100 damage to your opponent for each card removed this way.",
+      "stored_json_text": [
+        "Remove all cards in target player's graveyard from the game. This card deals 100 damage to your opponent for each resonator removed this way."
+      ],
+      "diff_words": [
+        "resonator"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.96,
+      "sim_new_json": 0.96,
+      "similarity": 0.96,
+      "decision": "errata"
+    },
+    {
+      "key": "R:VIN001-013",
+      "card_name": "Silver Stake",
+      "source": "reprint",
+      "set_code": "VIN001",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "CMF-016",
+      "og_set": "CMF — The Crimson Moon Fairy Tale",
+      "og_text": [
+        "[Continuous]: Resonator with this cannot attack or block if it's a Vampire. Otherwise, it gains [+400/+400], it cannot be targeted by Vampire spells or Vampire card's abilities and prevent any damage it would be dealt by Vampires.",
+        "[Activate] Pay {W}: Return this card to its owner's hand."
+      ],
+      "og_race": [],
+      "og_cost": "{W}",
+      "errata_id": "VIN001-013",
+      "errata_set": "VIN001 — Vingolf series - Engage Series",
+      "errata_text": [
+        "Added resonator cannot attack or block if it's a Vampire. Otherwise, it gains [+400/+400], it cannot be targeted by Vampire spells or Vampire card's abilities and prevent any damage it would be dealt by Vampires.",
+        "{W}: Return this card to its owner's hand."
+      ],
+      "errata_race": [
+        "Weapon"
+      ],
+      "errata_cost": "{W}",
+      "decision": "errata"
+    },
+    {
+      "key": "O:VIN001-070",
+      "card_name": "Rasputin",
+      "source": "ocr",
+      "set_code": "VIN001",
+      "errata_id": "VIN001-070",
+      "errata_set": "VIN001 — Vingolf series - Engage Series",
+      "single": true,
+      "alternative": false,
+      "oldest_id": "VIN001-070",
+      "oldest_set": "VIN001 — Vingolf series - Engage Series",
+      "oldest_ocr": "When this card is put into a graveyard from your field, you may pay 200 life. If you do, put it into your hand.",
+      "newest_id": "VIN001-070",
+      "newest_set": "VIN001 — Vingolf series - Engage Series",
+      "newest_ocr": "When this card is put into a graveyard from your field, you may pay 200 life. If you do, put it into your hand.",
+      "stored_json_text": [
+        "When this card is put into a graveyard from your field, you may pay 200 life. If you do, put it into its owner's hand."
+      ],
+      "diff_words": [
+        "owner"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.92,
+      "sim_new_json": 0.92,
+      "similarity": 0.92,
+      "decision": "errata"
+    },
+    {
       "key": "O:TTW-099",
       "card_name": "Laevateinn, the Demon Sword",
       "source": "ocr",
@@ -26923,6 +27006,34 @@
       "sim_old_json": 0.981,
       "sim_new_json": 0.975,
       "similarity": 0.957,
+      "decision": "errata"
+    },
+    {
+      "key": "O:ACN-011",
+      "card_name": "Jewel Shield",
+      "source": "ocr",
+      "set_code": "ACN",
+      "errata_id": "ACN-011",
+      "errata_set": "ACN — Ancient Nights",
+      "single": false,
+      "alternative": false,
+      "oldest_id": "SDR1-008",
+      "oldest_set": "SDR1 — Starter - King of the Mountain",
+      "oldest_ocr": "(Quickcast) (You may play this card anytime you have priority.)\nTarget resonator gains [0/+200] until end of turn. Gain a gem of any attribute. Then that resonator gains [0/+100] for each different attribute among all gems you control.",
+      "newest_id": "ACN-011",
+      "newest_set": "ACN — Ancient Nights",
+      "newest_ocr": "Quickcast (You may play this card anytime you have priority.)\nTarget resonator gains [0/+200] until end of turn. Gain a gem of any attribute. Then that resonator gains [0/+100] for each different attribute among all gems you control until end of turn.",
+      "stored_json_text": [
+        "[Quickcast] (You may play this card anytime you have priority.)",
+        "Target resonator gains [0/+200] until end of turn. Gain a gem of any attribute. Then that resonator gains [0/+100] for each different attribute among all gems you control until end of turn."
+      ],
+      "diff_words": [
+        "quickcast"
+      ],
+      "sim_old_new": 0.923,
+      "sim_old_json": 0.923,
+      "sim_new_json": 1,
+      "similarity": 0.923,
       "decision": "errata"
     },
     {
@@ -27124,6 +27235,36 @@
       "decision": "errata"
     },
     {
+      "key": "R:SDAO2-029",
+      "card_name": "Space-Time Anomaly",
+      "source": "reprint",
+      "set_code": "SDAO2",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "TMS-090",
+      "og_set": "TMS — The Moonlit Saviour",
+      "og_text": [
+        "[Remnant] (You may play this card from your graveyard. If you do, remove it from the fame instead of putting it anywhere else any time it would leave the chase.)",
+        "Target J/resonator gains [-500/-500] until end of turn. Draw a card."
+      ],
+      "og_race": [],
+      "og_cost": "{U}{B}",
+      "errata_id": "SDAO2-029",
+      "errata_set": "SDAO2 — SDAO2 - Alice Origin Starter Decks - Valentina/Pricia",
+      "errata_text": [
+        "[Quickcast]",
+        "[Remnant]",
+        "Target J/resonator gains [-500/-500] until end of turn. Draw a card."
+      ],
+      "errata_race": [
+        "Mage Art"
+      ],
+      "errata_cost": "{U}{B}",
+      "decision": "errata"
+    },
+    {
       "key": "W:SDAO2-031",
       "card_name": "Valentina",
       "source": "web",
@@ -27163,6 +27304,36 @@
         "Mage Art"
       ],
       "errata_cost": "{U}{U}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:AO2-035",
+      "card_name": "Dance of the Shadows",
+      "source": "reprint",
+      "set_code": "AO2",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "TTW-075",
+      "og_set": "TTW — The Twilight Wanderer",
+      "og_text": [
+        "[Remnant] (You may play this card from your graveyard. If you do, remove it from the game instead of putting it anywhere else any time it would leave the chase.)",
+        "Put target resonator from your graveyard into your field. Remove it from the game at end of turn."
+      ],
+      "og_race": [],
+      "og_cost": "{B}{3}",
+      "errata_id": "AO2-035",
+      "errata_set": "AO2 — Alice Origin II",
+      "errata_text": [
+        "[Quickcast]",
+        "[Remnant]",
+        "Put target resonator from your graveyard into the field. At the next end of turn ⇒ Remove it from the game."
+      ],
+      "errata_race": [
+        "Mage Art"
+      ],
+      "errata_cost": "{B}{3}",
       "decision": "errata"
     },
     {
@@ -27248,6 +27419,62 @@
         "Sword Art"
       ],
       "errata_cost": "{U}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:AO3-034",
+      "card_name": "Wall of Ideas",
+      "source": "reprint",
+      "set_code": "AO3",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "TTW-053",
+      "og_set": "TTW — The Twilight Wanderer",
+      "og_text": [
+        "Target resonator gains [-800/0] or [0/+800] until end turn."
+      ],
+      "og_race": [],
+      "og_cost": "{U}",
+      "errata_id": "AO3-034",
+      "errata_set": "AO3 — Alice Origin III",
+      "errata_text": [
+        "[Quickcast]",
+        "Target resonator gains [-800/0] or [0/+800] until end of turn."
+      ],
+      "errata_race": [
+        "Mage Art"
+      ],
+      "errata_cost": "{U}",
+      "decision": "errata"
+    },
+    {
+      "key": "O:AO3-079",
+      "card_name": "Sacred Beast of Artemis",
+      "source": "ocr",
+      "set_code": "AO3",
+      "errata_id": "AO3-079",
+      "errata_set": "AO3 — Alice Origin III",
+      "single": true,
+      "alternative": false,
+      "oldest_id": "AO3-079",
+      "oldest_set": "AO3 — Alice Origin III",
+      "oldest_ocr": "You may pay **1** less to play this card for each different name among all (Stranger) resonators in your removed area.\n\nThis card gains all attributes, races, activate abilities, and keyword abilities of (Stranger) resonators in your removed area.",
+      "newest_id": "AO3-079",
+      "newest_set": "AO3 — Alice Origin III",
+      "newest_ocr": "You may pay **1** less to play this card for each different name among all (Stranger) resonators in your removed area.\n\nThis card gains all attributes, races, activate abilities, and keyword abilities of (Stranger) resonators in your removed area.",
+      "stored_json_text": [
+        "You may pay {1} less to play this card for each different name among all (Stranger) resonators in your removed area.",
+        "This card gains all attributes, races, activate abilities, and non-[Enter] keyword abilities of (Stranger) resonators in your removed area."
+      ],
+      "diff_words": [
+        "enter"
+      ],
+      "sim_old_new": null,
+      "sim_old_json": 0.959,
+      "sim_new_json": 0.959,
+      "similarity": 0.959,
       "decision": "errata"
     },
     {
@@ -28047,40 +28274,6 @@
         "Magic stones called by a J/ruler you control lose all abilities and gain \"{Rest}: Produce {M} or one will of any attribute.\" until end of turn as they enter the field.",
         "{Rest}: Banish a magic stone. If you do, put the top card of your magic stone deck into the field rested. Play this ability only during each player's main phase.",
         "[Judgment] {B}{B}{1}"
-      ],
-      "errata_race": [
-        "Human",
-        "Six Sages"
-      ],
-      "errata_cost": "",
-      "decision": "errata"
-    },
-    {
-      "key": "R:MC05-010J",
-      "card_name": "Grusbalesta [J-Ruler]",
-      "source": "reprint",
-      "set_code": "MC05",
-      "changed": [
-        "text"
-      ],
-      "og_id": "MSW-073J",
-      "og_set": "MSW — The Magic Stone War - Zero",
-      "og_text": [
-        "This card gains [+200/+200] for each different name among all magic stones you control.",
-        "This card gains [Eternal] as long as you control five or more magic stones with different names.",
-        "Magic stones you control gain \"{Rest}: Produce {M} or one will of any attribute.\"."
-      ],
-      "og_race": [
-        "Human",
-        "Six Sages"
-      ],
-      "og_cost": "",
-      "errata_id": "MC05-010J",
-      "errata_set": "MC05 — Memoria Collection 05",
-      "errata_text": [
-        "This card gains [+200/+200] for each different name among magic stones you control.",
-        "This card gains [Eternal] as long as you control five or more magic stones with different names.",
-        "Magic stones you control gain \"{Rest}: Produce {M} or one will of any attribute.\"."
       ],
       "errata_race": [
         "Human",
@@ -29108,6 +29301,72 @@
         "Twelve Protective Deities"
       ],
       "errata_cost": "{W}{W}{W}{W}{W}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:ABC-WD-054",
+      "card_name": "Tsuiya, Cursed Spawn of the Star",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text"
+      ],
+      "og_id": "EDL-094",
+      "og_set": "EDL — The Epic of the Dragon Lord",
+      "og_text": [
+        "[Enter] ⇒ Target player banishes a non-magic stone, non-J-ruler entity. Put X [+100/+100] counters on this card, where X is the total cost of the entity banished this way.",
+        "You may pay {B} less to play cards named \"Curse of Ragnarok\"."
+      ],
+      "og_race": [
+        "Human"
+      ],
+      "og_cost": "{B}",
+      "errata_id": "ABC-WD-054",
+      "errata_set": "ABC — ABC Deck WD",
+      "errata_text": [
+        "You pay {B} less to play spells named \"Curse of Ragnarok\".",
+        "[Enter] >>> Target player banishes a non-magic stone, non-J-ruler entity. Put X [+100/+100] counters on this card, where X is the total cost of the entity banished this way."
+      ],
+      "errata_race": [
+        "Human"
+      ],
+      "errata_cost": "{B}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:ABC-RG-043",
+      "card_name": "Susanowo, the Ten-Fist Sword",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text"
+      ],
+      "og_id": "MOA-019",
+      "og_set": "MOA — The Millennia of Ages",
+      "og_text": [
+        "[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.)",
+        "[Pierce]",
+        "[Continuous]: If your opponent controls a Dragon, you may pay {R}{R}{R} less to play this card.",
+        "[Enter]: You may add a card named \"Ame-no-Habakiri\" from your hand to this card.",
+        "[Enter]: This card deals damage equal to its ATK to target resonator your opponent controls."
+      ],
+      "og_race": [
+        "Myth"
+      ],
+      "og_cost": "{R}{R}{R}{3}",
+      "errata_id": "ABC-RG-043",
+      "errata_set": "ABC — ABC Deck RG",
+      "errata_text": [
+        "[Swiftness]",
+        "[Pierce]",
+        "You pay {R}{R}{R} less to play this card if your opponent controls a Dragon ruler or Dragon entity.",
+        "[Enter] >>> You may put a card named \"Ame-no-Habakiri\" from your hand into the field, added to this card.",
+        "[Enter] >>> This card deals damage equal to its ATK to target resonator your opponent controls."
+      ],
+      "errata_race": [
+        "Myth"
+      ],
+      "errata_cost": "{R}{R}{R}{3}",
       "decision": "errata"
     },
     {
@@ -31667,6 +31926,70 @@
       "decision": "errata"
     },
     {
+      "key": "R:ABC-SD06-002",
+      "card_name": "Falltgold, the Dragoon",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "race"
+      ],
+      "og_id": "TAT-026",
+      "og_set": "TAT — The Castle of Heaven and the Two Towers",
+      "og_text": [
+        "[J-Activate] Banish a fire resonator.",
+        "[Activate] {Rest}: Search your main deck for a Dragon resonator, reveal it and put it into your hand. Then shuffle your main deck."
+      ],
+      "og_race": [
+        "Knight"
+      ],
+      "og_cost": "",
+      "errata_id": "ABC-SD06-002",
+      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
+      "errata_text": [
+        "{Rest}: Search your deck for a Dragon resonator, reveal it and put it into your hand, then shuffle your deck.",
+        "[Judgment] Banish a fire resonator."
+      ],
+      "errata_race": [
+        "Dragon Knight"
+      ],
+      "errata_cost": "",
+      "decision": "errata"
+    },
+    {
+      "key": "R:ABC-SD06-002J",
+      "card_name": "Bahamut, the Dragon King",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "TAT-026J",
+      "og_set": "TAT — The Castle of Heaven and the Two Towers",
+      "og_text": [
+        "[Flying] (While attacking, this card cannot be blocked by J/resonator without [Flying].)",
+        "[Enter]: This card deals damage to target resonator equal to the ATK of resonator banished for its judgment.",
+        "[Activate] Banish a fire resonator: This card gains [Imperishable] until end of turn."
+      ],
+      "og_race": [
+        "Dragon"
+      ],
+      "og_cost": "",
+      "errata_id": "ABC-SD06-002J",
+      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
+      "errata_text": [
+        "[Flying]",
+        "[Enter] >>> This card deals damage equal to the ATK of the resonator banished to pay its judgment cost to target resonator.",
+        "Banish a fire resonator: This card gains [Imperishable] until end of turn."
+      ],
+      "errata_race": [
+        "Dragon",
+        "King"
+      ],
+      "errata_cost": "",
+      "decision": "errata"
+    },
+    {
       "key": "R:ABC-SD06-003",
       "card_name": "Ki Lua, Fossil Girl of Melted Ice",
       "source": "reprint",
@@ -31738,6 +32061,36 @@
         "Mimi Tribe"
       ],
       "errata_cost": "{G}{G}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:ABC-SD06-013",
+      "card_name": "Dino Calling Demon",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "TSW-032",
+      "og_set": "TSW — The Time-Spinning Witch",
+      "og_text": [
+        "When this card enters the field ⇒ Search your deck for a Dinosaur, reveal it and put it into your hand. Then shuffle your deck."
+      ],
+      "og_race": [
+        "Demon"
+      ],
+      "og_cost": "{R}{2}",
+      "errata_id": "ABC-SD06-013",
+      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
+      "errata_text": [
+        "[Enter] >>> Search your deck for a Dinosaur card, reveal it and put it into your hand, then shuffle your deck."
+      ],
+      "errata_race": [
+        "Demon",
+        "Dinosaur"
+      ],
+      "errata_cost": "{R}{2}",
       "decision": "errata"
     },
     {
@@ -31930,6 +32283,37 @@
       ],
       "errata_race": [],
       "errata_cost": "{G}{2}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:ABC-SD06-052",
+      "card_name": "Sissei, Pricia's Barrier",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "RDE-084",
+      "og_set": "RDE — Return of the Dragon Emperor",
+      "og_text": [
+        "Treat magic stones you control as light magic stones, fire magic stones, water magic stones, wind magic stones, and darkness magic stones.",
+        "Magic stones you control gain \"{Rest}: Produce {W}, {R}, {U}, {G}, or {B}.\""
+      ],
+      "og_race": [
+        ""
+      ],
+      "og_cost": "{R}{G}",
+      "errata_id": "ABC-SD06-052",
+      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
+      "errata_text": [
+        "Magic stones you control gain all magic stone types.",
+        "Magic stones you control gain \"{Rest}: Produce {W}, {R}, {U}, {G} or {B}.\"."
+      ],
+      "errata_race": [
+        "Forest"
+      ],
+      "errata_cost": "{R}{G}",
       "decision": "errata"
     },
     {
@@ -34031,6 +34415,34 @@
       "decision": "errata"
     },
     {
+      "key": "R:ABC-SD10-034",
+      "card_name": "Necromancy of the Undead Lord",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text"
+      ],
+      "og_id": "SKL-073",
+      "og_set": "SKL — The Seven Kings of the Land",
+      "og_text": [
+        "Added resonator gains Zombie in addition to its own races.",
+        "Added resonator gains [+200/+200].",
+        "Whenever a resonator enters your field, you may add this card from your graveyard to that resonator."
+      ],
+      "og_race": [],
+      "og_cost": "{B}",
+      "errata_id": "ABC-SD10-034",
+      "errata_set": "ABC — Elektra vs The Lich King (The Lich King)",
+      "errata_text": [
+        "As you play this card, target a J/resonator. If that J/resonator is still a legal target, put this card into the field added to the chosen target, otherwise put it into its owner's graveyard.",
+        "Added J/resonator gains [+200/+200] and Zombie in addition to its other races.",
+        "Whenever a J/resonator enters the field under your control >>> Add this card from your graveyard to that J/resonator."
+      ],
+      "errata_race": [],
+      "errata_cost": "{B}",
+      "decision": "errata"
+    },
+    {
       "key": "R:ABC-SD10-036",
       "card_name": "Niflheim, the Realm of the Dead",
       "source": "reprint",
@@ -34282,6 +34694,31 @@
         "Zombie"
       ],
       "errata_cost": "{G}{B}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:ABC-SD10-049",
+      "card_name": "Silencing Spell",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text"
+      ],
+      "og_id": "TMS-082",
+      "og_set": "TMS — The Moonlit Saviour",
+      "og_text": [
+        "Added resonator gains \"You pay {2} more to play normal spells.\"."
+      ],
+      "og_race": [],
+      "og_cost": "{B}",
+      "errata_id": "ABC-SD10-049",
+      "errata_set": "ABC — Elektra vs The Lich King (The Lich King)",
+      "errata_text": [
+        "As you play this card, target a J/resonator. If that J/resonator is still a legal target, put this card into the field added to the chosen target, otherwise put it into its owner's graveyard.",
+        "Added J/resonator's controller gains \"As an additional cost to play a non-resonator spell, pay {2}.\"."
+      ],
+      "errata_race": [],
+      "errata_cost": "{B}",
       "decision": "errata"
     },
     {
@@ -34562,6 +34999,40 @@
       ],
       "errata_race": [],
       "errata_cost": "{5}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:ABC-SD11-042",
+      "card_name": "Minions of Tsuki-hime",
+      "source": "reprint",
+      "set_code": "ABC",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "CMB-079",
+      "og_set": "CMB — Crimson Moon's Battleground",
+      "og_text": [
+        "[Flying]",
+        "You pay {1} less to play Treasury Items.",
+        "Rest a recovered Treasury Item you control: Target J/resonator gains [+200/+200] until end of turn."
+      ],
+      "og_race": [
+        "Gears"
+      ],
+      "og_cost": "{2}",
+      "errata_id": "ABC-SD11-042",
+      "errata_set": "ABC — Void vs Void",
+      "errata_text": [
+        "[Flying]",
+        "You pay {1} less to play Treasury Item spells.",
+        "Rest a recovered Treasury Item entity you control: Target J/resonator gains [+200/+200] until end of turn."
+      ],
+      "errata_race": [
+        "Gears",
+        "Minion"
+      ],
+      "errata_cost": "{2}",
       "decision": "errata"
     },
     {
@@ -34882,6 +35353,69 @@
       "decision": "errata"
     },
     {
+      "key": "R:MC09-008",
+      "card_name": "Gherta, the Tear of Passion",
+      "source": "reprint",
+      "set_code": "MC09",
+      "changed": [
+        "text"
+      ],
+      "og_id": "MPR-094",
+      "og_set": "MPR — The Moon Priestess Returns",
+      "og_text": [
+        "[Activate] Remove a counter from a ruler or entity you control: This card gains [Swiftness], [Flying] or [Target Attack] until end of turn."
+      ],
+      "og_race": [
+        "Fairy Tale",
+        "Human"
+      ],
+      "og_cost": "{R}{U}",
+      "errata_id": "MC09-008",
+      "errata_set": "MC09 — Memoria Collection 09",
+      "errata_text": [
+        "Remove a counter from a ruler or entity you control: This card gains [Swiftness], [Precision] or [Flying] until end of turn."
+      ],
+      "errata_race": [
+        "Fairy Tale",
+        "Human"
+      ],
+      "errata_cost": "{R}{U}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:MC10-007J",
+      "card_name": "Fu Xi, King of Kunlun",
+      "source": "reprint",
+      "set_code": "MC10",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "SDV2-009J",
+      "og_set": "SDV2 — Starter Deck Valhalla - Fire",
+      "og_text": [
+        "[Divinity] 10",
+        "[Flying]",
+        "[Enter] ⇒ Search your deck for a Dragon with total cost 4 or less and put it into the field. Then shuffle your deck. (When this card enters the field ⇒ Perform the effect.)"
+      ],
+      "og_race": [
+        "King"
+      ],
+      "og_cost": "",
+      "errata_id": "MC10-007J",
+      "errata_set": "MC10 — Memoria Collection 10",
+      "errata_text": [
+        "[Divinity] 10",
+        "[Flying]",
+        "[Enter] >>> Search your deck for a non-chant Dragon card with total cost 4 or less and put it into the field, then shuffle your deck."
+      ],
+      "errata_race": [
+        "Monarch"
+      ],
+      "errata_cost": "",
+      "decision": "errata"
+    },
+    {
       "key": "R:MC10-015J",
       "card_name": "Chamimi, Guardian of the Sacred Bow",
       "source": "reprint",
@@ -34907,6 +35441,40 @@
       ],
       "errata_race": [
         "Mimi Tribe"
+      ],
+      "errata_cost": "",
+      "decision": "errata"
+    },
+    {
+      "key": "R:MC10-019J",
+      "card_name": "Lich, the Saint of Death",
+      "source": "reprint",
+      "set_code": "MC10",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "SDV5-009J",
+      "og_set": "SDV5 — Starter Deck Valhalla - Darkness",
+      "og_text": [
+        "[Divinity] 10",
+        "[Bane] (When this card deals damage to a J/resonator ⇒ Destroy that J/resonator.)",
+        "Whenever a non-token darkness resonator you control is put into a graveyard from the field ⇒ Put a [100/100] darkness Skeleton resonator token in the field."
+      ],
+      "og_race": [
+        "Monarch"
+      ],
+      "og_cost": "",
+      "errata_id": "MC10-019J",
+      "errata_set": "MC10 — Memoria Collection 10",
+      "errata_text": [
+        "[Divinity] 10",
+        "[Bane]",
+        "Whenever a non-token darkness resonator you control is put into a graveyard from the field >>> Put a [100/100] darkness Skeleton resonator token into the field."
+      ],
+      "errata_race": [
+        "Deathless",
+        "Lich"
       ],
       "errata_cost": "",
       "decision": "errata"
@@ -35025,6 +35593,45 @@
       "decision": "errata"
     },
     {
+      "key": "R:MC10-030",
+      "card_name": "Beatrice",
+      "source": "reprint",
+      "set_code": "MC10",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "TST-070",
+      "og_set": "TST — The Seventh",
+      "og_text": [
+        "[Judgment] {U}{B}",
+        "[Tag] (Fallen Angel)",
+        "If you would draw a starting hand, you draw a starting hand minus one card and your maximum hand size is decreased by one until end of game instead.",
+        "God's Art \"Greed\" {0}: If you have no cards in your hand, draw two cards.",
+        "[Null] - At the end of your turn >>> Draw a card."
+      ],
+      "og_race": [
+        "Fallen Angel"
+      ],
+      "og_cost": "",
+      "errata_id": "MC10-030",
+      "errata_set": "MC10 — Memoria Collection 10",
+      "errata_text": [
+        "[Tag] (Fallen Angel)",
+        "If you would draw a starting hand, you draw a starting hand minus card and your maximum hand size is decreased by one until end of game instead.",
+        "God's Art \"Greed\" {0}: If you have exactly zero cards in your hand, draw two cards.",
+        "[Null]",
+        "- At the end of your turn >>> Draw a card.",
+        "[Judgment] {U}{B}"
+      ],
+      "errata_race": [
+        "Fallen Angel",
+        "Wanderer"
+      ],
+      "errata_cost": "",
+      "decision": "errata"
+    },
+    {
       "key": "R:MC10-031",
       "card_name": "Carlina",
       "source": "reprint",
@@ -35088,6 +35695,30 @@
         "Human"
       ],
       "errata_cost": "{G}{1}",
+      "decision": "errata"
+    },
+    {
+      "key": "R:MP01-028",
+      "card_name": "Clockwork Apple Bomb",
+      "source": "reprint",
+      "set_code": "MP01",
+      "changed": [
+        "text"
+      ],
+      "og_id": "CMF-022",
+      "og_set": "CMF — The Crimson Moon Fairy Tale",
+      "og_text": [
+        "[Trigger] If your Ruler is \"Snow White\" or your J-Ruler is \"Bloody Snow White\": Destroy blocking resonator and blocked resonator. This card deals 500 damage to each controller of those resonators."
+      ],
+      "og_race": [],
+      "og_cost": "{R}{2}",
+      "errata_id": "MP01-028",
+      "errata_set": "MP01 — Masterpiece “Pilgrim-Memories”",
+      "errata_text": [
+        "[Trigger] If you control a J/ruler named \"Snow White\" or \"Bloody Snow White\": Destroy a blocking J/resonator and a blocked J/resonator. This card deals 500 damage to each controller of those J/resonators."
+      ],
+      "errata_race": [],
+      "errata_cost": "{R}{2}",
       "decision": "errata"
     },
     {
@@ -35438,6 +36069,41 @@
         "Six Sages"
       ],
       "errata_cost": "",
+      "decision": "errata"
+    },
+    {
+      "key": "R:MP02-005",
+      "card_name": "Zero's Familiar",
+      "source": "reprint",
+      "set_code": "MP02",
+      "changed": [
+        "text",
+        "race"
+      ],
+      "og_id": "CFC-016",
+      "og_set": "CFC — Curse of the Frozen Casket",
+      "og_text": [
+        "[Flying]",
+        "Your J/ruler gains [Barrier]. (Cards you control with [Barrier] cannot be targeted by spells or abilities your opponent controls.)",
+        "This card gains [+300/+300] as long as you control \"Zero, Master of the Magic Saber\"."
+      ],
+      "og_race": [
+        "Beast"
+      ],
+      "og_cost": "{W}{1}",
+      "errata_id": "MP02-005",
+      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
+      "errata_text": [
+        "[Flying]",
+        "J/rulers you control gains [Barrier].",
+        "This card gains [+300/+300] as long as you control a J-ruler named \"Zero, Master of the Magic Saber\"."
+      ],
+      "errata_race": [
+        "Beast",
+        "Bird",
+        "Familiar"
+      ],
+      "errata_cost": "{W}{1}",
       "decision": "errata"
     },
     {
@@ -37216,6 +37882,34 @@
       "decision": "errata"
     },
     {
+      "key": "R:MP03-070",
+      "card_name": "Power of Immortality",
+      "source": "reprint",
+      "set_code": "MP03",
+      "changed": [
+        "text"
+      ],
+      "og_id": "SNV-095",
+      "og_set": "SNV — The Strangers of New Valhalla",
+      "og_text": [
+        "[Quickcast]",
+        "You may pay {1} less to play this card from a rune area.",
+        "Target resonator gains [+400/0] and \"When this card is put into a graveyard from the field ⇒ Put it into the field rested under its owner's control.\" until end of turn."
+      ],
+      "og_race": [],
+      "og_cost": "{B}{1}",
+      "errata_id": "MP03-070",
+      "errata_set": "MP03 — Masterpiece Collection 03 \"Dimensional Hope\"",
+      "errata_text": [
+        "[Quickcast]",
+        "You pay {1} less to play this card from a rune area.",
+        "Target resonator gains [+400/+0] and \"When this card is put into a graveyard from the field >>> Put it from a graveyard into the field under its owner's control rested.\" until end of turn."
+      ],
+      "errata_race": [],
+      "errata_cost": "{B}{1}",
+      "decision": "errata"
+    },
+    {
       "key": "R:MP03-095",
       "card_name": "Wind of the Demonic World",
       "source": "reprint",
@@ -37329,35 +38023,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:VIN001-013",
-      "card_name": "Silver Stake",
-      "source": "reprint",
-      "set_code": "VIN001",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "CMF-016",
-      "og_set": "CMF — The Crimson Moon Fairy Tale",
-      "og_text": [
-        "[Continuous]: Resonator with this cannot attack or block if it's a Vampire. Otherwise, it gains [+400/+400], it cannot be targeted by Vampire spells or Vampire card's abilities and prevent any damage it would be dealt by Vampires.",
-        "[Activate] Pay {W}: Return this card to its owner's hand."
-      ],
-      "og_race": [],
-      "og_cost": "{W}",
-      "errata_id": "VIN001-013",
-      "errata_set": "VIN001 — Vingolf series - Engage Series",
-      "errata_text": [
-        "Added resonator cannot attack or block if it's a Vampire. Otherwise, it gains [+400/+400], it cannot be targeted by Vampire spells or Vampire card's abilities and prevent any damage it would be dealt by Vampires.",
-        "{W}: Return this card to its owner's hand."
-      ],
-      "errata_race": [
-        "Weapon"
-      ],
-      "errata_cost": "{W}",
-      "decision": "errata"
-    },
-    {
       "key": "R:VIN001-022",
       "card_name": "Kusanagi Sword",
       "source": "reprint",
@@ -37453,33 +38118,6 @@
       ],
       "errata_race": [],
       "errata_cost": "{B}{1}",
-      "decision": "format_change"
-    },
-    {
-      "key": "O:VIN001-070",
-      "card_name": "Rasputin",
-      "source": "ocr",
-      "set_code": "VIN001",
-      "errata_id": "VIN001-070",
-      "errata_set": "VIN001 — Vingolf series - Engage Series",
-      "single": true,
-      "alternative": false,
-      "oldest_id": "VIN001-070",
-      "oldest_set": "VIN001 — Vingolf series - Engage Series",
-      "oldest_ocr": "When this card is put into a graveyard from your field, you may pay 200 life. If you do, put it into your hand.",
-      "newest_id": "VIN001-070",
-      "newest_set": "VIN001 — Vingolf series - Engage Series",
-      "newest_ocr": "When this card is put into a graveyard from your field, you may pay 200 life. If you do, put it into your hand.",
-      "stored_json_text": [
-        "When this card is put into a graveyard from your field, you may pay 200 life. If you do, put it into its owner's hand."
-      ],
-      "diff_words": [
-        "owner"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.92,
-      "sim_new_json": 0.92,
-      "similarity": 0.92,
       "decision": "format_change"
     },
     {
@@ -37631,34 +38269,6 @@
       ],
       "errata_race": [],
       "errata_cost": "{B}",
-      "decision": "format_change"
-    },
-    {
-      "key": "O:ACN-011",
-      "card_name": "Jewel Shield",
-      "source": "ocr",
-      "set_code": "ACN",
-      "errata_id": "ACN-011",
-      "errata_set": "ACN — Ancient Nights",
-      "single": false,
-      "alternative": false,
-      "oldest_id": "SDR1-008",
-      "oldest_set": "SDR1 — Starter - King of the Mountain",
-      "oldest_ocr": "(Quickcast) (You may play this card anytime you have priority.)\nTarget resonator gains [0/+200] until end of turn. Gain a gem of any attribute. Then that resonator gains [0/+100] for each different attribute among all gems you control.",
-      "newest_id": "ACN-011",
-      "newest_set": "ACN — Ancient Nights",
-      "newest_ocr": "Quickcast (You may play this card anytime you have priority.)\nTarget resonator gains [0/+200] until end of turn. Gain a gem of any attribute. Then that resonator gains [0/+100] for each different attribute among all gems you control until end of turn.",
-      "stored_json_text": [
-        "[Quickcast] (You may play this card anytime you have priority.)",
-        "Target resonator gains [0/+200] until end of turn. Gain a gem of any attribute. Then that resonator gains [0/+100] for each different attribute among all gems you control until end of turn."
-      ],
-      "diff_words": [
-        "quickcast"
-      ],
-      "sim_old_new": 0.923,
-      "sim_old_json": 0.923,
-      "sim_new_json": 1,
-      "similarity": 0.923,
       "decision": "format_change"
     },
     {
@@ -38232,36 +38842,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:SDAO2-029",
-      "card_name": "Space-Time Anomaly",
-      "source": "reprint",
-      "set_code": "SDAO2",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "TMS-090",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "[Remnant] (You may play this card from your graveyard. If you do, remove it from the fame instead of putting it anywhere else any time it would leave the chase.)",
-        "Target J/resonator gains [-500/-500] until end of turn. Draw a card."
-      ],
-      "og_race": [],
-      "og_cost": "{U}{B}",
-      "errata_id": "SDAO2-029",
-      "errata_set": "SDAO2 — SDAO2 - Alice Origin Starter Decks - Valentina/Pricia",
-      "errata_text": [
-        "[Quickcast]",
-        "[Remnant]",
-        "Target J/resonator gains [-500/-500] until end of turn. Draw a card."
-      ],
-      "errata_race": [
-        "Mage Art"
-      ],
-      "errata_cost": "{U}{B}",
-      "decision": "format_change"
-    },
-    {
       "key": "R:AO2-001",
       "card_name": "Bai Hu, the Sacred Beast",
       "source": "reprint",
@@ -38558,36 +39138,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:AO2-035",
-      "card_name": "Dance of the Shadows",
-      "source": "reprint",
-      "set_code": "AO2",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "TTW-075",
-      "og_set": "TTW — The Twilight Wanderer",
-      "og_text": [
-        "[Remnant] (You may play this card from your graveyard. If you do, remove it from the game instead of putting it anywhere else any time it would leave the chase.)",
-        "Put target resonator from your graveyard into your field. Remove it from the game at end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "{B}{3}",
-      "errata_id": "AO2-035",
-      "errata_set": "AO2 — Alice Origin II",
-      "errata_text": [
-        "[Quickcast]",
-        "[Remnant]",
-        "Put target resonator from your graveyard into the field. At the next end of turn ⇒ Remove it from the game."
-      ],
-      "errata_race": [
-        "Mage Art"
-      ],
-      "errata_cost": "{B}{3}",
-      "decision": "format_change"
-    },
-    {
       "key": "R:AO2-059",
       "card_name": "Machine Lab of Leginus",
       "source": "reprint",
@@ -38645,34 +39195,6 @@
         "Angel"
       ],
       "errata_cost": "{W}{W}{3}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:AO3-034",
-      "card_name": "Wall of Ideas",
-      "source": "reprint",
-      "set_code": "AO3",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "TTW-053",
-      "og_set": "TTW — The Twilight Wanderer",
-      "og_text": [
-        "Target resonator gains [-800/0] or [0/+800] until end turn."
-      ],
-      "og_race": [],
-      "og_cost": "{U}",
-      "errata_id": "AO3-034",
-      "errata_set": "AO3 — Alice Origin III",
-      "errata_text": [
-        "[Quickcast]",
-        "Target resonator gains [-800/0] or [0/+800] until end of turn."
-      ],
-      "errata_race": [
-        "Mage Art"
-      ],
-      "errata_cost": "{U}",
       "decision": "format_change"
     },
     {
@@ -38797,34 +39319,6 @@
         "Beast"
       ],
       "errata_cost": "{R}{G}{1}",
-      "decision": "format_change"
-    },
-    {
-      "key": "O:AO3-079",
-      "card_name": "Sacred Beast of Artemis",
-      "source": "ocr",
-      "set_code": "AO3",
-      "errata_id": "AO3-079",
-      "errata_set": "AO3 — Alice Origin III",
-      "single": true,
-      "alternative": false,
-      "oldest_id": "AO3-079",
-      "oldest_set": "AO3 — Alice Origin III",
-      "oldest_ocr": "You may pay **1** less to play this card for each different name among all (Stranger) resonators in your removed area.\n\nThis card gains all attributes, races, activate abilities, and keyword abilities of (Stranger) resonators in your removed area.",
-      "newest_id": "AO3-079",
-      "newest_set": "AO3 — Alice Origin III",
-      "newest_ocr": "You may pay **1** less to play this card for each different name among all (Stranger) resonators in your removed area.\n\nThis card gains all attributes, races, activate abilities, and keyword abilities of (Stranger) resonators in your removed area.",
-      "stored_json_text": [
-        "You may pay {1} less to play this card for each different name among all (Stranger) resonators in your removed area.",
-        "This card gains all attributes, races, activate abilities, and non-[Enter] keyword abilities of (Stranger) resonators in your removed area."
-      ],
-      "diff_words": [
-        "enter"
-      ],
-      "sim_old_new": null,
-      "sim_old_json": 0.959,
-      "sim_new_json": 0.959,
-      "similarity": 0.959,
       "decision": "format_change"
     },
     {
@@ -39175,6 +39669,40 @@
       "sim_old_json": 0.973,
       "sim_new_json": 0.895,
       "similarity": 0.872,
+      "decision": "format_change"
+    },
+    {
+      "key": "R:MC05-010J",
+      "card_name": "Grusbalesta [J-Ruler]",
+      "source": "reprint",
+      "set_code": "MC05",
+      "changed": [
+        "text"
+      ],
+      "og_id": "MSW-073J",
+      "og_set": "MSW — The Magic Stone War - Zero",
+      "og_text": [
+        "This card gains [+200/+200] for each different name among all magic stones you control.",
+        "This card gains [Eternal] as long as you control five or more magic stones with different names.",
+        "Magic stones you control gain \"{Rest}: Produce {M} or one will of any attribute.\"."
+      ],
+      "og_race": [
+        "Human",
+        "Six Sages"
+      ],
+      "og_cost": "",
+      "errata_id": "MC05-010J",
+      "errata_set": "MC05 — Memoria Collection 05",
+      "errata_text": [
+        "This card gains [+200/+200] for each different name among magic stones you control.",
+        "This card gains [Eternal] as long as you control five or more magic stones with different names.",
+        "Magic stones you control gain \"{Rest}: Produce {M} or one will of any attribute.\"."
+      ],
+      "errata_race": [
+        "Human",
+        "Six Sages"
+      ],
+      "errata_cost": "",
       "decision": "format_change"
     },
     {
@@ -40022,36 +40550,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:ABC-WD-054",
-      "card_name": "Tsuiya, Cursed Spawn of the Star",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "EDL-094",
-      "og_set": "EDL — The Epic of the Dragon Lord",
-      "og_text": [
-        "[Enter] ⇒ Target player banishes a non-magic stone, non-J-ruler entity. Put X [+100/+100] counters on this card, where X is the total cost of the entity banished this way.",
-        "You may pay {B} less to play cards named \"Curse of Ragnarok\"."
-      ],
-      "og_race": [
-        "Human"
-      ],
-      "og_cost": "{B}",
-      "errata_id": "ABC-WD-054",
-      "errata_set": "ABC — ABC Deck WD",
-      "errata_text": [
-        "You pay {B} less to play spells named \"Curse of Ragnarok\".",
-        "[Enter] >>> Target player banishes a non-magic stone, non-J-ruler entity. Put X [+100/+100] counters on this card, where X is the total cost of the entity banished this way."
-      ],
-      "errata_race": [
-        "Human"
-      ],
-      "errata_cost": "{B}",
-      "decision": "format_change"
-    },
-    {
       "key": "R:ABC-RG-004",
       "card_name": "Sylvia Gill Palarilias",
       "source": "reprint",
@@ -40292,42 +40790,6 @@
         "Egg"
       ],
       "errata_cost": "{R}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:ABC-RG-043",
-      "card_name": "Susanowo, the Ten-Fist Sword",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "MOA-019",
-      "og_set": "MOA — The Millennia of Ages",
-      "og_text": [
-        "[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.)",
-        "[Pierce]",
-        "[Continuous]: If your opponent controls a Dragon, you may pay {R}{R}{R} less to play this card.",
-        "[Enter]: You may add a card named \"Ame-no-Habakiri\" from your hand to this card.",
-        "[Enter]: This card deals damage equal to its ATK to target resonator your opponent controls."
-      ],
-      "og_race": [
-        "Myth"
-      ],
-      "og_cost": "{R}{R}{R}{3}",
-      "errata_id": "ABC-RG-043",
-      "errata_set": "ABC — ABC Deck RG",
-      "errata_text": [
-        "[Swiftness]",
-        "[Pierce]",
-        "You pay {R}{R}{R} less to play this card if your opponent controls a Dragon ruler or Dragon entity.",
-        "[Enter] >>> You may put a card named \"Ame-no-Habakiri\" from your hand into the field, added to this card.",
-        "[Enter] >>> This card deals damage equal to its ATK to target resonator your opponent controls."
-      ],
-      "errata_race": [
-        "Myth"
-      ],
-      "errata_cost": "{R}{R}{R}{3}",
       "decision": "format_change"
     },
     {
@@ -44090,70 +44552,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:ABC-SD06-002",
-      "card_name": "Falltgold, the Dragoon",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "race"
-      ],
-      "og_id": "TAT-026",
-      "og_set": "TAT — The Castle of Heaven and the Two Towers",
-      "og_text": [
-        "[J-Activate] Banish a fire resonator.",
-        "[Activate] {Rest}: Search your main deck for a Dragon resonator, reveal it and put it into your hand. Then shuffle your main deck."
-      ],
-      "og_race": [
-        "Knight"
-      ],
-      "og_cost": "",
-      "errata_id": "ABC-SD06-002",
-      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
-      "errata_text": [
-        "{Rest}: Search your deck for a Dragon resonator, reveal it and put it into your hand, then shuffle your deck.",
-        "[Judgment] Banish a fire resonator."
-      ],
-      "errata_race": [
-        "Dragon Knight"
-      ],
-      "errata_cost": "",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:ABC-SD06-002J",
-      "card_name": "Bahamut, the Dragon King",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "TAT-026J",
-      "og_set": "TAT — The Castle of Heaven and the Two Towers",
-      "og_text": [
-        "[Flying] (While attacking, this card cannot be blocked by J/resonator without [Flying].)",
-        "[Enter]: This card deals damage to target resonator equal to the ATK of resonator banished for its judgment.",
-        "[Activate] Banish a fire resonator: This card gains [Imperishable] until end of turn."
-      ],
-      "og_race": [
-        "Dragon"
-      ],
-      "og_cost": "",
-      "errata_id": "ABC-SD06-002J",
-      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
-      "errata_text": [
-        "[Flying]",
-        "[Enter] >>> This card deals damage equal to the ATK of the resonator banished to pay its judgment cost to target resonator.",
-        "Banish a fire resonator: This card gains [Imperishable] until end of turn."
-      ],
-      "errata_race": [
-        "Dragon",
-        "King"
-      ],
-      "errata_cost": "",
-      "decision": "format_change"
-    },
-    {
       "key": "R:ABC-SD06-005",
       "card_name": "Agni, God of Rampaging Flames",
       "source": "reprint",
@@ -44297,36 +44695,6 @@
         "Wizard"
       ],
       "errata_cost": "{G}{G}{G}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:ABC-SD06-013",
-      "card_name": "Dino Calling Demon",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "TSW-032",
-      "og_set": "TSW — The Time-Spinning Witch",
-      "og_text": [
-        "When this card enters the field ⇒ Search your deck for a Dinosaur, reveal it and put it into your hand. Then shuffle your deck."
-      ],
-      "og_race": [
-        "Demon"
-      ],
-      "og_cost": "{R}{2}",
-      "errata_id": "ABC-SD06-013",
-      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
-      "errata_text": [
-        "[Enter] >>> Search your deck for a Dinosaur card, reveal it and put it into your hand, then shuffle your deck."
-      ],
-      "errata_race": [
-        "Demon",
-        "Dinosaur"
-      ],
-      "errata_cost": "{R}{2}",
       "decision": "format_change"
     },
     {
@@ -44785,37 +45153,6 @@
         "God"
       ],
       "errata_cost": "{G}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:ABC-SD06-052",
-      "card_name": "Sissei, Pricia's Barrier",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "RDE-084",
-      "og_set": "RDE — Return of the Dragon Emperor",
-      "og_text": [
-        "Treat magic stones you control as light magic stones, fire magic stones, water magic stones, wind magic stones, and darkness magic stones.",
-        "Magic stones you control gain \"{Rest}: Produce {W}, {R}, {U}, {G}, or {B}.\""
-      ],
-      "og_race": [
-        ""
-      ],
-      "og_cost": "{R}{G}",
-      "errata_id": "ABC-SD06-052",
-      "errata_set": "ABC — Replicant: Aritstella vs Ki Lua (Ki Lua)",
-      "errata_text": [
-        "Magic stones you control gain all magic stone types.",
-        "Magic stones you control gain \"{Rest}: Produce {W}, {R}, {U}, {G} or {B}.\"."
-      ],
-      "errata_race": [
-        "Forest"
-      ],
-      "errata_cost": "{R}{G}",
       "decision": "format_change"
     },
     {
@@ -46993,34 +47330,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:ABC-SD10-034",
-      "card_name": "Necromancy of the Undead Lord",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SKL-073",
-      "og_set": "SKL — The Seven Kings of the Land",
-      "og_text": [
-        "Added resonator gains Zombie in addition to its own races.",
-        "Added resonator gains [+200/+200].",
-        "Whenever a resonator enters your field, you may add this card from your graveyard to that resonator."
-      ],
-      "og_race": [],
-      "og_cost": "{B}",
-      "errata_id": "ABC-SD10-034",
-      "errata_set": "ABC — Elektra vs The Lich King (The Lich King)",
-      "errata_text": [
-        "As you play this card, target a J/resonator. If that J/resonator is still a legal target, put this card into the field added to the chosen target, otherwise put it into its owner's graveyard.",
-        "Added J/resonator gains [+200/+200] and Zombie in addition to its other races.",
-        "Whenever a J/resonator enters the field under your control >>> Add this card from your graveyard to that J/resonator."
-      ],
-      "errata_race": [],
-      "errata_cost": "{B}",
-      "decision": "format_change"
-    },
-    {
       "key": "R:ABC-SD10-035",
       "card_name": "Necronomicon Barrier",
       "source": "reprint",
@@ -47076,31 +47385,6 @@
         "Demonic World"
       ],
       "errata_cost": "{G}{1}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:ABC-SD10-049",
-      "card_name": "Silencing Spell",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text"
-      ],
-      "og_id": "TMS-082",
-      "og_set": "TMS — The Moonlit Saviour",
-      "og_text": [
-        "Added resonator gains \"You pay {2} more to play normal spells.\"."
-      ],
-      "og_race": [],
-      "og_cost": "{B}",
-      "errata_id": "ABC-SD10-049",
-      "errata_set": "ABC — Elektra vs The Lich King (The Lich King)",
-      "errata_text": [
-        "As you play this card, target a J/resonator. If that J/resonator is still a legal target, put this card into the field added to the chosen target, otherwise put it into its owner's graveyard.",
-        "Added J/resonator's controller gains \"As an additional cost to play a non-resonator spell, pay {2}.\"."
-      ],
-      "errata_race": [],
-      "errata_cost": "{B}",
       "decision": "format_change"
     },
     {
@@ -47942,40 +48226,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:ABC-SD11-042",
-      "card_name": "Minions of Tsuki-hime",
-      "source": "reprint",
-      "set_code": "ABC",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "CMB-079",
-      "og_set": "CMB — Crimson Moon's Battleground",
-      "og_text": [
-        "[Flying]",
-        "You pay {1} less to play Treasury Items.",
-        "Rest a recovered Treasury Item you control: Target J/resonator gains [+200/+200] until end of turn."
-      ],
-      "og_race": [
-        "Gears"
-      ],
-      "og_cost": "{2}",
-      "errata_id": "ABC-SD11-042",
-      "errata_set": "ABC — Void vs Void",
-      "errata_text": [
-        "[Flying]",
-        "You pay {1} less to play Treasury Item spells.",
-        "Rest a recovered Treasury Item entity you control: Target J/resonator gains [+200/+200] until end of turn."
-      ],
-      "errata_race": [
-        "Gears",
-        "Minion"
-      ],
-      "errata_cost": "{2}",
-      "decision": "format_change"
-    },
-    {
       "key": "R:ABC-SD11-043",
       "card_name": "Moon Dust Revolution",
       "source": "reprint",
@@ -48380,36 +48630,6 @@
       "decision": "format_change"
     },
     {
-      "key": "R:MC09-008",
-      "card_name": "Gherta, the Tear of Passion",
-      "source": "reprint",
-      "set_code": "MC09",
-      "changed": [
-        "text"
-      ],
-      "og_id": "MPR-094",
-      "og_set": "MPR — The Moon Priestess Returns",
-      "og_text": [
-        "[Activate] Remove a counter from a ruler or entity you control: This card gains [Swiftness], [Flying] or [Target Attack] until end of turn."
-      ],
-      "og_race": [
-        "Fairy Tale",
-        "Human"
-      ],
-      "og_cost": "{R}{U}",
-      "errata_id": "MC09-008",
-      "errata_set": "MC09 — Memoria Collection 09",
-      "errata_text": [
-        "Remove a counter from a ruler or entity you control: This card gains [Swiftness], [Precision] or [Flying] until end of turn."
-      ],
-      "errata_race": [
-        "Fairy Tale",
-        "Human"
-      ],
-      "errata_cost": "{R}{U}",
-      "decision": "errata"
-    },
-    {
       "key": "R:MC09-010",
       "card_name": "Deus Ex Machina, God of Machines",
       "source": "reprint",
@@ -48503,39 +48723,6 @@
       ],
       "errata_race": [],
       "errata_cost": "{R}{R}{3}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:MC10-007J",
-      "card_name": "Fu Xi, King of Kunlun",
-      "source": "reprint",
-      "set_code": "MC10",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "SDV2-009J",
-      "og_set": "SDV2 — Starter Deck Valhalla - Fire",
-      "og_text": [
-        "[Divinity] 10",
-        "[Flying]",
-        "[Enter] ⇒ Search your deck for a Dragon with total cost 4 or less and put it into the field. Then shuffle your deck. (When this card enters the field ⇒ Perform the effect.)"
-      ],
-      "og_race": [
-        "King"
-      ],
-      "og_cost": "",
-      "errata_id": "MC10-007J",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "errata_text": [
-        "[Divinity] 10",
-        "[Flying]",
-        "[Enter] >>> Search your deck for a non-chant Dragon card with total cost 4 or less and put it into the field, then shuffle your deck."
-      ],
-      "errata_race": [
-        "Monarch"
-      ],
-      "errata_cost": "",
       "decision": "format_change"
     },
     {
@@ -48715,40 +48902,6 @@
       ],
       "errata_race": [],
       "errata_cost": "{0}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:MC10-019J",
-      "card_name": "Lich, the Saint of Death",
-      "source": "reprint",
-      "set_code": "MC10",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "SDV5-009J",
-      "og_set": "SDV5 — Starter Deck Valhalla - Darkness",
-      "og_text": [
-        "[Divinity] 10",
-        "[Bane] (When this card deals damage to a J/resonator ⇒ Destroy that J/resonator.)",
-        "Whenever a non-token darkness resonator you control is put into a graveyard from the field ⇒ Put a [100/100] darkness Skeleton resonator token in the field."
-      ],
-      "og_race": [
-        "Monarch"
-      ],
-      "og_cost": "",
-      "errata_id": "MC10-019J",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "errata_text": [
-        "[Divinity] 10",
-        "[Bane]",
-        "Whenever a non-token darkness resonator you control is put into a graveyard from the field >>> Put a [100/100] darkness Skeleton resonator token into the field."
-      ],
-      "errata_race": [
-        "Deathless",
-        "Lich"
-      ],
-      "errata_cost": "",
       "decision": "format_change"
     },
     {
@@ -48968,45 +49121,6 @@
       "errata_race": [
         "Demonic",
         "Demonic World"
-      ],
-      "errata_cost": "",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:MC10-030",
-      "card_name": "Beatrice",
-      "source": "reprint",
-      "set_code": "MC10",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "TST-070",
-      "og_set": "TST — The Seventh",
-      "og_text": [
-        "[Judgment] {U}{B}",
-        "[Tag] (Fallen Angel)",
-        "If you would draw a starting hand, you draw a starting hand minus one card and your maximum hand size is decreased by one until end of game instead.",
-        "God's Art \"Greed\" {0}: If you have no cards in your hand, draw two cards.",
-        "[Null] - At the end of your turn >>> Draw a card."
-      ],
-      "og_race": [
-        "Fallen Angel"
-      ],
-      "og_cost": "",
-      "errata_id": "MC10-030",
-      "errata_set": "MC10 — Memoria Collection 10",
-      "errata_text": [
-        "[Tag] (Fallen Angel)",
-        "If you would draw a starting hand, you draw a starting hand minus card and your maximum hand size is decreased by one until end of game instead.",
-        "God's Art \"Greed\" {0}: If you have exactly zero cards in your hand, draw two cards.",
-        "[Null]",
-        "- At the end of your turn >>> Draw a card.",
-        "[Judgment] {U}{B}"
-      ],
-      "errata_race": [
-        "Fallen Angel",
-        "Wanderer"
       ],
       "errata_cost": "",
       "decision": "format_change"
@@ -49345,30 +49459,6 @@
       ],
       "errata_race": [],
       "errata_cost": "{R}{1}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:MP01-028",
-      "card_name": "Clockwork Apple Bomb",
-      "source": "reprint",
-      "set_code": "MP01",
-      "changed": [
-        "text"
-      ],
-      "og_id": "CMF-022",
-      "og_set": "CMF — The Crimson Moon Fairy Tale",
-      "og_text": [
-        "[Trigger] If your Ruler is \"Snow White\" or your J-Ruler is \"Bloody Snow White\": Destroy blocking resonator and blocked resonator. This card deals 500 damage to each controller of those resonators."
-      ],
-      "og_race": [],
-      "og_cost": "{R}{2}",
-      "errata_id": "MP01-028",
-      "errata_set": "MP01 — Masterpiece “Pilgrim-Memories”",
-      "errata_text": [
-        "[Trigger] If you control a J/ruler named \"Snow White\" or \"Bloody Snow White\": Destroy a blocking J/resonator and a blocked J/resonator. This card deals 500 damage to each controller of those J/resonators."
-      ],
-      "errata_race": [],
-      "errata_cost": "{R}{2}",
       "decision": "format_change"
     },
     {
@@ -50883,41 +50973,6 @@
         "Six Sages"
       ],
       "errata_cost": "",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:MP02-005",
-      "card_name": "Zero's Familiar",
-      "source": "reprint",
-      "set_code": "MP02",
-      "changed": [
-        "text",
-        "race"
-      ],
-      "og_id": "CFC-016",
-      "og_set": "CFC — Curse of the Frozen Casket",
-      "og_text": [
-        "[Flying]",
-        "Your J/ruler gains [Barrier]. (Cards you control with [Barrier] cannot be targeted by spells or abilities your opponent controls.)",
-        "This card gains [+300/+300] as long as you control \"Zero, Master of the Magic Saber\"."
-      ],
-      "og_race": [
-        "Beast"
-      ],
-      "og_cost": "{W}{1}",
-      "errata_id": "MP02-005",
-      "errata_set": "MP02 — Masterpiece Collection 02 \"Fates Reunited!\"",
-      "errata_text": [
-        "[Flying]",
-        "J/rulers you control gains [Barrier].",
-        "This card gains [+300/+300] as long as you control a J-ruler named \"Zero, Master of the Magic Saber\"."
-      ],
-      "errata_race": [
-        "Beast",
-        "Bird",
-        "Familiar"
-      ],
-      "errata_cost": "{W}{1}",
       "decision": "format_change"
     },
     {
@@ -53001,34 +53056,6 @@
         "Fallen Angel"
       ],
       "errata_cost": "{B}{B}{1}",
-      "decision": "format_change"
-    },
-    {
-      "key": "R:MP03-070",
-      "card_name": "Power of Immortality",
-      "source": "reprint",
-      "set_code": "MP03",
-      "changed": [
-        "text"
-      ],
-      "og_id": "SNV-095",
-      "og_set": "SNV — The Strangers of New Valhalla",
-      "og_text": [
-        "[Quickcast]",
-        "You may pay {1} less to play this card from a rune area.",
-        "Target resonator gains [+400/0] and \"When this card is put into a graveyard from the field ⇒ Put it into the field rested under its owner's control.\" until end of turn."
-      ],
-      "og_race": [],
-      "og_cost": "{B}{1}",
-      "errata_id": "MP03-070",
-      "errata_set": "MP03 — Masterpiece Collection 03 \"Dimensional Hope\"",
-      "errata_text": [
-        "[Quickcast]",
-        "You pay {1} less to play this card from a rune area.",
-        "Target resonator gains [+400/+0] and \"When this card is put into a graveyard from the field >>> Put it from a graveyard into the field under its owner's control rested.\" until end of turn."
-      ],
-      "errata_race": [],
-      "errata_cost": "{B}{1}",
       "decision": "format_change"
     },
     {
