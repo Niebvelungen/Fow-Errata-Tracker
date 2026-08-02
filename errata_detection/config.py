@@ -5,7 +5,11 @@ import json
 import os
 from pathlib import Path
 
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+except ImportError:  # dotenv is only needed for the OCR pass; exports work without it
+    def load_dotenv(*_args, **_kwargs) -> None:  # type: ignore[misc]
+        return None
 
 # Project root = parent of this package directory.
 ROOT = Path(__file__).resolve().parent.parent
@@ -21,6 +25,10 @@ IMAGES_DIR = ROOT / "images"
 OUTPUT_DIR = ROOT / "output"
 ERRATA_JSON = OUTPUT_DIR / "errata.json"
 REPORT_HTML = OUTPUT_DIR / "report.html"
+# The reviewed export downloaded from the report, and the simplified, flat
+# remodel of it for downstream display projects (errata_detection/simplify.py).
+ERRATA_DATA_JSON = ROOT / "errata-data.json"
+ERRATA_SIMPLE_JSON = OUTPUT_DIR / "errata-simple.json"
 OCR_CACHE_JSON = ROOT / ".ocr_cache.json"
 # Cached scraped ability text for Alice Origin [Stranger] Rulers (web errata).
 STRANGER_CACHE_JSON = ROOT / ".stranger_cache.json"
