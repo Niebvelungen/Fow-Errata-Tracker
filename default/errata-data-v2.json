@@ -2,8 +2,8 @@
   "format": "fow-errata-simple/1",
   "count": 956,
   "counts_by_decision": {
-    "format_change": 491,
-    "errata": 447,
+    "format_change": 492,
+    "errata": 446,
     "no_change": 18
   },
   "entries": [
@@ -8765,7 +8765,7 @@
     },
     {
       "key": "O:GRV-050",
-      "decision": "errata",
+      "decision": "format_change",
       "source": "ocr",
       "card_name": "Decay of the Machines",
       "set_code": "GRV",
