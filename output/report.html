@@ -89,6 +89,10 @@ main { flex: 1; min-width: 0; padding: 20px 32px 80px; }
 @media (min-width: 721px) and (max-width: 1000px){ .cols3 { grid-template-columns: 1fr 1fr; } }
 .meta { font-size: 12px; opacity: .7; margin-bottom: 8px; }
 .card img { width: 100%; max-width: 260px; border-radius: 8px; display: block; margin-bottom: 10px; }
+/* The link is sized to the image, otherwise its inline box stretches across the
+   whole column and every click near the picture opens the scan. */
+.card .media a { display: block; width: 100%; max-width: 260px; margin-bottom: 10px; }
+.card .media a img { margin-bottom: 0; }
 .noimg { font-size: 12px; opacity: .5; padding: 8px 0; }
 .text { background: #fafafa; border: 1px solid #0000000d; border-radius: 8px; padding: 10px 12px;
   margin: 0; white-space: pre-wrap; }
