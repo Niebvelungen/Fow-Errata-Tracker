@@ -2,8 +2,8 @@
   "format": "fow-errata-simple/1",
   "count": 957,
   "counts_by_decision": {
-    "format_change": 494,
-    "errata": 444,
+    "format_change": 495,
+    "errata": 443,
     "no_change": 19
   },
   "entries": [
@@ -17985,7 +17985,7 @@
     },
     {
       "key": "R:MC08-003",
-      "decision": "errata",
+      "decision": "format_change",
       "source": "reprint",
       "card_name": "Green Jade Amulet of Jhrelth",
       "set_code": "MC08",
@@ -18004,10 +18004,10 @@
         "set_name": "The Battle at the Sacred Ruins",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/TSR-076.jpg",
         "text_source": "print",
-        "text": "This card gains the follow abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- [Limit] (2)\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
+        "text": "This card gains the follow abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
         "race": [],
         "cost": "[B][D]",
-        "text_html": "This card gains the <del>follow abilities</del> in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- <del>[Limit] (2)\n-</del> Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- <del>[Enter]</del> &gt;&gt;&gt; If you control exactly one J/ruler and it has “Alex Sansta” or “Thir&#x27;ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
+        "text_html": "This card gains the <del>follow abilities</del> in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] &gt;&gt;&gt; If you control exactly one J/ruler and it has “Alex Sansta” or “Thir&#x27;ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
         "race_html": "",
         "text_diff": [
           {
@@ -18020,23 +18020,7 @@
           },
           {
             "op": "equal",
-            "value": "in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n-"
-          },
-          {
-            "op": "delete",
-            "value": "[Limit] (2)\n-"
-          },
-          {
-            "op": "equal",
-            "value": "Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n-"
-          },
-          {
-            "op": "delete",
-            "value": "[Enter]"
-          },
-          {
-            "op": "equal",
-            "value": ">>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D]."
+            "value": "in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D]."
           }
         ],
         "race_diff": []
@@ -18048,10 +18032,10 @@
         "set_name": "Memoria Collection 08",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/MC08-003.jpg",
         "text_source": "print",
-        "text": "This card gains the following text in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- Enter >>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
+        "text": "This card gains the following text in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
         "race": [],
         "cost": "[B][D]",
-        "text_html": "This card gains the <ins>following text</ins> in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- <ins>Enter</ins> &gt;&gt;&gt; If you control exactly one J/ruler and it has “Alex Sansta” or “Thir&#x27;ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
+        "text_html": "This card gains the <ins>following text</ins> in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] &gt;&gt;&gt; If you control exactly one J/ruler and it has “Alex Sansta” or “Thir&#x27;ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
         "race_html": "",
         "text_diff": [
           {
@@ -18064,19 +18048,7 @@
           },
           {
             "op": "equal",
-            "value": "in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n-"
-          },
-          {
-            "op": "equal",
-            "value": "Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n-"
-          },
-          {
-            "op": "insert",
-            "value": "Enter"
-          },
-          {
-            "op": "equal",
-            "value": ">>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D]."
+            "value": "in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable] [Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir'ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D]."
           }
         ],
         "race_diff": []
@@ -110936,12 +110908,12 @@
         "card_id": "TSR-076",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/TSR-076.jpg",
         "text_source": "errata_article",
-        "text": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter]\n>>> Put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
-        "text_html": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter]\n&gt;&gt;&gt; Put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
+        "text": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>> Put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
+        "text_html": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] &gt;&gt;&gt; Put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R], [B] or [D].",
         "text_diff": [
           {
             "op": "equal",
-            "value": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter]\n>>>"
+            "value": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>>"
           },
           {
             "op": "equal",
@@ -110964,12 +110936,12 @@
         "card_id": "TSR-076",
         "image": null,
         "text_source": "errata_article",
-        "text": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter]\n>>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir’ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R],\n[B] or [D].",
-        "text_html": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter]\n&gt;&gt;&gt; <ins>If you control exactly one J/ruler and it has “Alex Sansta” or “Thir’ahmh” in its name,</ins> put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R],\n[B] or [D].",
+        "text": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>> If you control exactly one J/ruler and it has “Alex Sansta” or “Thir’ahmh” in its name, put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R],\n[B] or [D].",
+        "text_html": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] &gt;&gt;&gt; <ins>If you control exactly one J/ruler and it has “Alex Sansta” or “Thir’ahmh” in its name,</ins> put the top card of your magic stone deck into the field rested.\n[Rest], remove a limit counter from this card: Produce [R],\n[B] or [D].",
         "text_diff": [
           {
             "op": "equal",
-            "value": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter]\n>>>"
+            "value": "This card gains the following abilities in all zones. If this card is stacked below any number of cards, instead the top Cthulhu J-ruler card of that stack gains and cannot lose the following abilities as it enters the field;\n- [Untouchable]\n[Limit] (2) [Mythic] [Eternal]\n- Spells or abilities your opponent controls cannot remove counters from this card.\n- You cannot play spells with attributes other than [R], [B] or [D].\n- [Enter] >>>"
           },
           {
             "op": "insert",
