@@ -3860,8 +3860,7 @@
       "card_id": "SDAO2-003",
       "card_image": "https://fowsim.s3.amazonaws.com/media/cards/SDAO2-003.jpg",
       "changed": [
-        "race",
-        "cost"
+        "race"
       ],
       "text_changed": false,
       "race_changed": true,
@@ -3875,7 +3874,7 @@
         "text_source": "print",
         "text": "Gain control of target resonator with total cost X or less.",
         "race": [],
-        "cost": "[B][B]",
+        "cost": "[B][B][X]",
         "text_html": "Gain control of target resonator with total cost X or less.",
         "race_html": "",
         "text_diff": [
