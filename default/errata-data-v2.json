@@ -1,10 +1,10 @@
 {
   "format": "fow-errata-simple/1",
-  "count": 956,
+  "count": 957,
   "counts_by_decision": {
-    "format_change": 492,
-    "errata": 446,
-    "no_change": 18
+    "format_change": 494,
+    "errata": 444,
+    "no_change": 19
   },
   "entries": [
     {
@@ -13421,13 +13421,13 @@
         "set_name": "Memory Collection 04",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/MC04-008.jpg",
         "text_source": "print",
-        "text": "[Tag] (Six Sages)\nAfter you mulligan, you may shuffle your hand into your deck and draw X cards, where X is the number of cards shuffled into your deck this way minus one.\nYou can play the judgment process of this card any time you could play a card with [Quickcast].\nRest: Produce [1]. Spend this will only to play chants. Play this ability only if you control a Six Sages J-ruler.\n[Judgment] [G][G][1]",
+        "text": "[Tag] (Six Sages)\nAfter you mulligan, you may shuffle your hand into your deck and draw X cards, where X is the number of cards shuffled into your deck this way minus one.\nYou can play the judgment process of this card any time you could play a card with [Quickcast].\n[Rest]: Produce [1]. Spend this will only to play chants. Play this ability only if you control a Six Sages J-ruler.\n[Judgment] [G][G][1]",
         "race": [
           "Elf",
           "Six Sages"
         ],
         "cost": "",
-        "text_html": "[Tag] (Six Sages) <ins>\nAfter you mulligan,</ins> you may <ins>shuffle your hand into your deck and draw X cards, where X is</ins> the <ins>number of cards shuffled into your deck</ins> this <ins>way minus one.</ins>\nYou <ins>can play the</ins> judgment <ins>process of this card</ins> any time you could play a card with [Quickcast].\n<ins>Rest:</ins> Produce [1]. Spend this will only to play chants. <ins>Play this ability only if you control a Six Sages J-ruler.\n[Judgment] [G][G][1]</ins>",
+        "text_html": "[Tag] (Six Sages) <ins>\nAfter you mulligan,</ins> you may <ins>shuffle your hand into your deck and draw X cards, where X is</ins> the <ins>number of cards shuffled into your deck</ins> this <ins>way minus one.</ins>\nYou <ins>can play the</ins> judgment <ins>process of this card</ins> any time you could play a card with [Quickcast].\n<ins>[Rest]:</ins> Produce [1]. Spend this will only to play chants. <ins>Play this ability only if you control a Six Sages J-ruler.\n[Judgment] [G][G][1]</ins>",
         "race_html": "Elf, Six Sages",
         "text_diff": [
           {
@@ -13484,7 +13484,7 @@
           },
           {
             "op": "insert",
-            "value": "Rest:"
+            "value": "[Rest]:"
           },
           {
             "op": "equal",
@@ -13563,12 +13563,12 @@
         "set_name": "Memory Collection 04",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/MC04-009J.jpg",
         "text_source": "print",
-        "text": "[Flying]\n[Barrier] (Total cost 2 or less)\nPrevent all damage that would be dealt to this card by resonators with total cost 2 or less.\nIf this card would deal damage to a J/resonator, it deals double that much instead.\nYou can play only one spell per turn.\nYou can play only one non-will activate ability per turn.\nRest: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.",
+        "text": "[Flying]\n[Barrier] (Total cost 2 or less)\nPrevent all damage that would be dealt to this card by resonators with total cost 2 or less.\nIf this card would deal damage to a J/resonator, it deals double that much instead.\nYou can play only one spell per turn.\nYou can play only one non-will activate ability per turn.\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.",
         "race": [
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "[Flying]\n[Barrier] (Total cost 2 or less)\nPrevent all damage that would be dealt to this card by resonators with total cost 2 or less.\nIf this card would deal damage to a J/resonator, it deals double that much instead. <ins>\nYou can play only one spell per turn.\nYou can play only one non-will activate ability per turn.\nRest: Produce [G] or [D]. Spend this will only to play spells with &quot;Carlina&quot; in their name.</ins>",
+        "text_html": "[Flying]\n[Barrier] (Total cost 2 or less)\nPrevent all damage that would be dealt to this card by resonators with total cost 2 or less.\nIf this card would deal damage to a J/resonator, it deals double that much instead. <ins>\nYou can play only one spell per turn.\nYou can play only one non-will activate ability per turn.\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with &quot;Carlina&quot; in their name.</ins>",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
@@ -13581,7 +13581,7 @@
           },
           {
             "op": "insert",
-            "value": "\nYou can play only one spell per turn.\nYou can play only one non-will activate ability per turn.\nRest: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name."
+            "value": "\nYou can play only one spell per turn.\nYou can play only one non-will activate ability per turn.\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name."
           }
         ],
         "race_diff": [
@@ -13965,12 +13965,28 @@
         "card_id": "MC04-009",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/MC04-009.jpg",
         "text_source": "errata_article",
-        "text": "Ruler\nYou can play only one spell each turn.\n[Rest]: Produce two wills in any combination of attributes.\nJ-ruler\nYou can play only one spell each turn.\n[Rest]: Produce two wills in any combination of attributes.",
-        "text_html": "Ruler\nYou can play only one spell <del>each turn.</del>\n[Rest]: Produce <del>two wills</del> in <del>any combination of attributes.</del>\nJ-ruler\nYou can play only one spell <del>each</del> turn.\n[Rest]: Produce <del>two wills</del> in <del>any combination of attributes.</del>",
+        "text": "[Judgment] [G][D]\n[Tag] (Fallen Angel)\nYou can play only one spell each turn.\n[Rest]: Produce two wills in any combination of attributes.\nGod's Art \"Gluttony\" [0]: Spells you control with total cost 4 or more cannot be cancelled until end of turn. Whenever a card with total cost 4 or more enters the field under your control this turn >>> Draw two cards.",
+        "text_html": "<del>[Judgment] [G][D]\n</del> [Tag] (Fallen Angel)\nYou can play <del>only</del> one spell <del>each turn.</del>\n[Rest]: Produce <del>two wills</del> in <del>any combination of attributes.</del>\nGod&#x27;s Art &quot;Gluttony&quot; [0]: <del>Spells</del> you control with total cost 4 or more cannot be <del>cancelled until end of turn. Whenever</del> a card with total cost 4 or more enters the field under your control <del>this turn</del> &gt;&gt;&gt; Draw two <del>cards.</del>",
         "text_diff": [
           {
+            "op": "delete",
+            "value": "[Judgment] [G][D]\n"
+          },
+          {
             "op": "equal",
-            "value": "Ruler\nYou can play only one spell"
+            "value": "[Tag] (Fallen Angel)\nYou can"
+          },
+          {
+            "op": "equal",
+            "value": "play"
+          },
+          {
+            "op": "delete",
+            "value": "only"
+          },
+          {
+            "op": "equal",
+            "value": "one spell"
           },
           {
             "op": "delete",
@@ -13994,27 +14010,35 @@
           },
           {
             "op": "equal",
-            "value": "\nJ-ruler\nYou can play only one spell"
+            "value": "\nGod's Art \"Gluttony\" [0]:"
           },
           {
             "op": "delete",
-            "value": "each"
+            "value": "Spells"
           },
           {
             "op": "equal",
-            "value": "turn.\n[Rest]: Produce"
+            "value": "you control with total cost 4 or more cannot be"
           },
           {
             "op": "delete",
-            "value": "two wills"
+            "value": "cancelled until end of turn. Whenever"
           },
           {
             "op": "equal",
-            "value": "in"
+            "value": "a card with total cost 4 or more enters the field under your control"
           },
           {
             "op": "delete",
-            "value": "any combination of attributes."
+            "value": "this turn"
+          },
+          {
+            "op": "equal",
+            "value": ">>> Draw two"
+          },
+          {
+            "op": "delete",
+            "value": "cards."
           }
         ],
         "set_code": "MC04",
@@ -14029,12 +14053,24 @@
         "card_id": "MC04-009",
         "image": null,
         "text_source": "errata_article",
-        "text": "Ruler\nYou can play only one spell or non-will activate ability per turn (not both).\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.\nJ-ruler\nYou can play only one spell per turn.\nYou can play only one non-will activate ability per turn.\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.",
-        "text_html": "Ruler\nYou can play only one spell <ins>or non-will activate ability per turn (not both).</ins>\n[Rest]: Produce <ins>[G] or [D]. Spend this will only to play spells with &quot;Carlina&quot;</ins> in <ins>their name.</ins>\nJ-ruler\nYou can play only one spell <ins>per turn.\nYou can play only one non-will activate ability per</ins> turn.\n[Rest]: Produce <ins>[G] or [D]. Spend this will only to play spells with &quot;Carlina&quot;</ins> in <ins>their name.</ins>",
+        "text": "[Tag] (Fallen Angel)\nYou can only play one spell or non-will activate ability per turn (not both).\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.\nGod's Art \"Gluttony\" [0]: You gain \"Spells you control with total cost 4 or more cannot be canceled.\" and \"Whenever a card with total cost 4 or more enters the field under your control >>> Draw two cards.\" until end of turn.\n[Judgment] [G][D]",
+        "text_html": "[Tag] (Fallen Angel)\nYou can <ins>only</ins> play one spell <ins>or non-will activate ability per turn (not both).</ins>\n[Rest]: Produce <ins>[G] or [D]. Spend this will only to play spells with &quot;Carlina&quot;</ins> in <ins>their name.</ins>\nGod&#x27;s Art &quot;Gluttony&quot; [0]: <ins>You gain &quot;Spells</ins> you control with total cost 4 or more cannot be <ins>canceled.&quot; and &quot;Whenever</ins> a card with total cost 4 or more enters the field under your control &gt;&gt;&gt; Draw two <ins>cards.&quot; until end of turn.\n[Judgment] [G][D]</ins>",
         "text_diff": [
           {
             "op": "equal",
-            "value": "Ruler\nYou can play only one spell"
+            "value": "[Tag] (Fallen Angel)\nYou can"
+          },
+          {
+            "op": "insert",
+            "value": "only"
+          },
+          {
+            "op": "equal",
+            "value": "play"
+          },
+          {
+            "op": "equal",
+            "value": "one spell"
           },
           {
             "op": "insert",
@@ -14058,27 +14094,31 @@
           },
           {
             "op": "equal",
-            "value": "\nJ-ruler\nYou can play only one spell"
+            "value": "\nGod's Art \"Gluttony\" [0]:"
           },
           {
             "op": "insert",
-            "value": "per turn.\nYou can play only one non-will activate ability per"
+            "value": "You gain \"Spells"
           },
           {
             "op": "equal",
-            "value": "turn.\n[Rest]: Produce"
+            "value": "you control with total cost 4 or more cannot be"
           },
           {
             "op": "insert",
-            "value": "[G] or [D]. Spend this will only to play spells with \"Carlina\""
+            "value": "canceled.\" and \"Whenever"
           },
           {
             "op": "equal",
-            "value": "in"
+            "value": "a card with total cost 4 or more enters the field under your control"
+          },
+          {
+            "op": "equal",
+            "value": ">>> Draw two"
           },
           {
             "op": "insert",
-            "value": "their name."
+            "value": "cards.\" until end of turn.\n[Judgment] [G][D]"
           }
         ],
         "set_code": "MC04",
@@ -15101,6 +15141,187 @@
       }
     },
     {
+      "key": "R:MC05-011",
+      "decision": "errata",
+      "source": "reprint",
+      "card_name": "Belial",
+      "set_code": "MC05",
+      "card_id": "MC05-011",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/MC05-011.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "TST-073",
+        "set_code": "TST",
+        "set_name": "The Seventh",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/TST-073.jpg",
+        "text_source": "print",
+        "text": "[Judgment] [W][D]\n[Tag] (Fallen Angel)\nIf you would set your starting life, set it to that much minus 2000 instead.\nResonator tokens you control gain [+200/+200] and [Bane].\n[Fallen] You cannot lose the game. Prevent all damage that would be dealt to you.\nGod's Art \"Pride\" [0]: Draw a card.",
+        "race": [
+          "Fallen Angel"
+        ],
+        "cost": "",
+        "text_html": "<del>[Judgment] [W][D]\n</del> [Tag] (Fallen Angel)\n<del>If</del> you <del>would set your</del> starting <del>life, set it to that much minus 2000 instead.</del>\nResonator tokens you control gain [+200/+200] and [Bane].\n<del>[Fallen]</del> You cannot lose the <del>game. Prevent all</del> damage that would be dealt to <del>you.\nGod&#x27;s Art &quot;Pride&quot; [0]:</del> Draw a card.",
+        "race_html": "Fallen Angel",
+        "text_diff": [
+          {
+            "op": "delete",
+            "value": "[Judgment] [W][D]\n"
+          },
+          {
+            "op": "equal",
+            "value": "[Tag] (Fallen Angel)\n"
+          },
+          {
+            "op": "delete",
+            "value": "If"
+          },
+          {
+            "op": "equal",
+            "value": "you"
+          },
+          {
+            "op": "delete",
+            "value": "would set your"
+          },
+          {
+            "op": "equal",
+            "value": "starting"
+          },
+          {
+            "op": "delete",
+            "value": "life, set it to that much minus 2000 instead."
+          },
+          {
+            "op": "equal",
+            "value": "\n"
+          },
+          {
+            "op": "equal",
+            "value": "Resonator tokens you control gain [+200/+200] and [Bane].\n"
+          },
+          {
+            "op": "delete",
+            "value": "[Fallen]"
+          },
+          {
+            "op": "equal",
+            "value": "You cannot lose the"
+          },
+          {
+            "op": "delete",
+            "value": "game. Prevent all"
+          },
+          {
+            "op": "equal",
+            "value": "damage that would be dealt to"
+          },
+          {
+            "op": "delete",
+            "value": "you.\nGod's Art \"Pride\" [0]:"
+          },
+          {
+            "op": "equal",
+            "value": "Draw a card."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Fallen Angel"
+          }
+        ]
+      },
+      "new": {
+        "label": "Errata print",
+        "card_id": "MC05-011",
+        "set_code": "MC05",
+        "set_name": "Memoria Collection 05",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/MC05-011.jpg",
+        "text_source": "print",
+        "text": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod's Art \"Pride\" [W]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] [W][D]. Play this judgment process only if you played two or more God's Art abilities this game.",
+        "race": [
+          "Fallen Angel"
+        ],
+        "cost": "",
+        "text_html": "[Tag] (Fallen Angel)\nYou <ins>have a</ins> starting <ins>life of 2000.</ins>\n<ins>Fallen Angel</ins> resonator tokens you control gain [+200/+200] and [Bane].\n<ins>God&#x27;s Art &quot;Pride&quot; [W]:</ins> You cannot lose the <ins>game until end of turn.</ins> Damage that would be dealt to <ins>you becomes 0 instead until end of turn.</ins> Draw a card. <ins>\n[Judgment] [W][D]. Play this judgment process only if you played two or more God&#x27;s Art abilities this game.</ins>",
+        "race_html": "Fallen Angel",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Tag] (Fallen Angel)\n"
+          },
+          {
+            "op": "equal",
+            "value": "You"
+          },
+          {
+            "op": "insert",
+            "value": "have a"
+          },
+          {
+            "op": "equal",
+            "value": "starting"
+          },
+          {
+            "op": "insert",
+            "value": "life of 2000."
+          },
+          {
+            "op": "equal",
+            "value": "\n"
+          },
+          {
+            "op": "insert",
+            "value": "Fallen Angel"
+          },
+          {
+            "op": "equal",
+            "value": "resonator tokens you control gain [+200/+200] and [Bane].\n"
+          },
+          {
+            "op": "insert",
+            "value": "God's Art \"Pride\" [W]:"
+          },
+          {
+            "op": "equal",
+            "value": "You cannot lose the"
+          },
+          {
+            "op": "insert",
+            "value": "game until end of turn."
+          },
+          {
+            "op": "equal",
+            "value": "Damage that would be dealt to"
+          },
+          {
+            "op": "insert",
+            "value": "you becomes 0 instead until end of turn."
+          },
+          {
+            "op": "equal",
+            "value": "Draw a card."
+          },
+          {
+            "op": "insert",
+            "value": "\n[Judgment] [W][D]. Play this judgment process only if you played two or more God's Art abilities this game."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Fallen Angel"
+          }
+        ]
+      }
+    },
+    {
       "key": "R:MC05-011J",
       "decision": "errata",
       "source": "reprint",
@@ -15126,7 +15347,7 @@
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "[Flying]\nResonator tokens you control gain [+400/+400], [Bane] and [Drain].\n<del>[Enter]</del> &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n<del>[Fallen]</del> You cannot lose the <del>game. Prevent all</del> damage that would be dealt to <del>you.</del>",
+        "text_html": "[Flying]\nResonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n<del>[Fallen]</del> You cannot lose the <del>game. Prevent all</del> damage that would be dealt to <del>you.</del>",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
@@ -15135,15 +15356,7 @@
           },
           {
             "op": "equal",
-            "value": "Resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n"
-          },
-          {
-            "op": "delete",
-            "value": "[Enter]"
-          },
-          {
-            "op": "equal",
-            "value": ">>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n"
+            "value": "Resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n"
           },
           {
             "op": "delete",
@@ -15180,12 +15393,12 @@
         "set_name": "Memoria Collection 05",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/MC05-011J.jpg",
         "text_source": "print",
-        "text": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\nEnter >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" [0]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
+        "text": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" [0]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
         "race": [
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "[Flying]\n<ins>Fallen Angel</ins> resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n<ins>Enter</ins> &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n<ins>God&#x27;s Art &quot;Damaged Pride&quot; [0]:</ins> You cannot lose the <ins>game until end of turn.</ins> Damage that would be dealt to <ins>you becomes 0 instead until end of turn.</ins>",
+        "text_html": "[Flying]\n<ins>Fallen Angel</ins> resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n<ins>God&#x27;s Art &quot;Damaged Pride&quot; [0]:</ins> You cannot lose the <ins>game until end of turn.</ins> Damage that would be dealt to <ins>you becomes 0 instead until end of turn.</ins>",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
@@ -15198,15 +15411,7 @@
           },
           {
             "op": "equal",
-            "value": "resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n"
-          },
-          {
-            "op": "insert",
-            "value": "Enter"
-          },
-          {
-            "op": "equal",
-            "value": ">>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n"
+            "value": "resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n"
           },
           {
             "op": "insert",
@@ -78795,7 +79000,7 @@
     },
     {
       "key": "R:MC10-028",
-      "decision": "errata",
+      "decision": "format_change",
       "source": "reprint",
       "card_name": "Belial",
       "set_code": "MC10",
@@ -78809,78 +79014,34 @@
       "cost_changed": false,
       "old": {
         "label": "Original print",
-        "card_id": "TST-073",
-        "set_code": "TST",
-        "set_name": "The Seventh",
-        "image": "https://fowsim.s3.amazonaws.com/media/cards/TST-073.jpg",
+        "card_id": "MC05-011",
+        "set_code": "MC05",
+        "set_name": "Memoria Collection 05",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/MC05-011.jpg",
         "text_source": "print",
-        "text": "[Judgment] [W][D]\n[Tag] (Fallen Angel)\nIf you would set your starting life, set it to that much minus 2000 instead.\nResonator tokens you control gain [+200/+200] and [Bane].\n[Fallen] You cannot lose the game. Prevent all damage that would be dealt to you.\nGod's Art \"Pride\" [0]: Draw a card.",
+        "text": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod's Art \"Pride\" [W]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] [W][D]. Play this judgment process only if you played two or more God's Art abilities this game.",
         "race": [
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "<del>[Judgment] [W][D]\n</del> [Tag] (Fallen Angel)\n<del>If</del> you <del>would set your</del> starting <del>life, set it to that much minus 2000 instead.</del>\nResonator tokens you control gain [+200/+200] and [Bane].\n<del>[Fallen]</del> You cannot lose the <del>game. Prevent all</del> damage that would be dealt to <del>you.\nGod&#x27;s Art &quot;Pride&quot; [0]:</del> Draw a card.",
+        "text_html": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod&#x27;s Art &quot;Pride&quot; [W]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] [W][D]. Play this judgment process only if you played two <del>or more</del> God&#x27;s Art abilities this game.",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
-            "op": "delete",
-            "value": "[Judgment] [W][D]\n"
+            "op": "equal",
+            "value": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod's Art \"Pride\" [W]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] [W][D]. Play this judgment process only if you"
           },
           {
             "op": "equal",
-            "value": "[Tag] (Fallen Angel)\n"
-          },
-          {
-            "op": "delete",
-            "value": "If"
-          },
-          {
-            "op": "equal",
-            "value": "you"
+            "value": "played two"
           },
           {
             "op": "delete",
-            "value": "would set your"
+            "value": "or more"
           },
           {
             "op": "equal",
-            "value": "starting"
-          },
-          {
-            "op": "delete",
-            "value": "life, set it to that much minus 2000 instead."
-          },
-          {
-            "op": "equal",
-            "value": "\n"
-          },
-          {
-            "op": "equal",
-            "value": "Resonator tokens you control gain [+200/+200] and [Bane].\n"
-          },
-          {
-            "op": "delete",
-            "value": "[Fallen]"
-          },
-          {
-            "op": "equal",
-            "value": "You cannot lose the"
-          },
-          {
-            "op": "delete",
-            "value": "game. Prevent all"
-          },
-          {
-            "op": "equal",
-            "value": "damage that would be dealt to"
-          },
-          {
-            "op": "delete",
-            "value": "you.\nGod's Art \"Pride\" [0]:"
-          },
-          {
-            "op": "equal",
-            "value": "Draw a card."
+            "value": "God's Art abilities this game."
           }
         ],
         "race_diff": [
@@ -78902,68 +79063,24 @@
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "[Tag] (Fallen Angel)\nYou <ins>have a</ins> starting <ins>life of 2000.</ins>\n<ins>Fallen Angel</ins> resonator tokens you control gain [+200/+200] and [Bane].\n<ins>God&#x27;s Art &quot;Pride&quot; [W]:</ins> You cannot lose the <ins>game until end of turn.</ins> Damage that would be dealt to <ins>you becomes 0 instead until end of turn.</ins> Draw a card. <ins>\n[Judgment] [W][D]. Play this judgment process only if you already played two God&#x27;s Art abilities this game.</ins>",
+        "text_html": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod&#x27;s Art &quot;Pride&quot; [W]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] [W][D]. Play this judgment process only if you <ins>already</ins> played two God&#x27;s Art abilities this game.",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
             "op": "equal",
-            "value": "[Tag] (Fallen Angel)\n"
-          },
-          {
-            "op": "equal",
-            "value": "You"
+            "value": "[Tag] (Fallen Angel)\nYou have a starting life of 2000.\nFallen Angel resonator tokens you control gain [+200/+200] and [Bane].\nGod's Art \"Pride\" [W]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Draw a card.\n[Judgment] [W][D]. Play this judgment process only if you"
           },
           {
             "op": "insert",
-            "value": "have a"
+            "value": "already"
           },
           {
             "op": "equal",
-            "value": "starting"
-          },
-          {
-            "op": "insert",
-            "value": "life of 2000."
+            "value": "played two"
           },
           {
             "op": "equal",
-            "value": "\n"
-          },
-          {
-            "op": "insert",
-            "value": "Fallen Angel"
-          },
-          {
-            "op": "equal",
-            "value": "resonator tokens you control gain [+200/+200] and [Bane].\n"
-          },
-          {
-            "op": "insert",
-            "value": "God's Art \"Pride\" [W]:"
-          },
-          {
-            "op": "equal",
-            "value": "You cannot lose the"
-          },
-          {
-            "op": "insert",
-            "value": "game until end of turn."
-          },
-          {
-            "op": "equal",
-            "value": "Damage that would be dealt to"
-          },
-          {
-            "op": "insert",
-            "value": "you becomes 0 instead until end of turn."
-          },
-          {
-            "op": "equal",
-            "value": "Draw a card."
-          },
-          {
-            "op": "insert",
-            "value": "\n[Judgment] [W][D]. Play this judgment process only if you already played two God's Art abilities this game."
+            "value": "God's Art abilities this game."
           }
         ],
         "race_diff": [
@@ -78976,60 +79093,34 @@
     },
     {
       "key": "R:MC10-028J",
-      "decision": "errata",
+      "decision": "no_change",
       "source": "reprint",
       "card_name": "Belial [J-Ruler]",
       "set_code": "MC10",
       "card_id": "MC10-028J",
       "card_image": "https://fowsim.s3.amazonaws.com/media/cards/MC10-028J.jpg",
-      "changed": [
-        "text"
-      ],
-      "text_changed": true,
+      "changed": [],
+      "text_changed": false,
       "race_changed": false,
       "cost_changed": false,
       "old": {
         "label": "Original print",
-        "card_id": "TST-073J",
-        "set_code": "TST",
-        "set_name": "The Seventh",
-        "image": "https://fowsim.s3.amazonaws.com/media/cards/TST-073J.jpg",
+        "card_id": "MC05-011J",
+        "set_code": "MC05",
+        "set_name": "Memoria Collection 05",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/MC05-011J.jpg",
         "text_source": "print",
-        "text": "[Flying]\nResonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n[Fallen] You cannot lose the game. Prevent all damage that would be dealt to you.",
+        "text": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" [0]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
         "race": [
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "[Flying]\nResonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n<del>[Fallen]</del> You cannot lose the <del>game. Prevent all</del> damage that would be dealt to <del>you.</del>",
+        "text_html": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod&#x27;s Art &quot;Damaged Pride&quot; [0]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
             "op": "equal",
-            "value": "[Flying]\n"
-          },
-          {
-            "op": "equal",
-            "value": "Resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n"
-          },
-          {
-            "op": "delete",
-            "value": "[Fallen]"
-          },
-          {
-            "op": "equal",
-            "value": "You cannot lose the"
-          },
-          {
-            "op": "delete",
-            "value": "game. Prevent all"
-          },
-          {
-            "op": "equal",
-            "value": "damage that would be dealt to"
-          },
-          {
-            "op": "delete",
-            "value": "you."
+            "value": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" [0]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn."
           }
         ],
         "race_diff": [
@@ -79051,40 +79142,12 @@
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "[Flying]\n<ins>Fallen Angel</ins> resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n<ins>God&#x27;s Art &quot;Damaged Pride&quot; [0]:</ins> You cannot lose the <ins>game until end of turn.</ins> Damage that would be dealt to <ins>you becomes 0 instead until end of turn.</ins>",
+        "text_html": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] &gt;&gt;&gt; Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod&#x27;s Art &quot;Damaged Pride&quot; [0]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn.",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
             "op": "equal",
-            "value": "[Flying]\n"
-          },
-          {
-            "op": "insert",
-            "value": "Fallen Angel"
-          },
-          {
-            "op": "equal",
-            "value": "resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\n"
-          },
-          {
-            "op": "insert",
-            "value": "God's Art \"Damaged Pride\" [0]:"
-          },
-          {
-            "op": "equal",
-            "value": "You cannot lose the"
-          },
-          {
-            "op": "insert",
-            "value": "game until end of turn."
-          },
-          {
-            "op": "equal",
-            "value": "Damage that would be dealt to"
-          },
-          {
-            "op": "insert",
-            "value": "you becomes 0 instead until end of turn."
+            "value": "[Flying]\nFallen Angel resonator tokens you control gain [+400/+400], [Bane] and [Drain].\n[Enter] >>> Put two [400/400] light/darkness Fallen Angel resonator tokens with [Flying] into the field.\nGod's Art \"Damaged Pride\" [0]: You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn."
           }
         ],
         "race_diff": [
@@ -79220,7 +79283,7 @@
     },
     {
       "key": "R:MC10-031",
-      "decision": "errata",
+      "decision": "format_change",
       "source": "reprint",
       "card_name": "Carlina",
       "set_code": "MC10",
@@ -79234,23 +79297,19 @@
       "cost_changed": false,
       "old": {
         "label": "Original print",
-        "card_id": "TST-075",
-        "set_code": "TST",
-        "set_name": "The Seventh",
-        "image": "https://fowsim.s3.amazonaws.com/media/cards/TST-075.jpg",
+        "card_id": "MC04-009",
+        "set_code": "MC04",
+        "set_name": "Memory Collection 04",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/MC04-009.jpg",
         "text_source": "print",
-        "text": "[Judgment] [G][D]\n[Tag] (Fallen Angel)\nYou can play only one spell each turn.\n[Rest]: Produce two wills in any combination of attributes.\nGod's Art \"Gluttony\" [0]: Spells you control with total cost 4 or more cannot be cancelled until end of turn. Whenever a card with total cost 4 or more enters the field under your control this turn >>> Draw two cards.",
+        "text": "[Tag] (Fallen Angel)\nYou can play only one spell or non-will activate ability per turn (not both).\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.\nGod's Art \"Gluttony\" [0]: Spells you control with total cost 4 or more cannot be canceled until end of turn. Whenever a card with total cost 4 or more enters the field under your control this turn >>> Draw two cards.\n[Judgment] [G][D]",
         "race": [
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "<del>[Judgment] [G][D]\n</del> [Tag] (Fallen Angel)\nYou can play <del>only</del> one spell <del>each turn.</del>\n[Rest]: Produce <del>two wills</del> in <del>any combination of attributes.</del>\nGod&#x27;s Art &quot;Gluttony&quot; [0]: <del>Spells</del> you control with total cost 4 or more cannot be <del>cancelled until end of turn. Whenever</del> a card with total cost 4 or more enters the field under your control <del>this turn</del> &gt;&gt;&gt; Draw two <del>cards.</del>",
+        "text_html": "[Tag] (Fallen Angel)\nYou can play <del>only</del> one spell or non-will activate ability per turn (not both).\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with &quot;Carlina&quot; in their name.\nGod&#x27;s Art &quot;Gluttony&quot; [0]: <del>Spells</del> you control with total cost 4 or more cannot be <del>canceled until end of turn. Whenever</del> a card with total cost 4 or more enters the field under your control <del>this turn</del> &gt;&gt;&gt; Draw two <del>cards.</del>\n[Judgment] [G][D]",
         "race_html": "Fallen Angel",
         "text_diff": [
-          {
-            "op": "delete",
-            "value": "[Judgment] [G][D]\n"
-          },
           {
             "op": "equal",
             "value": "[Tag] (Fallen Angel)\nYou can"
@@ -79265,31 +79324,7 @@
           },
           {
             "op": "equal",
-            "value": "one spell"
-          },
-          {
-            "op": "delete",
-            "value": "each turn."
-          },
-          {
-            "op": "equal",
-            "value": "\n[Rest]: Produce"
-          },
-          {
-            "op": "delete",
-            "value": "two wills"
-          },
-          {
-            "op": "equal",
-            "value": "in"
-          },
-          {
-            "op": "delete",
-            "value": "any combination of attributes."
-          },
-          {
-            "op": "equal",
-            "value": "\nGod's Art \"Gluttony\" [0]:"
+            "value": "one spell or non-will activate ability per turn (not both).\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.\nGod's Art \"Gluttony\" [0]:"
           },
           {
             "op": "delete",
@@ -79301,7 +79336,7 @@
           },
           {
             "op": "delete",
-            "value": "cancelled until end of turn. Whenever"
+            "value": "canceled until end of turn. Whenever"
           },
           {
             "op": "equal",
@@ -79318,6 +79353,10 @@
           {
             "op": "delete",
             "value": "cards."
+          },
+          {
+            "op": "equal",
+            "value": "\n[Judgment] [G][D]"
           }
         ],
         "race_diff": [
@@ -79339,7 +79378,7 @@
           "Fallen Angel"
         ],
         "cost": "",
-        "text_html": "[Tag] (Fallen Angel)\nYou can <ins>only</ins> play one spell <ins>or non-will activate ability per turn (not both).</ins>\n[Rest]: Produce <ins>[G] or [D]. Spend this will only to play spells with &quot;Carlina&quot;</ins> in <ins>their name.</ins>\nGod&#x27;s Art &quot;Gluttony&quot; [0]: <ins>You gain &quot;Spells</ins> you control with total cost 4 or more cannot be <ins>canceled.&quot; and &quot;Whenever</ins> a card with total cost 4 or more enters the field under your control &gt;&gt;&gt; Draw two <ins>cards.&quot; until end of turn.\n[Judgment] [G][D]</ins>",
+        "text_html": "[Tag] (Fallen Angel)\nYou can <ins>only</ins> play one spell or non-will activate ability per turn (not both).\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with &quot;Carlina&quot; in their name.\nGod&#x27;s Art &quot;Gluttony&quot; [0]: <ins>You gain &quot;Spells</ins> you control with total cost 4 or more cannot be <ins>canceled.&quot; and &quot;Whenever</ins> a card with total cost 4 or more enters the field under your control &gt;&gt;&gt; Draw two <ins>cards.&quot; until end of turn.</ins>\n[Judgment] [G][D]",
         "race_html": "Fallen Angel",
         "text_diff": [
           {
@@ -79356,31 +79395,7 @@
           },
           {
             "op": "equal",
-            "value": "one spell"
-          },
-          {
-            "op": "insert",
-            "value": "or non-will activate ability per turn (not both)."
-          },
-          {
-            "op": "equal",
-            "value": "\n[Rest]: Produce"
-          },
-          {
-            "op": "insert",
-            "value": "[G] or [D]. Spend this will only to play spells with \"Carlina\""
-          },
-          {
-            "op": "equal",
-            "value": "in"
-          },
-          {
-            "op": "insert",
-            "value": "their name."
-          },
-          {
-            "op": "equal",
-            "value": "\nGod's Art \"Gluttony\" [0]:"
+            "value": "one spell or non-will activate ability per turn (not both).\n[Rest]: Produce [G] or [D]. Spend this will only to play spells with \"Carlina\" in their name.\nGod's Art \"Gluttony\" [0]:"
           },
           {
             "op": "insert",
@@ -79404,7 +79419,11 @@
           },
           {
             "op": "insert",
-            "value": "cards.\" until end of turn.\n[Judgment] [G][D]"
+            "value": "cards.\" until end of turn."
+          },
+          {
+            "op": "equal",
+            "value": "\n[Judgment] [G][D]"
           }
         ],
         "race_diff": [
