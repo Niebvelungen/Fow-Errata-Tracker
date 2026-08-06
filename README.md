@@ -16,7 +16,7 @@ showing the previous text vs the errata text side by side, with images.
    the rarity so it reads them correctly. Printed symbol icons (`{W}`, `{Rest}`,
    …) and `{...}` placeholders in the JSON are ignored on both sides.
 
-## Setup
+## Setup 
 
 ```sh
 pip install -r requirements.txt
