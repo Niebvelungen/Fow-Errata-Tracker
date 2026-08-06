@@ -1,9 +1,9 @@
 {
   "format": "fow-errata-simple/1",
-  "count": 957,
+  "count": 966,
   "counts_by_decision": {
     "format_change": 495,
-    "errata": 443,
+    "errata": 452,
     "no_change": 19
   },
   "entries": [
@@ -47146,7 +47146,7 @@
     },
     {
       "key": "R:ABC-SD05-040",
-      "decision": "format_change",
+      "decision": "errata",
       "source": "reprint",
       "card_name": "Muse's Staring at...",
       "set_code": "ABC",
@@ -47160,52 +47160,56 @@
       "cost_changed": false,
       "old": {
         "label": "Original print",
-        "card_id": "CST-034",
-        "set_code": "CST",
-        "set_name": "Clash of the Star Trees",
-        "image": "https://fowsim.s3.amazonaws.com/media/cards/CST-034.jpg",
-        "text_source": "print",
-        "text": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or cost modified by a base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
-        "race": [],
-        "cost": "[B][1]",
-        "text_html": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or cost modified by a base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
-        "race_html": "",
-        "text_diff": [
-          {
-            "op": "equal",
-            "value": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or"
-          },
-          {
-            "op": "equal",
-            "value": "cost modified by a base ability would resolve, remove it from the game instead. Players cannot chase to this card."
-          }
-        ],
-        "race_diff": []
-      },
-      "new": {
-        "label": "Errata print",
         "card_id": "ABC-SD05-040",
         "set_code": "ABC",
         "set_name": "Hyde vs Undine (Undine)",
         "image": "https://fowsim.s3.amazonaws.com/media/cards/ABC-SD05-040.jpg",
         "text_source": "print",
-        "text": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or without paying its non-reduced cost modified by a base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
+        "text": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or without paying its non-reduced cost modified by its base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
         "race": [],
         "cost": "[B][1]",
-        "text_html": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or <ins>without paying its non-reduced</ins> cost modified by a base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
+        "text_html": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or without paying its non-reduced cost modified by <del>its</del> base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
         "race_html": "",
         "text_diff": [
           {
             "op": "equal",
-            "value": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or"
+            "value": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or without paying its non-reduced cost modified by"
           },
           {
-            "op": "insert",
-            "value": "without paying its non-reduced"
+            "op": "delete",
+            "value": "its"
           },
           {
             "op": "equal",
-            "value": "cost modified by a base ability would resolve, remove it from the game instead. Players cannot chase to this card."
+            "value": "base ability would resolve, remove it from the game instead. Players cannot chase to this card."
+          }
+        ],
+        "race_diff": []
+      },
+      "new": {
+        "label": "Official errata",
+        "card_id": "ABC-SD05-040",
+        "set_code": "ABC",
+        "set_name": "Hyde vs Undine (Undine)",
+        "image": null,
+        "text_source": "web",
+        "text": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or without paying its non-reduced cost modified by a base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
+        "race": [],
+        "cost": "[B][1]",
+        "text_html": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or without paying its non-reduced cost modified by <ins>a</ins> base ability would resolve, remove it from the game instead. Players cannot chase to this card.",
+        "race_html": "",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast]\n[Remnant]\nUntil end of turn, if a non-magic stone, non-J-ruler card would be put into the field without being played, remove it from the game instead. Until end of turn, if a spell that was played without paying its non-reduced printed cost or without paying its non-reduced cost modified by"
+          },
+          {
+            "op": "insert",
+            "value": "a"
+          },
+          {
+            "op": "equal",
+            "value": "base ability would resolve, remove it from the game instead. Players cannot chase to this card."
           }
         ],
         "race_diff": []
@@ -111975,6 +111979,967 @@
         "images": [
           "274-03"
         ]
+      },
+      "change_kind": "text",
+      "notes": ""
+    },
+    {
+      "key": "R:WGP2019-3rd",
+      "decision": "errata",
+      "source": "reprint",
+      "card_name": "Kaguya, Sealed God of the Moon",
+      "set_code": "WGP2019",
+      "card_id": "WGP2019-3rd",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/WGP-2019-3rd.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "DBV-095",
+        "set_code": "DBV",
+        "set_name": "The Decisive Battle of Valhalla",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/DBV-095.jpg",
+        "text_source": "print",
+        "text": "[Quickcast]\n[Enter] ⇒ Cancel target spell.\n[Rune] 2 - You may pay [1] less to play this card\nIf you control exactly five resonators, exactly seven magic stones, and there are exactly five cards in your graveyard, this card gains [Flying] and \"Whenever this card deals damage to your opponent ⇒ Draw seven cards and recover up to seven magic stones you control.\".",
+        "race": [
+          "Fairy Tale",
+          "High God"
+        ],
+        "cost": "[W][G][1]",
+        "text_html": "[Quickcast]<del>\n[Enter] ⇒ Cancel target spell.</del>\n[Rune] <del>2</del> - You <del>may</del> pay [1] less to play this <del>card\nIf you control exactly five resonators, exactly seven magic stones, and there are exactly five cards in your graveyard, this</del> card gains [Flying] and &quot;Whenever this card deals damage to your opponent <del>⇒</del> Draw seven cards and recover up to seven magic stones you <del>control.&quot;.</del>",
+        "race_html": "Fairy Tale, High God",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast]"
+          },
+          {
+            "op": "delete",
+            "value": "\n[Enter] ⇒ Cancel target spell."
+          },
+          {
+            "op": "equal",
+            "value": "\n[Rune]"
+          },
+          {
+            "op": "delete",
+            "value": "2"
+          },
+          {
+            "op": "equal",
+            "value": "- You"
+          },
+          {
+            "op": "delete",
+            "value": "may"
+          },
+          {
+            "op": "equal",
+            "value": "pay [1] less to play this"
+          },
+          {
+            "op": "delete",
+            "value": "card\nIf you control exactly five resonators, exactly seven magic stones, and there are exactly five cards in your graveyard, this"
+          },
+          {
+            "op": "equal",
+            "value": "card gains [Flying] and \"Whenever this card deals damage to your opponent"
+          },
+          {
+            "op": "delete",
+            "value": "⇒"
+          },
+          {
+            "op": "equal",
+            "value": "Draw seven cards and recover up to seven magic stones you"
+          },
+          {
+            "op": "delete",
+            "value": "control.\"."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Fairy Tale"
+          },
+          {
+            "op": "equal",
+            "value": "High God"
+          }
+        ]
+      },
+      "new": {
+        "label": "Errata print",
+        "card_id": "WGP2019-3rd",
+        "set_code": "WGP2019",
+        "set_name": "World Grand Prix 2019 Prize Cards",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/WGP-2019-3rd.jpg",
+        "text_source": "print",
+        "text": "[Quickcast]\n[Rune] (2) - You pay [1] less to play this card.\nThis card gains [Flying] and \"Whenever this card deals damage to your opponent >>> Draw seven cards and recover up to seven magic stones you control.\" as long as you control exactly five resonators, exactly seven magic stones and there are exactly five cards in your graveyard.\n[Enter] >>> Cancel target spell.",
+        "race": [
+          "Fairy Tale",
+          "High God"
+        ],
+        "cost": "[W][G][1]",
+        "text_html": "[Quickcast]\n[Rune] <ins>(2)</ins> - You pay [1] less to play this <ins>card.\nThis</ins> card gains [Flying] and &quot;Whenever this card deals damage to your opponent <ins>&gt;&gt;&gt;</ins> Draw seven cards and recover up to seven magic stones you <ins>control.&quot; as long as you control exactly five resonators, exactly seven magic stones and there are exactly five cards in your graveyard.\n[Enter] &gt;&gt;&gt; Cancel target spell.</ins>",
+        "race_html": "Fairy Tale, High God",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast]"
+          },
+          {
+            "op": "equal",
+            "value": "\n[Rune]"
+          },
+          {
+            "op": "insert",
+            "value": "(2)"
+          },
+          {
+            "op": "equal",
+            "value": "- You"
+          },
+          {
+            "op": "equal",
+            "value": "pay [1] less to play this"
+          },
+          {
+            "op": "insert",
+            "value": "card.\nThis"
+          },
+          {
+            "op": "equal",
+            "value": "card gains [Flying] and \"Whenever this card deals damage to your opponent"
+          },
+          {
+            "op": "insert",
+            "value": ">>>"
+          },
+          {
+            "op": "equal",
+            "value": "Draw seven cards and recover up to seven magic stones you"
+          },
+          {
+            "op": "insert",
+            "value": "control.\" as long as you control exactly five resonators, exactly seven magic stones and there are exactly five cards in your graveyard.\n[Enter] >>> Cancel target spell."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Fairy Tale"
+          },
+          {
+            "op": "equal",
+            "value": "High God"
+          }
+        ]
+      }
+    },
+    {
+      "key": "R:WGP2018-1st",
+      "decision": "errata",
+      "source": "reprint",
+      "card_name": "Viviane, the Mechanical Fairy",
+      "set_code": "WGP2018",
+      "card_id": "WGP2018-1st",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/WGP2018-1st.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "NDR-060",
+        "set_code": "NDR",
+        "set_name": "New Dawn Rises",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/NDR-060.jpg",
+        "text_source": "print",
+        "text": "[Flying]\nWhenever another Machine enters the field under your control ⇒ Put a [+100/+100] counter on this card.\nRemove two [+100/+100] counters from this card: Rest target resonator.",
+        "race": [
+          "Machine",
+          "Fairy"
+        ],
+        "cost": "[B]",
+        "text_html": "[Flying]\nWhenever another Machine enters the field under your control <del>⇒</del> Put a [+100/+100] counter on this card.\nRemove two [+100/+100] counters from this card: Rest target <del>resonator.</del>",
+        "race_html": "Machine, Fairy",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Flying]\nWhenever another Machine"
+          },
+          {
+            "op": "equal",
+            "value": "enters the field under your control"
+          },
+          {
+            "op": "delete",
+            "value": "⇒"
+          },
+          {
+            "op": "equal",
+            "value": "Put a [+100/+100] counter on this card.\nRemove two [+100/+100] counters from this card: Rest target"
+          },
+          {
+            "op": "delete",
+            "value": "resonator."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Machine"
+          },
+          {
+            "op": "equal",
+            "value": "Fairy"
+          }
+        ]
+      },
+      "new": {
+        "label": "Errata print",
+        "card_id": "WGP2018-1st",
+        "set_code": "WGP2018",
+        "set_name": "World Grand Prix 2018 Prize Cards",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/WGP2018-1st.jpg",
+        "text_source": "print",
+        "text": "[Flying]\nWhenever another Machine entity enters the field under your control >>> Put a [+100/+100] counter on this card.\nRemove two [+100/+100] counters from this card: Rest target J/resonator.",
+        "race": [
+          "Fairy",
+          "Machine"
+        ],
+        "cost": "[B]",
+        "text_html": "[Flying]\nWhenever another Machine <ins>entity</ins> enters the field under your control <ins>&gt;&gt;&gt;</ins> Put a [+100/+100] counter on this card.\nRemove two [+100/+100] counters from this card: Rest target <ins>J/resonator.</ins>",
+        "race_html": "Fairy, Machine",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Flying]\nWhenever another Machine"
+          },
+          {
+            "op": "insert",
+            "value": "entity"
+          },
+          {
+            "op": "equal",
+            "value": "enters the field under your control"
+          },
+          {
+            "op": "insert",
+            "value": ">>>"
+          },
+          {
+            "op": "equal",
+            "value": "Put a [+100/+100] counter on this card.\nRemove two [+100/+100] counters from this card: Rest target"
+          },
+          {
+            "op": "insert",
+            "value": "J/resonator."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Fairy"
+          },
+          {
+            "op": "equal",
+            "value": "Machine"
+          }
+        ]
+      }
+    },
+    {
+      "key": "R:WGP2018-3rd",
+      "decision": "errata",
+      "source": "reprint",
+      "card_name": "Tama, Familiar of Holy Wind",
+      "set_code": "WGP2018",
+      "card_id": "WGP2018-3rd",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/WGP-2018-3rd.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "SDL4-007",
+        "set_code": "SDL4",
+        "set_name": "Starter - Swarming Elves",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/SDL4-007.jpg",
+        "text_source": "print",
+        "text": "When this card enters your field ⇒ Draw a card.\nBanish this card: This card deals 200 damage to target resonator.",
+        "race": [
+          "Familiar",
+          "Cat"
+        ],
+        "cost": "[G]",
+        "text_html": "<del>When this card enters your field ⇒</del> Draw a card.\nBanish this card: This card deals 200 damage to target <del>resonator.</del>",
+        "race_html": "Familiar, Cat",
+        "text_diff": [
+          {
+            "op": "delete",
+            "value": "When this card enters your field ⇒"
+          },
+          {
+            "op": "equal",
+            "value": "Draw a card.\nBanish this card: This card deals 200 damage to target"
+          },
+          {
+            "op": "delete",
+            "value": "resonator."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Familiar"
+          },
+          {
+            "op": "equal",
+            "value": "Cat"
+          }
+        ]
+      },
+      "new": {
+        "label": "Errata print",
+        "card_id": "WGP2018-3rd",
+        "set_code": "WGP2018",
+        "set_name": "World Grand Prix 2018 Prize Cards",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/WGP-2018-3rd.jpg",
+        "text_source": "print",
+        "text": "[Enter] >>> Draw a card.\nBanish this card: This card deals 200 damage to target J/resonator.",
+        "race": [
+          "Cat",
+          "Familiar"
+        ],
+        "cost": "[G]",
+        "text_html": "<ins>[Enter] &gt;&gt;&gt;</ins> Draw a card.\nBanish this card: This card deals 200 damage to target <ins>J/resonator.</ins>",
+        "race_html": "Cat, Familiar",
+        "text_diff": [
+          {
+            "op": "insert",
+            "value": "[Enter] >>>"
+          },
+          {
+            "op": "equal",
+            "value": "Draw a card.\nBanish this card: This card deals 200 damage to target"
+          },
+          {
+            "op": "insert",
+            "value": "J/resonator."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Cat"
+          },
+          {
+            "op": "equal",
+            "value": "Familiar"
+          }
+        ]
+      }
+    },
+    {
+      "key": "W:TSD1-005",
+      "decision": "errata",
+      "source": "web",
+      "card_name": "Spirit of the Mirage Ruins",
+      "set_code": "TSD1",
+      "card_id": "TSD1-005",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/TSD1-005.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "TSD1-005",
+        "set_code": "TSD1",
+        "set_name": "Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/TSD1-005.jpg",
+        "text_source": "print",
+        "text": "[Quickcast] [Untouchable] (This card or its abilities cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nThis card enters the field rested.\nThis card gains [Barrier] as long as it is rested.\nIf a non-Spirit, non-magic stone, non-J-ruler card would be put into the field without paying its non-reduced printed cost or non-reduced cost modified by its base ability, its controller expels it instead.",
+        "race": [
+          "Elemental",
+          "Spirit"
+        ],
+        "cost": "[B]",
+        "text_html": "[Quickcast] [Untouchable] (This card or its abilities cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nThis card enters the field rested.\nThis card gains [Barrier] as long as it is rested.\nIf a non-Spirit, non-magic stone, non-J-ruler card would be put into the field without paying its non-reduced printed cost or non-reduced cost modified by <del>its</del> base ability, its controller expels it instead.",
+        "race_html": "Elemental, Spirit",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Untouchable] (This card or its abilities cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nThis card enters the field rested.\nThis card gains [Barrier] as long as it is rested.\nIf a non-Spirit, non-magic stone, non-J-ruler card would be put into the field without paying its non-reduced printed cost or non-reduced cost modified by"
+          },
+          {
+            "op": "delete",
+            "value": "its"
+          },
+          {
+            "op": "equal",
+            "value": "base ability, its controller expels it instead."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Elemental"
+          },
+          {
+            "op": "equal",
+            "value": "Spirit"
+          }
+        ]
+      },
+      "new": {
+        "label": "Official errata",
+        "card_id": "TSD1-005",
+        "set_code": "TSD1",
+        "set_name": "Thoth Cluster Starter Deck 1 \"Lehen Deck\"",
+        "image": null,
+        "text_source": "web",
+        "text": "[Quickcast] [Untouchable] (This card or its abilities cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nThis card enters the field rested.\nThis card gains [Barrier] as long as it is rested.\nIf a non-Spirit, non-magic stone, non-J-ruler card would be put into the field without paying its non-reduced printed cost or non-reduced cost modified by a base ability, its controller expels it instead.",
+        "race": [
+          "Elemental",
+          "Spirit"
+        ],
+        "cost": "[B]",
+        "text_html": "[Quickcast] [Untouchable] (This card or its abilities cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nThis card enters the field rested.\nThis card gains [Barrier] as long as it is rested.\nIf a non-Spirit, non-magic stone, non-J-ruler card would be put into the field without paying its non-reduced printed cost or non-reduced cost modified by <ins>a</ins> base ability, its controller expels it instead.",
+        "race_html": "Elemental, Spirit",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Untouchable] (This card or its abilities cannot be canceled, targeted or moved by spells or abilities as long as they are in the chase area.)\nThis card enters the field rested.\nThis card gains [Barrier] as long as it is rested.\nIf a non-Spirit, non-magic stone, non-J-ruler card would be put into the field without paying its non-reduced printed cost or non-reduced cost modified by"
+          },
+          {
+            "op": "insert",
+            "value": "a"
+          },
+          {
+            "op": "equal",
+            "value": "base ability, its controller expels it instead."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Elemental"
+          },
+          {
+            "op": "equal",
+            "value": "Spirit"
+          }
+        ]
+      },
+      "notes": "Official errata without a corrected printing: \"modified by its base ability\" becomes \"modified by a base ability\". Same errata as Muse's Staring at... (ABC-SD05-040)."
+    },
+    {
+      "key": "W:MP02-060",
+      "decision": "errata",
+      "source": "web",
+      "card_name": "Alabaster Spellweaver Shaman",
+      "set_code": "MP02",
+      "card_id": "MP02-060",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/MP02-060.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "MP02-060",
+        "set_code": "MP02",
+        "set_name": "Masterpiece Collection 02 \"Fates Reunited!\"",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/MP02-060.jpg",
+        "text_source": "print",
+        "text": "[Quickcast] [Untouchable] [Barrier] (Chant)\nYou may pay [W] rather than pay this card's cost.\nSpells or activate abilities cannot be played during a phase other than the main phase.\nIf a non-magic stone, non-J-ruler card would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by its base ability, its controller removes it from the game instead.\n[Enter] >>> If you paid [W][W] to play this card, put 2 [+100/+100] counters on it, then Force 1. If the result of the roll is 4 or higher, reveal a card named \"Dawn of the Earth\" you own from outside the game and put it into your hand.",
+        "race": [
+          "Ancient",
+          "Dragonoid",
+          "Shaman"
+        ],
+        "cost": "[W][W]",
+        "text_html": "[Quickcast] [Untouchable] [Barrier] (Chant)\nYou may pay [W] rather than pay this card&#x27;s cost.\nSpells or activate abilities cannot be played during a phase other than the main phase.\nIf a non-magic stone, non-J-ruler card would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by <del>its</del> base ability, its controller removes it from the game instead.\n[Enter] &gt;&gt;&gt; If you paid [W][W] to play this card, put 2 [+100/+100] counters on it, then Force 1. If the result of the roll is 4 or higher, reveal a card named &quot;Dawn of the Earth&quot; you own from outside the game and put it into your hand.",
+        "race_html": "Ancient, Dragonoid, Shaman",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Untouchable] [Barrier] (Chant)\nYou may pay [W] rather than pay this card's cost.\nSpells or activate abilities cannot be played during a phase other than the main phase.\nIf a non-magic stone, non-J-ruler card would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by"
+          },
+          {
+            "op": "delete",
+            "value": "its"
+          },
+          {
+            "op": "equal",
+            "value": "base ability, its controller removes it from the game instead.\n[Enter] >>> If you paid [W][W] to play this card, put 2 [+100/+100] counters on it, then Force 1. If the result of the roll is 4 or higher, reveal a card named \"Dawn of the Earth\" you own from outside the game and put it into your hand."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Ancient"
+          },
+          {
+            "op": "equal",
+            "value": "Dragonoid"
+          },
+          {
+            "op": "equal",
+            "value": "Shaman"
+          }
+        ]
+      },
+      "new": {
+        "label": "Official errata",
+        "card_id": "MP02-060",
+        "set_code": "MP02",
+        "set_name": "Masterpiece Collection 02 \"Fates Reunited!\"",
+        "image": null,
+        "text_source": "web",
+        "text": "[Quickcast] [Untouchable] [Barrier] (Chant)\nYou may pay [W] rather than pay this card's cost.\nSpells or activate abilities cannot be played during a phase other than the main phase.\nIf a non-magic stone, non-J-ruler card would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by a base ability, its controller removes it from the game instead.\n[Enter] >>> If you paid [W][W] to play this card, put 2 [+100/+100] counters on it, then Force 1. If the result of the roll is 4 or higher, reveal a card named \"Dawn of the Earth\" you own from outside the game and put it into your hand.",
+        "race": [
+          "Ancient",
+          "Dragonoid",
+          "Shaman"
+        ],
+        "cost": "[W][W]",
+        "text_html": "[Quickcast] [Untouchable] [Barrier] (Chant)\nYou may pay [W] rather than pay this card&#x27;s cost.\nSpells or activate abilities cannot be played during a phase other than the main phase.\nIf a non-magic stone, non-J-ruler card would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by <ins>a</ins> base ability, its controller removes it from the game instead.\n[Enter] &gt;&gt;&gt; If you paid [W][W] to play this card, put 2 [+100/+100] counters on it, then Force 1. If the result of the roll is 4 or higher, reveal a card named &quot;Dawn of the Earth&quot; you own from outside the game and put it into your hand.",
+        "race_html": "Ancient, Dragonoid, Shaman",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Untouchable] [Barrier] (Chant)\nYou may pay [W] rather than pay this card's cost.\nSpells or activate abilities cannot be played during a phase other than the main phase.\nIf a non-magic stone, non-J-ruler card would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by"
+          },
+          {
+            "op": "insert",
+            "value": "a"
+          },
+          {
+            "op": "equal",
+            "value": "base ability, its controller removes it from the game instead.\n[Enter] >>> If you paid [W][W] to play this card, put 2 [+100/+100] counters on it, then Force 1. If the result of the roll is 4 or higher, reveal a card named \"Dawn of the Earth\" you own from outside the game and put it into your hand."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Ancient"
+          },
+          {
+            "op": "equal",
+            "value": "Dragonoid"
+          },
+          {
+            "op": "equal",
+            "value": "Shaman"
+          }
+        ]
+      },
+      "notes": "Official errata without a corrected printing: \"modified by its base ability\" becomes \"modified by a base ability\". Same errata as Muse's Staring at... (ABC-SD05-040)."
+    },
+    {
+      "key": "W:MP03-098",
+      "decision": "errata",
+      "source": "web",
+      "card_name": "Angelic Seal of Yomidgard",
+      "set_code": "MP03",
+      "card_id": "MP03-098",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/MP03-098.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "MP03-098",
+        "set_code": "MP03",
+        "set_name": "Masterpiece Collection 03 \"Dimensional Hope\"",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/MP03-098.jpg",
+        "text_source": "print",
+        "text": "[Quickcast] [Barrier] (Chant and God's Art abilities)\nIf an addition card, a regalia card, or a resonator card other than a High God resonator token would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by its base ability, its controller removes it from the game instead.\n[Solo Mode]\n[Untouchable]",
+        "race": [
+          "Arcane Item"
+        ],
+        "cost": "[W]",
+        "text_html": "[Quickcast] [Barrier] (Chant and God&#x27;s Art abilities)\nIf an addition card, a regalia card, or a resonator card other than a High God resonator token would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by <del>its</del> base ability, its controller removes it from the game instead.\n[Solo Mode]\n[Untouchable]",
+        "race_html": "Arcane Item",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Barrier] (Chant and God's Art abilities)\nIf an addition card, a regalia card, or a resonator card other than a High God resonator token would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by"
+          },
+          {
+            "op": "delete",
+            "value": "its"
+          },
+          {
+            "op": "equal",
+            "value": "base ability, its controller removes it from the game instead.\n[Solo Mode]\n[Untouchable]"
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Arcane Item"
+          }
+        ]
+      },
+      "new": {
+        "label": "Official errata",
+        "card_id": "MP03-098",
+        "set_code": "MP03",
+        "set_name": "Masterpiece Collection 03 \"Dimensional Hope\"",
+        "image": null,
+        "text_source": "web",
+        "text": "[Quickcast] [Barrier] (Chant and God's Art abilities)\nIf an addition card, a regalia card, or a resonator card other than a High God resonator token would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by a base ability, its controller removes it from the game instead.\n[Solo Mode]\n[Untouchable]",
+        "race": [
+          "Arcane Item"
+        ],
+        "cost": "[W]",
+        "text_html": "[Quickcast] [Barrier] (Chant and God&#x27;s Art abilities)\nIf an addition card, a regalia card, or a resonator card other than a High God resonator token would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by <ins>a</ins> base ability, its controller removes it from the game instead.\n[Solo Mode]\n[Untouchable]",
+        "race_html": "Arcane Item",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Barrier] (Chant and God's Art abilities)\nIf an addition card, a regalia card, or a resonator card other than a High God resonator token would be put into the field without being played by paying its non-reduced printed cost, or paying its non-reduced cost modified by"
+          },
+          {
+            "op": "insert",
+            "value": "a"
+          },
+          {
+            "op": "equal",
+            "value": "base ability, its controller removes it from the game instead.\n[Solo Mode]\n[Untouchable]"
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Arcane Item"
+          }
+        ]
+      },
+      "notes": "Official errata without a corrected printing: \"modified by its base ability\" becomes \"modified by a base ability\". Same errata as Muse's Staring at... (ABC-SD05-040)."
+    },
+    {
+      "key": "W:World2026-003",
+      "decision": "errata",
+      "source": "web",
+      "card_name": "Kushiel, Archangel of Punishment",
+      "set_code": "World2026",
+      "card_id": "World2026-003",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/World2026-003.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "World2026-003",
+        "set_code": "World2026",
+        "set_name": "World Championship 2026 Prize Cards",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/World2026-003.jpg",
+        "text_source": "print",
+        "text": "[Quickcast] [Defiant] (0) [Flying] [First Strike] [Barrier] (Total cost 2 or less)\nYou pay [X] less to play this card, where X is the number of spells each other player played this turn. If X is two or more, this card gains [Untouchable], \"This card cannot be expelled.\" and \"This card cannot lose its abilities.\" as long as it is in the chase area, and as it enters the field until end of game.\n[Enter] >>> This card gains [Defiant] (Y) until end of game, where Y is X.\n<Velmardian Hope> [Enter] >>> You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Each game, only one <Velmardian Hope> ability triggers per player.",
+        "race": [
+          "Angel",
+          "Punisher",
+          "Saint",
+          "Valkyrie"
+        ],
+        "cost": "[W][3]",
+        "text_html": "[Quickcast] [Defiant] (0) [Flying] [First Strike] [Barrier] (Total cost 2 or less)\nYou pay [X] less to play this card, where X is the number of spells each other player played this turn. If X is <del>two</del> or more, this card gains [Untouchable], &quot;This card cannot be expelled.&quot; and &quot;This card cannot lose its abilities.&quot; as long as it is in the chase area, and as it enters the field until end of game.\n[Enter] &gt;&gt;&gt; This card gains [Defiant] (Y) until end of game, where Y is X.\n&lt;Velmardian Hope&gt; [Enter] &gt;&gt;&gt; You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Each game, only one &lt;Velmardian Hope&gt; ability triggers per player.",
+        "race_html": "Angel, Punisher, Saint, Valkyrie",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Defiant] (0) [Flying] [First Strike] [Barrier] (Total cost 2 or less)\nYou pay [X] less to play this card, where X is the number of spells each other player played this turn. If X is"
+          },
+          {
+            "op": "delete",
+            "value": "two"
+          },
+          {
+            "op": "equal",
+            "value": "or more, this card gains [Untouchable], \"This card cannot be expelled.\" and \"This card cannot lose its abilities.\" as long as it is in the chase area, and as it enters the field until end of game.\n[Enter] >>> This card gains [Defiant] (Y) until end of game, where Y is X.\n<Velmardian Hope> [Enter] >>> You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Each game, only one <Velmardian Hope> ability triggers per player."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Angel"
+          },
+          {
+            "op": "equal",
+            "value": "Punisher"
+          },
+          {
+            "op": "equal",
+            "value": "Saint"
+          },
+          {
+            "op": "equal",
+            "value": "Valkyrie"
+          }
+        ]
+      },
+      "new": {
+        "label": "Official errata",
+        "card_id": "World2026-003",
+        "set_code": "World2026",
+        "set_name": "World Championship 2026 Prize Cards",
+        "image": null,
+        "text_source": "web",
+        "text": "[Quickcast] [Defiant] (0) [Flying] [First Strike] [Barrier] (Total cost 2 or less)\nYou pay [X] less to play this card, where X is the number of spells each other player played this turn. If X is three or more, this card gains [Untouchable], \"This card cannot be expelled.\" and \"This card cannot lose its abilities.\" as long as it is in the chase area, and as it enters the field until end of game.\n[Enter] >>> This card gains [Defiant] (Y) until end of game, where Y is X.\n<Velmardian Hope> [Enter] >>> You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Each game, only one <Velmardian Hope> ability triggers per player.",
+        "race": [
+          "Angel",
+          "Punisher",
+          "Saint",
+          "Valkyrie"
+        ],
+        "cost": "[W][3]",
+        "text_html": "[Quickcast] [Defiant] (0) [Flying] [First Strike] [Barrier] (Total cost 2 or less)\nYou pay [X] less to play this card, where X is the number of spells each other player played this turn. If X is <ins>three</ins> or more, this card gains [Untouchable], &quot;This card cannot be expelled.&quot; and &quot;This card cannot lose its abilities.&quot; as long as it is in the chase area, and as it enters the field until end of game.\n[Enter] &gt;&gt;&gt; This card gains [Defiant] (Y) until end of game, where Y is X.\n&lt;Velmardian Hope&gt; [Enter] &gt;&gt;&gt; You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Each game, only one &lt;Velmardian Hope&gt; ability triggers per player.",
+        "race_html": "Angel, Punisher, Saint, Valkyrie",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast] [Defiant] (0) [Flying] [First Strike] [Barrier] (Total cost 2 or less)\nYou pay [X] less to play this card, where X is the number of spells each other player played this turn. If X is"
+          },
+          {
+            "op": "insert",
+            "value": "three"
+          },
+          {
+            "op": "equal",
+            "value": "or more, this card gains [Untouchable], \"This card cannot be expelled.\" and \"This card cannot lose its abilities.\" as long as it is in the chase area, and as it enters the field until end of game.\n[Enter] >>> This card gains [Defiant] (Y) until end of game, where Y is X.\n<Velmardian Hope> [Enter] >>> You cannot lose the game until end of turn. Damage that would be dealt to you becomes 0 instead until end of turn. Each game, only one <Velmardian Hope> ability triggers per player."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Angel"
+          },
+          {
+            "op": "equal",
+            "value": "Punisher"
+          },
+          {
+            "op": "equal",
+            "value": "Saint"
+          },
+          {
+            "op": "equal",
+            "value": "Valkyrie"
+          }
+        ]
+      },
+      "notes": "The prize printing says \"If X is two or more\"; the official errata restores the intended \"three or more\" of ESD2-008."
+    },
+    {
+      "key": "P:MC11-005J",
+      "decision": "format_change",
+      "source": "physical",
+      "card_name": "Brokenhearted Water Spirit, Undine",
+      "set_code": "MC11",
+      "card_id": "MC11-005J",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/MC11-005J.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "ABC-SD05-004J printed card",
+        "card_id": "ABC-SD05-004J",
+        "set_code": "ABC",
+        "set_name": "Hyde vs Undine (Undine)",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/ABC-SD05-004J.jpg",
+        "text_source": "print",
+        "text": "[Untouchable] [Barrier] (Chant)\nThe cost of water Wizard resonators is their specified cost instead of their printed cost in all zones.\nPlayers gain \"As an additional cost to play a spell that is not a water Wizard resonator spell, pay [1].\".\nWater Wizard resonators gain [+X00/+X00], where X is the number of chants with different names in your graveyard.\nAt the end of your turn >>> Rest all non-water Wizard resonators. Resonators rested this way don't recover during their controller's next recovery phase.",
+        "race": [
+          "Queen",
+          "Wizard"
+        ],
+        "cost": null,
+        "text_html": "[Untouchable] [Barrier] (Chant)\nThe cost of water Wizard resonators is their specified cost instead of their printed cost in all zones.\nPlayers gain &quot;As an additional cost to play a spell <del>that is not</del> a water Wizard resonator spell, pay [1].&quot;.\nWater Wizard resonators gain [+X00/+X00], where X is the number of chants with different names in your graveyard.\nAt the end of your turn &gt;&gt;&gt; Rest all <del>non-water</del> Wizard resonators. Resonators rested this way don&#x27;t recover during their controller&#x27;s next recovery phase.",
+        "race_html": "Queen, Wizard",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Untouchable] [Barrier] (Chant)\nThe cost of water Wizard resonators is their specified cost instead of their printed cost in all zones.\nPlayers gain \"As an additional cost to play a spell"
+          },
+          {
+            "op": "delete",
+            "value": "that is not"
+          },
+          {
+            "op": "equal",
+            "value": "a water Wizard resonator spell, pay [1].\".\nWater Wizard resonators gain [+X00/+X00], where X is the number of chants with different names in your graveyard.\nAt the end of your turn >>> Rest all"
+          },
+          {
+            "op": "delete",
+            "value": "non-water"
+          },
+          {
+            "op": "equal",
+            "value": "Wizard resonators. Resonators rested this way don't recover during their controller's next recovery phase."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Queen"
+          },
+          {
+            "op": "equal",
+            "value": "Wizard"
+          }
+        ]
+      },
+      "new": {
+        "label": "MC11-005J printed card",
+        "card_id": "MC11-005J",
+        "set_code": "MC11",
+        "set_name": "Memoria Collection 11",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/MC11-005J.jpg",
+        "text_source": "print",
+        "text": "[Untouchable] [Barrier] (Chant)\nThe cost of water Wizard resonators is their specified cost instead of their printed cost in all zones.\nPlayers gain \"As an additional cost to play a spell other than a water Wizard resonator spell, pay [1].\".\nWater Wizard resonators gain [+X00/+X00], where X is the number of chants with different names in your graveyard.\nAt the end of your turn >>> Rest all resonators other than water Wizard resonators. Resonators rested this way don't recover during their controller's next recovery phase.",
+        "race": [
+          "Queen",
+          "Wizard"
+        ],
+        "cost": null,
+        "text_html": "[Untouchable] [Barrier] (Chant)\nThe cost of water Wizard resonators is their specified cost instead of their printed cost in all zones.\nPlayers gain &quot;As an additional cost to play a spell <ins>other than</ins> a water Wizard resonator spell, pay [1].&quot;.\nWater Wizard resonators gain [+X00/+X00], where X is the number of chants with different names in your graveyard.\nAt the end of your turn &gt;&gt;&gt; Rest all <ins>resonators other than water</ins> Wizard resonators. Resonators rested this way don&#x27;t recover during their controller&#x27;s next recovery phase.",
+        "race_html": "Queen, Wizard",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Untouchable] [Barrier] (Chant)\nThe cost of water Wizard resonators is their specified cost instead of their printed cost in all zones.\nPlayers gain \"As an additional cost to play a spell"
+          },
+          {
+            "op": "insert",
+            "value": "other than"
+          },
+          {
+            "op": "equal",
+            "value": "a water Wizard resonator spell, pay [1].\".\nWater Wizard resonators gain [+X00/+X00], where X is the number of chants with different names in your graveyard.\nAt the end of your turn >>> Rest all"
+          },
+          {
+            "op": "insert",
+            "value": "resonators other than water"
+          },
+          {
+            "op": "equal",
+            "value": "Wizard resonators. Resonators rested this way don't recover during their controller's next recovery phase."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Queen"
+          },
+          {
+            "op": "equal",
+            "value": "Wizard"
+          }
+        ]
+      },
+      "notes": "MC11 reprints ABC-SD05-004J with reworded but functionally identical text. Text transcribed from the card scans."
+    },
+    {
+      "key": "A:TSR-003",
+      "decision": "errata",
+      "source": "article",
+      "card_name": "Lunar Protective Lifeform",
+      "set_code": "TSR",
+      "card_id": "TSR-003",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/TSR-003.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Printed card (errata article)",
+        "card_id": "TSR-003",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/TSR-003.jpg",
+        "text_source": "physical_card",
+        "text": "Choose two;\n- Remove target non-Golem resonator from battle. Resonators sharing an attribute with the chosen target cannot attack until end of turn. Draw a card.\n- Until end of turn, non-battle damage that would be dealt to you or to J/resonators you control by sources you don't control becomes 0 instead.\n- You gain 1500 life.",
+        "text_html": "Choose two;\n- Remove target non-Golem resonator from battle. Resonators sharing an attribute with the chosen target cannot attack until end of turn. Draw a card.\n- Until end of turn, non-battle damage that would be dealt to you or to J/resonators you control by sources you don&#x27;t control becomes 0 instead.\n- You gain 1500 life.",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "Choose two;\n- Remove target"
+          },
+          {
+            "op": "equal",
+            "value": "non-Golem resonator from battle. Resonators sharing an attribute with the chosen target cannot attack until end of turn. Draw a card.\n- Until end of turn, non-battle damage that would be dealt to you or to J/resonators you control by sources you don't control becomes 0 instead.\n- You gain 1500 life."
+          }
+        ],
+        "set_code": "TSR",
+        "set_name": "The Battle at the Sacred Ruins",
+        "race": null,
+        "cost": null,
+        "race_html": null,
+        "race_diff": null
+      },
+      "new": {
+        "label": "Errata article text",
+        "card_id": "TSR-003",
+        "image": null,
+        "text_source": "errata_article",
+        "text": "Choose two;\n- Remove target attacking or blocking non-Golem resonator from battle. Resonators sharing an attribute with the chosen target cannot attack until end of turn. Draw a card.\n- Until end of turn, non-battle damage that would be dealt to you or to J/resonators you control by sources you don't control becomes 0 instead.\n- You gain 1500 life.",
+        "text_html": "Choose two;\n- Remove target <ins>attacking or blocking</ins> non-Golem resonator from battle. Resonators sharing an attribute with the chosen target cannot attack until end of turn. Draw a card.\n- Until end of turn, non-battle damage that would be dealt to you or to J/resonators you control by sources you don&#x27;t control becomes 0 instead.\n- You gain 1500 life.",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "Choose two;\n- Remove target"
+          },
+          {
+            "op": "insert",
+            "value": "attacking or blocking"
+          },
+          {
+            "op": "equal",
+            "value": "non-Golem resonator from battle. Resonators sharing an attribute with the chosen target cannot attack until end of turn. Draw a card.\n- Until end of turn, non-battle damage that would be dealt to you or to J/resonators you control by sources you don't control becomes 0 instead.\n- You gain 1500 life."
+          }
+        ],
+        "set_code": "TSR",
+        "set_name": "The Battle at the Sacred Ruins",
+        "race": null,
+        "cost": null,
+        "race_html": null,
+        "race_diff": null
+      },
+      "errata_article": {
+        "post_id": 239,
+        "url": "https://www.fowtcg.com/posts/239",
+        "date": "2025-10-15",
+        "title": "Q&A and Errata - ATD",
+        "images": []
       },
       "change_kind": "text",
       "notes": ""
