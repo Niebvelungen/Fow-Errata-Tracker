@@ -1,9 +1,9 @@
 {
   "format": "fow-errata-simple/1",
-  "count": 966,
+  "count": 967,
   "counts_by_decision": {
     "format_change": 495,
-    "errata": 452,
+    "errata": 453,
     "no_change": 19
   },
   "entries": [
@@ -112943,6 +112943,118 @@
       },
       "change_kind": "text",
       "notes": ""
+    },
+    {
+      "key": "W:TSR-025",
+      "decision": "errata",
+      "source": "web",
+      "card_name": "Second in Command, Kimihe",
+      "set_code": "TSR",
+      "card_id": "TSR-025",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/TSR-025.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "TSR-025",
+        "set_code": "TSR",
+        "set_name": "The Battle at the Sacred Ruins",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/TSR-025.jpg",
+        "text_source": "print",
+        "text": "[Rest]: Choose a J/resonator. Put X [-100/-100] counters on the chosen target, where X is two minus the number of [-100/-100] counters on it. Play this ability only during each player's main phase.\n[Judgment] [R]. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod's Art \"Start the Engines\" [R][R]: Each player's weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability.",
+        "race": [
+          "Strategist",
+          "Werefox"
+        ],
+        "cost": null,
+        "text_html": "[Rest]: Choose a J/resonator. Put X [-100/-100] counters on the chosen <del>target,</del> where X is two minus the number of [-100/-100] counters on it. Play this ability only during <del>each player&#x27;s</del> main phase.\n[Judgment] [R]. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod&#x27;s Art &quot;Start the Engines&quot; [R][R]: Each player&#x27;s weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability.",
+        "race_html": "Strategist, Werefox",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Rest]: Choose a J/resonator. Put X [-100/-100] counters on the chosen"
+          },
+          {
+            "op": "delete",
+            "value": "target,"
+          },
+          {
+            "op": "equal",
+            "value": "where X is two minus the number of [-100/-100] counters on it. Play this ability only during"
+          },
+          {
+            "op": "delete",
+            "value": "each player's"
+          },
+          {
+            "op": "equal",
+            "value": "main phase.\n[Judgment] [R]. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod's Art \"Start the Engines\" [R][R]: Each player's weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Strategist"
+          },
+          {
+            "op": "equal",
+            "value": "Werefox"
+          }
+        ]
+      },
+      "new": {
+        "label": "Official errata",
+        "card_id": "TSR-025",
+        "set_code": "TSR",
+        "set_name": "The Battle at the Sacred Ruins",
+        "image": null,
+        "text_source": "web",
+        "text": "[Rest]: Choose a J/resonator. Put X [-100/-100] counters on the chosen J/resonator, where X is two minus the number of [-100/-100] counters on it. Play this ability only during the main phase.\n[Judgment] [R]. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod's Art \"Start the Engines\" [R][R]: Each player's weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability.",
+        "race": [
+          "Strategist",
+          "Werefox"
+        ],
+        "cost": null,
+        "text_html": "[Rest]: Choose a J/resonator. Put X [-100/-100] counters on the chosen <ins>J/resonator,</ins> where X is two minus the number of [-100/-100] counters on it. Play this ability only during <ins>the</ins> main phase.\n[Judgment] [R]. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod&#x27;s Art &quot;Start the Engines&quot; [R][R]: Each player&#x27;s weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability.",
+        "race_html": "Strategist, Werefox",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Rest]: Choose a J/resonator. Put X [-100/-100] counters on the chosen"
+          },
+          {
+            "op": "insert",
+            "value": "J/resonator,"
+          },
+          {
+            "op": "equal",
+            "value": "where X is two minus the number of [-100/-100] counters on it. Play this ability only during"
+          },
+          {
+            "op": "insert",
+            "value": "the"
+          },
+          {
+            "op": "equal",
+            "value": "main phase.\n[Judgment] [R]. Play this judgment process only if your weather is pollution.\n[Solo Mode]\nCalling a magic stone does not cause this card to rest.\nGod's Art \"Start the Engines\" [R][R]: Each player's weather is pollution until end of game. Play this ability only during main timing. Players cannot chase to this ability."
+          }
+        ],
+        "race_diff": [
+          {
+            "op": "equal",
+            "value": "Strategist"
+          },
+          {
+            "op": "equal",
+            "value": "Werefox"
+          }
+        ]
+      },
+      "notes": "Official errata without a corrected printing."
     }
   ]
 }
