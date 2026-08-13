@@ -1,9 +1,9 @@
 {
   "format": "fow-errata-simple/1",
-  "count": 967,
+  "count": 968,
   "counts_by_decision": {
     "format_change": 495,
-    "errata": 453,
+    "errata": 454,
     "no_change": 19
   },
   "entries": [
@@ -113053,6 +113053,70 @@
             "value": "Werefox"
           }
         ]
+      },
+      "notes": "Official errata without a corrected printing."
+    },
+    {
+      "key": "W:TWS-063",
+      "decision": "errata",
+      "source": "web",
+      "card_name": "The Descent of Ulga",
+      "set_code": "TWS",
+      "card_id": "TWS-063",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/TWS-063.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Original print",
+        "card_id": "TWS-063",
+        "set_code": "TWS",
+        "set_name": "The War of the Suns",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/TWS-063.jpg",
+        "text_source": "print",
+        "text": "[Quickcast]\nYou pay [G] less to play this card if you control an addition named \"Magog, Artificial Eclipse\".\nChoose one;\n- Cancel target spell unless its controller pays [1].\n- Additions named \"Magog, Artificial Eclipse\" you control gain \"[Rest]: This card deals 700 damage to target J/resonator.\".",
+        "race": [],
+        "cost": "[G][G]",
+        "text_html": "[Quickcast]\nYou pay [G] less to play this card if you control an addition named &quot;Magog, Artificial Eclipse&quot;.\nChoose one;\n- Cancel target spell unless its controller pays [1].\n- Additions named &quot;Magog, Artificial Eclipse&quot; you control gain &quot;[Rest]: This card deals 700 damage to target <del>J/resonator.&quot;.</del>",
+        "race_html": "",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast]\nYou pay [G] less to play this card if you control an addition named \"Magog, Artificial Eclipse\".\nChoose one;\n- Cancel target spell unless its controller pays [1].\n- Additions named \"Magog, Artificial Eclipse\" you control gain \"[Rest]: This card deals 700 damage to target"
+          },
+          {
+            "op": "delete",
+            "value": "J/resonator.\"."
+          }
+        ],
+        "race_diff": []
+      },
+      "new": {
+        "label": "Official errata",
+        "card_id": "TWS-063",
+        "set_code": "TWS",
+        "set_name": "The War of the Suns",
+        "image": null,
+        "text_source": "web",
+        "text": "[Quickcast]\nYou pay [G] less to play this card if you control an addition named \"Magog, Artificial Eclipse\".\nChoose one;\n- Cancel target spell unless its controller pays [1].\n- Additions named \"Magog, Artificial Eclipse\" you control gain \"[Rest]: This card deals 700 damage to target J/resonator.\" until end of game.",
+        "race": [],
+        "cost": "[G][G]",
+        "text_html": "[Quickcast]\nYou pay [G] less to play this card if you control an addition named &quot;Magog, Artificial Eclipse&quot;.\nChoose one;\n- Cancel target spell unless its controller pays [1].\n- Additions named &quot;Magog, Artificial Eclipse&quot; you control gain &quot;[Rest]: This card deals 700 damage to target <ins>J/resonator.&quot; until end of game.</ins>",
+        "race_html": "",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Quickcast]\nYou pay [G] less to play this card if you control an addition named \"Magog, Artificial Eclipse\".\nChoose one;\n- Cancel target spell unless its controller pays [1].\n- Additions named \"Magog, Artificial Eclipse\" you control gain \"[Rest]: This card deals 700 damage to target"
+          },
+          {
+            "op": "insert",
+            "value": "J/resonator.\" until end of game."
+          }
+        ],
+        "race_diff": []
       },
       "notes": "Official errata without a corrected printing."
     }
