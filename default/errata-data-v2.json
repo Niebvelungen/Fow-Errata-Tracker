@@ -1,9 +1,9 @@
 {
   "format": "fow-errata-simple/1",
-  "count": 968,
+  "count": 970,
   "counts_by_decision": {
     "format_change": 495,
-    "errata": 454,
+    "errata": 456,
     "no_change": 19
   },
   "entries": [
@@ -113119,6 +113119,162 @@
         "race_diff": []
       },
       "notes": "Official errata without a corrected printing."
+    },
+    {
+      "key": "A:QSK-017",
+      "decision": "errata",
+      "source": "article",
+      "card_name": "Involuntary Bloody Tithe",
+      "set_code": "QSK",
+      "card_id": "QSK-017",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/QSK-017.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Printed card (errata article)",
+        "card_id": "QSK-017",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/QSK-017.jpg",
+        "text_source": "physical_card",
+        "text": "Players gain \"If you are not the turn player, as an additional cost to play wind spells with [Quickcast], pay [2].\".\nWhenever this spell is targeted by a wind spell or ability you don't control >>> Cancel that spell unless its controller pays [2].\n[Solo Mode]\n[Quickcast] [Aegis]\n[Rest], [R] or remove two strength counters from J/rulers you control: Return this card to its owner's hand.",
+        "text_html": "Players gain &quot;If you are not the turn player, as an additional cost to play wind spells with [Quickcast], pay [2].&quot;.\nWhenever this spell is targeted by a wind spell <del>or ability</del> you don&#x27;t control &gt;&gt;&gt; Cancel that spell unless its controller pays [2].\n[Solo Mode]\n[Quickcast] [Aegis]\n[Rest], [R] or remove two strength counters from J/rulers you control: Return this card to its owner&#x27;s hand.",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "Players gain \"If you are not the turn player, as an additional cost to play wind spells with [Quickcast], pay [2].\".\nWhenever this spell is targeted by a wind spell"
+          },
+          {
+            "op": "delete",
+            "value": "or ability"
+          },
+          {
+            "op": "equal",
+            "value": "you don't control >>> Cancel that spell unless its controller pays [2].\n[Solo Mode]\n[Quickcast] [Aegis]\n[Rest], [R] or remove two strength counters from J/rulers you control: Return this card to its owner's hand."
+          }
+        ],
+        "set_code": "QSK",
+        "set_name": "The Quest of the Seven Keys",
+        "race": null,
+        "cost": null,
+        "race_html": null,
+        "race_diff": null
+      },
+      "new": {
+        "label": "Errata article text",
+        "card_id": "QSK-017",
+        "image": null,
+        "text_source": "errata_article",
+        "text": "Players gain \"If you are not the turn player, as an additional cost to play wind spells with [Quickcast], pay [2].\".\nWhenever this spell is targeted by a wind spell you don't control >>> Cancel that spell unless its controller pays [2].\n[Solo Mode]\n[Quickcast] [Aegis]\n[Rest], [R] or remove two strength counters from J/rulers you control: Return this card to its owner's hand.",
+        "text_html": "Players gain &quot;If you are not the turn player, as an additional cost to play wind spells with [Quickcast], pay [2].&quot;.\nWhenever this spell is targeted by a wind spell you don&#x27;t control &gt;&gt;&gt; Cancel that spell unless its controller pays [2].\n[Solo Mode]\n[Quickcast] [Aegis]\n[Rest], [R] or remove two strength counters from J/rulers you control: Return this card to its owner&#x27;s hand.",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "Players gain \"If you are not the turn player, as an additional cost to play wind spells with [Quickcast], pay [2].\".\nWhenever this spell is targeted by a wind spell"
+          },
+          {
+            "op": "equal",
+            "value": "you don't control >>> Cancel that spell unless its controller pays [2].\n[Solo Mode]\n[Quickcast] [Aegis]\n[Rest], [R] or remove two strength counters from J/rulers you control: Return this card to its owner's hand."
+          }
+        ],
+        "set_code": "QSK",
+        "set_name": "The Quest of the Seven Keys",
+        "race": null,
+        "cost": null,
+        "race_html": null,
+        "race_diff": null
+      },
+      "errata_article": {
+        "post_id": 278,
+        "url": "https://www.fowtcg.com/posts/278",
+        "date": "2026-09-18",
+        "title": "Evil Cluster \"The Quests to the Seven Keys\" Errata Info",
+        "images": []
+      },
+      "change_kind": "text",
+      "notes": "Typo errata announced with the set's release: the trigger no longer covers abilities, only wind spells (\"or ability\" is struck through in the article). Printed text transcribed from the QSK-017 scan."
+    },
+    {
+      "key": "A:QSK-021",
+      "decision": "errata",
+      "source": "article",
+      "card_name": "Thornspine Wurm",
+      "set_code": "QSK",
+      "card_id": "QSK-021",
+      "card_image": "https://fowsim.s3.amazonaws.com/media/cards/QSK-021.jpg",
+      "changed": [
+        "text"
+      ],
+      "text_changed": true,
+      "race_changed": false,
+      "cost_changed": false,
+      "old": {
+        "label": "Printed card (errata article)",
+        "card_id": "QSK-021",
+        "image": "https://fowsim.s3.amazonaws.com/media/cards/QSK-021.jpg",
+        "text_source": "physical_card",
+        "text": "[Blood Trail] [Belligerence] [First Strike]\nRemove four strength counters from J/rulers you control: Put X [+X00/+X00] counters on this card, where X is the number of card types among cards in all graveyards.\n[Anathema]\n- Whenever this card attacks >>> Each player that controls more magic stones than any other player or that is tied as the player that controls more magic stones banishes two magic stones.",
+        "text_html": "[Blood Trail] [Belligerence] [First Strike]\nRemove four strength counters from J/rulers you control: Put X <del>[+X00/+X00]</del> counters on this card, where X is the number of card types among cards in all graveyards.\n[Anathema]\n- Whenever this card attacks &gt;&gt;&gt; Each player that controls more magic stones than any other player or that is tied as the player that controls more magic stones banishes two magic stones.",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Blood Trail] [Belligerence] [First Strike]\nRemove four strength counters from J/rulers you control: Put X"
+          },
+          {
+            "op": "delete",
+            "value": "[+X00/+X00]"
+          },
+          {
+            "op": "equal",
+            "value": "counters on this card, where X is the number of card types among cards in all graveyards.\n[Anathema]\n- Whenever this card attacks >>> Each player that controls more magic stones than any other player or that is tied as the player that controls more magic stones banishes two magic stones."
+          }
+        ],
+        "set_code": "QSK",
+        "set_name": "The Quest of the Seven Keys",
+        "race": null,
+        "cost": null,
+        "race_html": null,
+        "race_diff": null
+      },
+      "new": {
+        "label": "Errata article text",
+        "card_id": "QSK-021",
+        "image": null,
+        "text_source": "errata_article",
+        "text": "[Blood Trail] [Belligerence] [First Strike]\nRemove four strength counters from J/rulers you control: Put X [+100/+100] counters on this card, where X is the number of card types among cards in all graveyards.\n[Anathema]\n- Whenever this card attacks >>> Each player that controls more magic stones than any other player or that is tied as the player that controls more magic stones banishes two magic stones.",
+        "text_html": "[Blood Trail] [Belligerence] [First Strike]\nRemove four strength counters from J/rulers you control: Put X <ins>[+100/+100]</ins> counters on this card, where X is the number of card types among cards in all graveyards.\n[Anathema]\n- Whenever this card attacks &gt;&gt;&gt; Each player that controls more magic stones than any other player or that is tied as the player that controls more magic stones banishes two magic stones.",
+        "text_diff": [
+          {
+            "op": "equal",
+            "value": "[Blood Trail] [Belligerence] [First Strike]\nRemove four strength counters from J/rulers you control: Put X"
+          },
+          {
+            "op": "insert",
+            "value": "[+100/+100]"
+          },
+          {
+            "op": "equal",
+            "value": "counters on this card, where X is the number of card types among cards in all graveyards.\n[Anathema]\n- Whenever this card attacks >>> Each player that controls more magic stones than any other player or that is tied as the player that controls more magic stones banishes two magic stones."
+          }
+        ],
+        "set_code": "QSK",
+        "set_name": "The Quest of the Seven Keys",
+        "race": null,
+        "cost": null,
+        "race_html": null,
+        "race_diff": null
+      },
+      "errata_article": {
+        "post_id": 278,
+        "url": "https://www.fowtcg.com/posts/278",
+        "date": "2026-09-18",
+        "title": "Evil Cluster \"The Quests to the Seven Keys\" Errata Info",
+        "images": []
+      },
+      "change_kind": "text",
+      "notes": "Typo errata announced with the set's release: the counters are [+100/+100], not the printed [+X00/+X00]. Printed text transcribed from the QSK-021 scan (print races: Demon, Insect)."
     }
   ]
 }
